@@ -24,25 +24,26 @@ Notes:
 * Scaffold the exercises to increase in complexity
 * Make students do the heavy lifting, ask plenty of questions
 
-Explain that when certain actions out of our control are performed, events are fired that give us a chance to respond to them. For the most part these are user actions such as clicking on a button or leaving a webpage, but they can also include events such as the webpage being fully loaded. 
+When certain actions out of our control are performed, events are fired that give us a chance to respond to them. For the most part these are user actions such as clicking on a button or leaving a webpage, but they can also include events such as the webpage being fully loaded. 
 
-**Class question:** Show of hands 
+**Class Question** 
 Who has ever seen a pop-up box when loading or leaving a web page? What about changing a select box on a form and having the webpage automatically refresh without submitting anything?
 
+**We Do**
 What are the kinds of events do we have access to? 
-[We Do - Class exercise 1]
 > Google “html dom events”
 
 [List examples of most common DOM events that they will be interested in. You don’t need to know all of them, but know that these are the kinds of events available to you]
 
-[Show examples of websites and event handlers in action]
-> Example 1: amazon.com - autocomplete, pick a department
+Examples of websites and event handlers in action
 
-> Example 2: espn.com - button click (login button)
+Website       | Examples
+------------- | ---------------------------------
+amazon.com    | automcomplete, pick a department
+espn.com      | button click (login)
+southwest.com | mouseover 
 
-> Example 3: southwest.com - mouseover
-
-> Example 4: Ask the class for one of their favorite websites, find some and ask students to identify from the list what even might have been captured there
+> Custom Example: Ask the class for one of their favorite websites, find some and ask students to identify from the list what even might have been captured there 
 
 So now we that we know how important and common events are, how do we capture an event? We do this through event handlers, which are functions we assign to an event. 
 [I Do - Class exercise 2]
