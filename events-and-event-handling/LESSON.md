@@ -45,7 +45,7 @@ southwest.com | mouseover
 
 > Ask the class for one of their favorite websites, find some and ask students to identify from the list what even might have been captured there 
 
-So now we that we know how important and common events are, how do we capture an event? We do this through event handlers, which are functions we assign to an event. 
+So now that we know how important and common events are, how do we capture an event? We do this through event handlers, which are functions we assign to an event. 
 
 **I Do** Create a button and assign an onClick event that will display a simple message to the user.
 
@@ -79,7 +79,7 @@ So now we that we know how important and common events are, how do we capture an
 
 Students now see how limited assigning a single function as the handler can be. How do we add multiple event handlers? Event listeners allow us to assign more than one function to handle an event. 
 
-**I Do then We Do**
+**I Do -> We Do**
 Modify the previous example to have two event handlers, one to display the quote and the other to change the background color of the webpage.
 
 > Step 1: Introduce event listeners
@@ -96,15 +96,22 @@ $(‘#cool-button’).click(function() {
 } 
 </script>
 ``` 
-
 Triggering custom events and why you would want to. Custom events are not tied to the DOM and can be triggered by you at anytime during script execution. 
 
-**We Do**
+**I Do -> We Do**
 Create a button that fires an on-click event that loops 1000 times and triggers a custom event that notifies you when it's complete. (it pops up saying that it's tired) 
 
+```
+
+```
+
 Canceling default actions in events (preventDefault, stopPropagation)
-**You Do**
+**I Do -> We Do**
 You have a new boss who despises the letter x for some reason. Create a text input that will replace the letter x with a "-" every time someone attempts to use it
+
+```
+
+```
 
 ### Closing Framing
 On the desk, write down 3 DOM events that are particularly interesting to you.
