@@ -48,7 +48,6 @@ southwest.com | mouseover
 So now we that we know how important and common events are, how do we capture an event? We do this through event handlers, which are functions we assign to an event. 
 
 **I Do** Create a button and assign an onClick event that will display a simple message to the user.
-NOTE: Keep it simple. Don't use document load or anything else that could confuse them.
 
 > Step 1: Add it as an HTML attribute 
 ```
@@ -79,14 +78,16 @@ NOTE: Keep it simple. Don't use document load or anything else that could confus
 **Class Question** Do you see any problems with this approach? What happens when you want to add another one?
 
 Students now see how limited assigning a single function as the handler can be. How do we add multiple event handlers? Event listeners allow us to assign more than one function to handle an event. 
-[We Do - Class exercise 3]
-Modify the previous example to have two event handlers, one to display the quote and the other to change the background color of the webpage. 
-Step 1: Introduce event listeners
+
+**I Do then We Do**
+Modify the previous example to have two event handlers, one to display the quote and the other to change the background color of the webpage.
+
+> Step 1: Introduce event listeners
 ```
 
 ```
 
-Step 2: Add handler with jQuery
+> Step 2: Add handler with jQuery
 ```
 <a href="#" id=“cool-button">Click me</a>
 <script type="text/javascript">
@@ -97,11 +98,12 @@ $(‘#cool-button’).click(function() {
 ``` 
 
 Triggering custom events and why you would want to. Custom events are not tied to the DOM and can be triggered by you at anytime during script execution. 
-[We Do - Class exercise 4]
+
+**We Do**
 Create a button that fires an on-click event that loops 1000 times and triggers a custom event that notifies you when it's complete. (it pops up saying that it's tired) 
 
 Canceling default actions in events (preventDefault, stopPropagation)
-[You Do - Class exercise 5]
+**You Do**
 You have a new boss who despises the letter x for some reason. Create a text input that will replace the letter x with a "-" every time someone attempts to use it
 
 ### Closing Framing
