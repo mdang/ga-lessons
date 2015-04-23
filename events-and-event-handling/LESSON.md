@@ -33,7 +33,7 @@ Who has ever seen a pop-up box when loading or leaving a web page? What about ch
 What are the kinds of events do we have access to? 
 > Google “html dom events”
 
-[List examples of most common DOM events that they will be interested in. You don’t need to know all of them, but know that these are the kinds of events available to you]
+List examples of most common DOM events that they will be interested in. They don’t need to know all of them, but know that these are the kinds of events accessible.
 
 Examples of websites and event handlers in action
 
