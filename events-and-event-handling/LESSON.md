@@ -16,7 +16,7 @@
 Actions that are generally out of our control like user interactions and web pages being fully loaded result in DOM events to give developers a chance to respond to them. Event handlers are functions that capture these events and take action on them.
 
 #### Why
-DOM events allow us to create rich and interactive web experiences that users have come to expect.
+DOM events allow us to create the rich and interactive web experiences that users have come to expect in today's websites.
 
 ### I do, we do, you do
 Notes: 
@@ -30,10 +30,10 @@ When certain actions out of our control are performed, events are fired that giv
 Who has ever seen a pop-up box when loading or leaving a web page? What about changing a select box on a form and having the webpage automatically refresh without submitting anything?
 
 **We Do**
-What are the kinds of events do we have access to? 
+What are the kinds of events we have access to? 
 > Google “html dom events”
 
-List examples of most common DOM events that they will be interested in. They don’t need to know all of them, but know that these are the kinds of events accessible.
+List examples of most common DOM events that they will be interested in. They don’t need to know all of them, but know that these are the kinds of events available to be captured.
 
 Examples of websites and event handlers in action
 
@@ -43,7 +43,7 @@ amazon.com    | automcomplete, pick a department
 espn.com      | button click (login)
 southwest.com | mouseover 
 
-> Ask the class for one of their favorite websites, find some and ask students to identify from the list what even might have been captured there 
+**We Do** Ask the class for one of their favorite websites, find some events being handled and ask students to identify from the list what event was being captured
 
 So now that we know how important and common events are, how do we capture an event? We do this through event handlers, which are functions we assign to an event. 
 
@@ -96,6 +96,7 @@ $(‘#cool-button’).click(function() {
 } 
 </script>
 ``` 
+
 Triggering custom events and why you would want to. Custom events are not tied to the DOM and can be triggered by you at anytime during script execution. 
 
 **I Do -> We Do**
@@ -106,6 +107,7 @@ Create a button that fires an on-click event that loops 1000 times and triggers 
 ```
 
 Canceling default actions in events (preventDefault, stopPropagation)
+
 **I Do -> We Do**
 You have a new boss who despises the letter x for some reason. Create a text input that will replace the letter x with a "-" every time someone attempts to use it
 
