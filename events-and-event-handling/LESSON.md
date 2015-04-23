@@ -50,13 +50,16 @@ So now that we know how important and common events are, how do we capture an ev
 **I Do** Create a button and assign an onClick event that will display a simple message to the user.
 
 > Step 1: Add it as an HTML attribute 
-```
+```HTML
 <a href="#" id=“cool-button" onclick=“alert(‘Good job clicking me!’)”>Click me</a>
 ```
 
 > Step 2: Add it with a named function
-```
+```HTML
 <a href="#" id=“cool-button" onclick=“buttonClicked()”>Click me</a>
+```
+
+```JAVASCRIPT
 <script> 
   function buttonClicked() { 
     alert(‘Good job clicking on me’); 
@@ -65,8 +68,10 @@ So now that we know how important and common events are, how do we capture an ev
 ```
 
 > Step 3: Add handler with native JavaScript
-```
+```HTML
 <a href="#" id=“cool-button">Click me</a>
+```
+```JAVASCRIPT
 <script> 
   document.getElementById('cool-button').onclick = buttonClicked;
   function buttonClicked() { 
@@ -88,8 +93,11 @@ code
 ```
 
 > Step 2: Add handler with jQuery
-```
+```HTML
 <a href="#" id=“cool-button">Click me</a>
+```
+
+```JAVASCRIPT
 <script type="text/javascript">
 $(‘#cool-button’).click(function() { 
   alert(‘Good job clicking me with jQuery’); 
