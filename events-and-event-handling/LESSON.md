@@ -95,8 +95,19 @@ Modify the previous example to have two event handlers, one to display the quote
 
 > Step 1: Introduce event listeners
 
+```HTML
+<a href="#" id=“cool-button">Click me</a>
 ```
-code
+```JAVASCRIPT
+<script> 
+  var link = document.getElementById('cool-button');
+  link.addEventListener('click', function() {
+    alert('Good job one');
+  });
+  link.addEventListener('click', function() {
+    alert('Good job two');
+  });
+</script>
 ```
 
 > Step 2: Add handler with jQuery
@@ -109,6 +120,9 @@ code
 <script type="text/javascript">
 $(‘#cool-button’).click(function() { 
   alert(‘Good job clicking me with jQuery’); 
+} 
+$(‘#cool-button’).click(function() { 
+  alert(‘I agree, nicely done’); 
 } 
 </script>
 ``` 
@@ -135,5 +149,3 @@ You have a new boss who despises the letter x for some reason. Create a text inp
 ### Closing Framing
 On the desk, write down 3 DOM events that are particularly interesting to you.
 
-### Homework
-[INTRO TO HOMEWORK ASSIGNMENT]
