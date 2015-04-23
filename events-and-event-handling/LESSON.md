@@ -84,7 +84,7 @@ Modify the previous example to have two event handlers, one to display the quote
 
 > Step 1: Introduce event listeners
 ```
-
+code
 ```
 
 > Step 2: Add handler with jQuery
