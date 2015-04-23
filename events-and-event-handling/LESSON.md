@@ -8,7 +8,7 @@
 * List some common DOM events
 * Bind an event handler with JavaScript
 * Bind an event handler with jQuery
-* Add multiple event handlers to an event (event listeners)
+* Add multiple event handlers with event listeners
 * Trigger custom events
 
 ### Opening Framing
@@ -16,19 +16,18 @@
 Actions that are generally out of our control like user interactions and web pages being fully loaded result in DOM events to give developers a chance to respond to them. Event handlers are functions that capture these events and take action on them.
 
 #### Why
-So that we can create richer and more interactive web experiences than we could be able to without them.
+DOM events allow us to create rich and interactive web experiences that users have come to expect.
 
 ### I do, we do, you do
 Notes: 
-* Periodically check for understanding as you go along
+* Periodically check for understanding as we go along
 * Scaffold the exercises to increase in complexity
 * Make students do the heavy lifting, ask plenty of questions
 
 Explain that when certain actions out of our control are performed, events are fired that give us a chance to respond to them. For the most part these are user actions such as clicking on a button or leaving a webpage, but they can also include events such as the webpage being fully loaded. 
 
-Who has ever seen a pop-up box when loading or leaving a web page? What about changing a select box on a form and having the webpage automatically refresh without submitting anything?  
-
-[Ask for a show of hands on who has seen this] 
+**Class question:** Show of hands 
+Who has ever seen a pop-up box when loading or leaving a web page? What about changing a select box on a form and having the webpage automatically refresh without submitting anything?
 
 What are the kinds of events do we have access to? 
 [We Do - Class exercise 1]
