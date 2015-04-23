@@ -43,19 +43,19 @@ amazon.com    | automcomplete, pick a department
 espn.com      | button click (login)
 southwest.com | mouseover 
 
-> Custom Example: Ask the class for one of their favorite websites, find some and ask students to identify from the list what even might have been captured there 
+> Ask the class for one of their favorite websites, find some and ask students to identify from the list what even might have been captured there 
 
 So now we that we know how important and common events are, how do we capture an event? We do this through event handlers, which are functions we assign to an event. 
-[I Do - Class exercise 2]
-Create a button and assign an onClick event that will display a simple message to the user. 
-NOTE: Keep it simple. Don’t use document load or anything else that could confuse them.
 
-Step 1: Add it as an HTML attribute 
+**I Do** Create a button and assign an onClick event that will display a simple message to the user.
+NOTE: Keep it simple. Don't use document load or anything else that could confuse them.
+
+> Step 1: Add it as an HTML attribute 
 ```
 <a href="#" id=“cool-button" onclick=“alert(‘Good job clicking me!’)”>Click me</a>
 ```
 
-Step 2: Add it with a named function
+> Step 2: Add it with a named function
 ```
 <a href="#" id=“cool-button" onclick=“buttonClicked()”>Click me</a>
 <script> 
@@ -65,7 +65,7 @@ Step 2: Add it with a named function
 </script>
 ```
 
-Step 3: Add handler with native JavaScript
+> Step 3: Add handler with native JavaScript
 ```
 <a href="#" id=“cool-button">Click me</a>
 <script> 
@@ -76,7 +76,7 @@ Step 3: Add handler with native JavaScript
 </script>
 ```
 
-[Ask the class, do they see any problems with this approach? What happens when you want to add another one?]
+**Class Question** Do you see any problems with this approach? What happens when you want to add another one?
 
 Students now see how limited assigning a single function as the handler can be. How do we add multiple event handlers? Event listeners allow us to assign more than one function to handle an event. 
 [We Do - Class exercise 3]
