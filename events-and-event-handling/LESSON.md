@@ -102,7 +102,7 @@ Triggering custom events and why you would want to. Custom events are not tied t
 Create a button that fires an on-click event that loops 1000 times and triggers a custom event that notifies you when it's complete. (it pops up saying that it's tired) 
 
 ```
-
+[code]
 ```
 
 Canceling default actions in events (preventDefault, stopPropagation)
@@ -110,7 +110,7 @@ Canceling default actions in events (preventDefault, stopPropagation)
 You have a new boss who despises the letter x for some reason. Create a text input that will replace the letter x with a "-" every time someone attempts to use it
 
 ```
-
+[code]
 ```
 
 ### Closing Framing
