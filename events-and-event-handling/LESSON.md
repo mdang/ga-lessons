@@ -29,12 +29,14 @@ When certain actions out of our control are performed, events are fired that giv
 **Class Question** 
 Who has ever seen a pop-up box when loading or leaving a web page? What about changing a select box on a form and having the webpage automatically refresh without submitting anything?
 
+#### HTML DOM Events
 **We Do**
 What are the kinds of events we have access to? 
 > Google “html dom events”
 
 List examples of most common DOM events that they will be interested in. They don’t need to know all of them, but know that these are the kinds of events available to be captured.
 
+#### Examples
 Examples of websites and event handlers in action
 
 Website       | Examples
@@ -45,6 +47,7 @@ southwest.com | mouseover
 
 **We Do** Ask the class for one of their favorite websites, find some events being handled and ask students to identify from the list what event was being captured
 
+#### Event Handlers
 So now that we know how important and common events are, how do we capture an event? We do this through event handlers, which are functions we assign to an event. 
 
 **I Do** Create a button and assign an onClick event that will display a simple message to the user.
@@ -110,6 +113,7 @@ $(‘#cool-button’).click(function() {
 </script>
 ``` 
 
+#### Custom Events
 Triggering custom events and why you would want to. Custom events are not tied to the DOM and can be triggered by you at anytime during script execution. 
 
 **I Do / We Do**
