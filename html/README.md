@@ -1,14 +1,16 @@
 
-#### Web Fundamentals
+## Topic
+HTML
 
-# HTML &amp; Structure
+## What
 
 
-_Understand the structure of the DOM and control the flow of its elements._
+## Why
+So that we can create richer and more interactive web experiences than we could be able to without them.
 
 - - -
 
-#### Objectives
+## Objectives
  - Write HTML that gets rendered as a document in the browser
     - What is the default positioning of elements? 
     - Differentiate between markup and code 
