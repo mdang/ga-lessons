@@ -6,9 +6,7 @@ HTML
 
 
 ## Why
-So that we can create richer and more interactive web experiences than we could be able to without them.
 
-- - -
 
 ## Objectives
  - Write HTML that gets rendered as a document in the browser
