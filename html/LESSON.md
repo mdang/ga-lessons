@@ -4,21 +4,18 @@
 
 * Describe what a markup language is
 * Describe the anatomy of an HTML tag 
-* Explain the purpose of HTML attributes
-* Name 3 types of attributes that all HTML elements have 
 * List the basic tags of all HTML documents
 * Create a barebones HTML document structure 
+* Explain the purpose of HTML attributes
+* Name 3 types of attributes that all HTML elements have 
 * Create HTML elements using tags and attributes
-* Describe what semantic HTML is and why we use it
-* Create nested HTML elements
-* Use indentation to make code easier to read 
-* Choose a semantic HTML tag that you could use instead of a div 
-* Create a list
 * Include images on a webpage
 * Link from one webpage to another
+* Create nested HTML elements
+* Describe what semantic HTML is and why we use it
 * Create a table with rows and columns 
 * List some basic form elements used for presenting or saving data
-* Additional tags that should be included when building webpages
+* BONUS: Additional tags that should be included when building webpages
 
 ### Opening Framing
 
