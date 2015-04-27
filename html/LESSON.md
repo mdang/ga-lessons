@@ -41,15 +41,6 @@ How many people here have created a webpage using HTML before?
 
 HTML is ... 
 
-#### What are HTML attributes? 
-
-
-#### What 3 attributes are present in all HTML tags? 
-
-* id
-* class
-* style
-
 #### List common tags used in HTML documents 
 
 * html, head, body, meta, title
@@ -74,7 +65,18 @@ HTML is ...
 </html>
 ```
 
+Explain the difference between doctypes, what to always use but beware of XHTML and HTML doctypes also
+
 > **I Do** Create HTML elements listed above and display for the class to see
+
+#### What are HTML attributes? 
+
+
+#### What 3 attributes are present in all HTML tags? 
+
+* id
+* class
+* style
 
 #### What is semantic HTML and why it matters
 
