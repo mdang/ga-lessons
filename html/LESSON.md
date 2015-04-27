@@ -115,6 +115,7 @@ HTML is ...
 ```HTML
 <div>
   <h3>Title</h3>
+  <!-- This is a list of numbers -->
   <ul>
     <li>One</li>
     <li>Two</li>
@@ -124,6 +125,10 @@ HTML is ...
 ```
 
 > **We Do** Go through code sample with entire class and mark it with semantic markup 
+
+[CODE SAMPLE]
+
+
 
 > **I Do** Add an image to a webpage 
 
