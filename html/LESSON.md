@@ -76,7 +76,7 @@ HTML is ...
 
 > **I Do** Create HTML elements listed above and display for the class to see
 
-#### What is semantic HTML and it matters
+#### What is semantic HTML and why it matters
 
 * Accessibility
 * Better search engine ranking
@@ -140,11 +140,11 @@ HTML is ...
 
 > **I Do** Create a table to display tabular data
 
-Website       | Examples
+              | Bronze | Silver | Gold
 ------------- | ---------------------------------
-amazon.com    | automcomplete
-espn.com      | button click
-southwest.com | mouseover 
+feature 1     | x      | x      | x
+feature 2     | x      | x      | x
+feature 3     | x      | x      | x
 
 > **List some basic form elements**
 
