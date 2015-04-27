@@ -29,8 +29,8 @@ HTML
  - Create a table with rows and columns 
  - Create a form with some common form elements
  - Additional tags that should be included when building webpages
-    - <title>
-    - <meta name="description" ...
-    - <meta name="keywords" ...
-    - Facebook open graph tags
+    - <title> 
+    - <meta name="description" 
+    - <meta name="keywords" 
+    - Facebook open graph tags 
 
