@@ -33,10 +33,31 @@ Notes:
 * Scaffold the exercises to increase in complexity
 * Make students do the heavy lifting, ask plenty of questions
 
-
-
 **Class Question** 
 How many people here have created a webpage using HTML before? 
+
+### What is HTML? 
+
+HTML is ... 
+
+#### What are HTML attributes? 
+
+
+#### What 3 attributes are present in all HTML tags? 
+
+* id
+* class
+* style
+
+#### List common tags used in HTML documents 
+
+* span 
+* p, div, header, footer, article, nav
+* ul, ol, li
+
+#### I do
+Create some HTML elements and display for the class to see
+
 
 
 
