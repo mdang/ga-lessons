@@ -76,7 +76,7 @@ HTML is ...
 
 > **I Do** Create HTML elements listed above and display for the class to see
 
-#### What is semantic HTML and why does it matter
+#### What is semantic HTML and it matters
 
 * Accessibility
 * Better search engine ranking
@@ -110,7 +110,18 @@ HTML is ...
 </ul>
 ```
 
-> **I Do** Code indent the previous example to show how much easier it is to read
+> **I Do** Formatting HTML with code indenting and comments 
+
+```HTML
+<div>
+  <h3>Title</h3>
+  <ul>
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+  </ul>
+</div>
+```
 
 > **We Do** Go through code sample with entire class and mark it with semantic markup 
 
