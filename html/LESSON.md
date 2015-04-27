@@ -61,7 +61,7 @@ HTML is ...
 * ul, ol, li
 * span
 
-**I Do** Create a barebones HTML document structure 
+> **I Do** Create the barebones HTML document structure 
 
 ```HTML
 <!DOCTYPE html>
