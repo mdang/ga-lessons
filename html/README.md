@@ -3,10 +3,10 @@
 HTML
 
 ## What
-
+HTML is the markup language used to create web pages. 
 
 ## Why
-
+HTML is important because they are the building blocks of the world wide web. 
 
 ## Objectives
  - Write HTML that gets rendered as a document in the browser
