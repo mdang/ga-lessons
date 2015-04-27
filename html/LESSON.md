@@ -4,7 +4,7 @@
 
 * Describe what a markup language is
 * Describe the anatomy of an HTML tag 
-* List the basic tags of all HTML documents
+* List some basic HTML tags
 * Create a barebones HTML document structure 
 * Explain the purpose of HTML attributes
 * Name 3 types of attributes that all HTML elements have 
