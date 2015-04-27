@@ -140,21 +140,25 @@ HTML is ...
 
 > **I Do** Create a table to display tabular data
 
+Life Optimizer 1.0
+
               | Bronze | Silver | Gold
 --------------|--------|--------|-------
-feature 1     | x      | x      | x
-feature 2     | x      | x      | x
-feature 3     | x      | x      | x
+Feature 1     | x      | x      | x
+Feature 2     | x      | x      | x
+Feature 3     | x      | x      | x
 
 > **List some basic form elements**
 
 > **I Do** Demonstrate the following form elements: 
+
 * input
 * select
 
 ### BONUS
 
 **Common tags that should be present in all your webpages**
+
 * <meta> tags for search optimization, language encoding, favicon.ico
 * Facebook search optimization tags 
 * https://developers.facebook.com/docs/sharing/webmasters#markup
