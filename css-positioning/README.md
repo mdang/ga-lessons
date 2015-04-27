@@ -6,6 +6,8 @@
 ## Why
 
 ## Objectives
+- Use "display" to arrange elements within a layout
+- Use "float" to shift elements within a layout
 - Position sibling elements on separate lines
     - How would we style these three elements to position them on separate lines? 
 - Position an element fixed to coordinates within the browser window (viewport)
@@ -16,6 +18,7 @@
 - Adjust element spacing using padding and margin
     - padding for spacing between objects 
     - margin for spacing within objects 
+- Explain what an em is and how it's different from a px
 - Position an element at a website at exact coordinates on a page
     - What styles would we give to this tag to position it at coordinates (50, 50)? 
 - Create an element that is shifted by a certain number of pixels relative to its original position
