@@ -90,7 +90,7 @@ southwest.com | mouseover
 
 **List some basic form elements**
 
-**I Do - Demonstrate the following form elements:** 
+**I Do** Demonstrate the following form elements: 
 * input
 * select
 
@@ -99,6 +99,8 @@ southwest.com | mouseover
 **Common tags that should be present in all your webpages**
 * <meta> tags for search optimization, language encoding, favicon.ico
 * Facebook search optimization tags 
+* https://developers.facebook.com/docs/sharing/webmasters#markup
+* https://developers.facebook.com/tools/debug/
 
 
 
