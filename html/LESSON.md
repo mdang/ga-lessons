@@ -79,9 +79,43 @@ HTML is ...
 
 #### What is semantic HTML and why does it matter
 
+* Accessibility
+* Better search engine ranking
+* Easier to read and maintain code 
+
 > **I Do** Illustrate why you would want to use "nav" or "p" instead of "div" to describe the content
 
-> **I Do** Create some nested elements and explain "children", "siblings", "ancestor" elements 
+```HTML
+<!-- Incorrect -->
+<div>This is the headline to the body of text</div>
+<div>This is some text underneath the headline</div>
+
+<!-- Correct -->
+<h3>This is the headline</h3>
+<p>This is some text underneath the headline</p>
+```
+
+```HTML
+<!-- Incorrect -->
+<div>
+  <div>Item 1</div>
+  <div>Item 2</div>
+  <div>Item 3</div>
+</div>
+
+<!-- Correct -->
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+```
+
+> **I Do** Create some nested elements and explain "ancestor", "descendant", "parent", "child", "siblings" elements
+
+
+
+
 
 > **I Do** Code indent the previous example to show how much easier it is to read
 
