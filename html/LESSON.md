@@ -140,8 +140,8 @@ HTML is ...
 
 > **I Do** Create a table to display tabular data
 
-x             | Bronze | Silver | Gold
-------------- | ---------------------------------
+              | Bronze | Silver | Gold
+--------------|--------|--------|-------
 feature 1     | x      | x      | x
 feature 2     | x      | x      | x
 feature 3     | x      | x      | x
