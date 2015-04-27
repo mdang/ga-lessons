@@ -7,6 +7,7 @@
 * Explain the purpose of HTML attributes
 * Name 3 types of attributes that all HTML elements have 
 * List the basic tags of all HTML documents
+* Create a barebones HTML document structure 
 * Create HTML elements using tags and attributes
 * Describe what semantic HTML is and why we use it
 * Create nested HTML elements
@@ -59,6 +60,20 @@ HTML is ...
 * hr, br
 * ul, ol, li
 * span
+
+**I Do** Create a barebones HTML document structure 
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+</body>
+</html>
+```
 
 **I Do** Create HTML elements listed above and display for the class to see
 
