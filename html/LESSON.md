@@ -75,27 +75,27 @@ HTML is ...
 </html>
 ```
 
-**I Do** Create HTML elements listed above and display for the class to see
+> **I Do** Create HTML elements listed above and display for the class to see
 
 #### What is semantic HTML and why does it matter
 
-**I Do** Illustrate why you would want to use "nav" or "p" instead of "div" to describe the content
+> **I Do** Illustrate why you would want to use "nav" or "p" instead of "div" to describe the content
 
-**I Do** Create some nested elements and explain "children", "siblings", "ancestor" elements 
+> **I Do** Create some nested elements and explain "children", "siblings", "ancestor" elements 
 
-**I Do** Code indent the previous example to show how much easier it is to read
+> **I Do** Code indent the previous example to show how much easier it is to read
 
-**We Do** Go through code sample with entire class and mark it with semantic markup 
+> **We Do** Go through code sample with entire class and mark it with semantic markup 
 
-**I Do** Add an image to a webpage 
+> **I Do** Add an image to a webpage 
 
-**You Do (5 min)** Create two images, one with a relative link and one with an absolute link
+> **You Do (5 min)** Create two images, one with a relative link and one with an absolute link
 
-**I Do** Create a link that leads to another webpage
+> **I Do** Create a link that leads to another webpage
 
-**You Do (5 min)** Create a list with 3 links to your favorite websites
+> **You Do (5 min)** Create a list with 3 links to your favorite websites
 
-**I Do** Create a table to display tabular data
+> **I Do** Create a table to display tabular data
 
 Website       | Examples
 ------------- | ---------------------------------
@@ -103,13 +103,13 @@ amazon.com    | automcomplete
 espn.com      | button click
 southwest.com | mouseover 
 
-**List some basic form elements**
+> **List some basic form elements**
 
-**I Do** Demonstrate the following form elements: 
+> **I Do** Demonstrate the following form elements: 
 * input
 * select
 
-**BONUS**
+### BONUS
 
 **Common tags that should be present in all your webpages**
 * <meta> tags for search optimization, language encoding, favicon.ico
