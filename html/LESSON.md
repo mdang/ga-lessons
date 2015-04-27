@@ -21,6 +21,7 @@
 * Additional tags that should be included when building webpages
 
 ### Opening Framing
+
 #### What
 HTML is the markup language used to create web pages.
 
@@ -88,11 +89,13 @@ espn.com      | button click
 southwest.com | mouseover 
 
 **List some basic form elements**
+
 **I Do - Demonstrate the following form elements:** 
 * input
 * select
 
-**Bonus**
+**BONUS**
+
 ***Common tags that should be present in all your webpages***
 * <meta> tags for search optimization, language encoding, favicon.ico
 * Facebook search optimization tags 
