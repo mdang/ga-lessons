@@ -13,7 +13,6 @@
 * Create nested HTML elements
 * Use indentation to make code easier to read 
 * Choose a semantic HTML tag that you could use instead of a div 
-* Identify a particular element&#39;s ancestors, children, and siblings
 * Create a list
 * Include images on a webpage
 * Link from one webpage to another
@@ -110,12 +109,6 @@ HTML is ...
   <li>Item 3</li>
 </ul>
 ```
-
-> **I Do** Create some nested elements and explain "ancestor", "descendant", "parent", "child", "siblings" elements
-
-
-
-
 
 > **I Do** Code indent the previous example to show how much easier it is to read
 
