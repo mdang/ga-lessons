@@ -7,7 +7,7 @@
 * List some basic HTML tags
 * Create a barebones HTML document structure 
 * Explain the purpose of HTML attributes
-* Name 3 types of attributes that all HTML elements have 
+* List 3 types of attributes that all HTML elements have 
 * Create HTML elements using tags and attributes
 * Include images on a webpage
 * Link from one webpage to another
