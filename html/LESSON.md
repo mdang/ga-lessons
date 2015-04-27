@@ -84,24 +84,24 @@ Explain the difference between doctypes, what to always use but beware of XHTML 
 > **I Do** Illustrate why you would want to use "nav" or "p" instead of "div" to describe the content
 
 ```HTML
-<!-- Incorrect -->
+<!-- Bad -->
 <div>This is the headline to the body of text</div>
 <div>This is some text underneath the headline</div>
 
-<!-- Correct -->
+<!-- Good -->
 <h3>This is the headline</h3>
 <p>This is some text underneath the headline</p>
 ```
 
 ```HTML
-<!-- Incorrect -->
+<!-- Bad -->
 <div>
   <div>Item 1</div>
   <div>Item 2</div>
   <div>Item 3</div>
 </div>
 
-<!-- Correct -->
+<!-- Good -->
 <ul>
   <li>Item 1</li>
   <li>Item 2</li>
