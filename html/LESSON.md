@@ -80,6 +80,7 @@ HTML is ...
 **You Do (5 min)** Create a list with 3 links to your favorite websites
 
 **I Do** Create a table to display tabular data
+
 Website       | Examples
 ------------- | ---------------------------------
 amazon.com    | automcomplete
