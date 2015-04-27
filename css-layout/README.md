@@ -1,9 +1,0 @@
-
-## Topic
-
-## What
-
-## Why
-
-## Objectives
-
