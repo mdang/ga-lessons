@@ -96,7 +96,7 @@ southwest.com | mouseover
 
 **BONUS**
 
-***Common tags that should be present in all your webpages***
+**Common tags that should be present in all your webpages**
 * <meta> tags for search optimization, language encoding, favicon.ico
 * Facebook search optimization tags 
 
