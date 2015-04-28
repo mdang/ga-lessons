@@ -174,12 +174,13 @@ Feature 3     | x      | x      | x
 <html>
 <head>
 <title></title>
-<meta charset="utf-8"/>
+<meta charset="utf-8">
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta property="og:title" content="My Site Title">
 <meta property="og:image" content="link_to_image">
 <meta property="og:description" content="Site description">
+<link rel="shortcut icon" href="/favicon.ico">
 </head>
 <body>
 </body>
