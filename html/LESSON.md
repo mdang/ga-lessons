@@ -169,5 +169,9 @@ Feature 3     | x      | x      | x
 * https://developers.facebook.com/docs/sharing/webmasters#markup
 * https://developers.facebook.com/tools/debug/
 
-
+```HTML
+<meta property="og:title" content="My Site Title">
+<meta property="og:image" content="link_to_image">
+<meta property="og:description" content="Site description">
+```
 
