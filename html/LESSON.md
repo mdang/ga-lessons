@@ -36,13 +36,17 @@ How many people here have created a webpage using HTML before?
 
 ### What is HTML? 
 
-HTML is ... 
+HTML, or HyperText Markup Language, is used to describe web documents. It's called hypertext because you're able to jump from one document to another in a nonlinear fashion. 
+
+Invented by Tim Berners-Lee in 1990. 
+
+HTML provides the structure of the web page, while CSS (which we'll cover tomorrow) covers the appearance. You can think of HTML as the bones (structure) and CSS as the skin (appearance) 
 
 #### List common tags used in HTML documents 
 
 * html, head, body, meta, title
 * h1, h2, h3, h4, h5, h6
-* p, div, header, footer, article, nav
+* p, div, header, footer
 * a, img
 * hr, br
 * ul, ol, li
@@ -68,6 +72,7 @@ Explain the difference between doctypes, what to always use but beware of XHTML 
 
 #### What are HTML attributes? 
 
+Attributes allow you to customize a tag. Most attributes are optional, but there are some required ones like the "src" attribute for <img> that are required for it to render correctly. 
 
 #### What 3 attributes are present in all HTML tags? 
 
@@ -81,7 +86,7 @@ Explain the difference between doctypes, what to always use but beware of XHTML 
 * Better search engine ranking
 * Easier to read and maintain code 
 
-> **I Do** Illustrate why you would want to use "nav" or "p" instead of "div" to describe the content
+> **I Do** Illustrate why you would want to use "p" or "article" instead of "div" to describe the content
 
 ```HTML
 <!-- Bad -->
