@@ -166,8 +166,6 @@ Feature 3     | x      | x      | x
 
 * <meta> tags for search optimization, language encoding, favicon.ico
 * Facebook search optimization tags 
-* https://developers.facebook.com/docs/sharing/webmasters#markup
-* https://developers.facebook.com/tools/debug/
 
 ```HTML
 <!DOCTYPE html>
