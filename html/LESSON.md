@@ -31,12 +31,14 @@ Notes:
 * Scaffold the exercises to increase in complexity
 * Make students do the heavy lifting, ask plenty of questions
 
-**Class Question** 
+> **Class Question** 
 How many people here have created a webpage using HTML before? 
 
 ### What is HTML? 
 
 HTML, or HyperText Markup Language, is used to describe web documents. It's called hypertext because you're able to jump from one document to another in a nonlinear fashion. 
+
+Markup languages are used to describe the logical structure of a document and contains instructions on how it should be laid out.
 
 Invented by Tim Berners-Lee in 1990. 
 
@@ -131,7 +133,6 @@ Attributes allow you to customize a tag. Most attributes are optional, but there
 > **We Do** Go through code sample with entire class and mark it with semantic markup 
 
 [CODE SAMPLE]
-
 
 
 > **I Do** Add an image to a webpage 
