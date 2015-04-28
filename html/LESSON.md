@@ -177,9 +177,18 @@ Feature 3     | x      | x      | x
 <meta charset="utf-8">
 <meta name="description" content="">
 <meta name="keywords" content="">
+<!-- Facebook Open Graph tags -->
+<!--
+For more info on FB Open Graph tag usage:
+https://developers.facebook.com/docs/sharing/webmasters#markup
+
+You can preview what your website will look like when it's shared here:
+https://developers.facebook.com/tools/debug/
+-->
 <meta property="og:title" content="My Site Title">
 <meta property="og:image" content="link_to_image">
 <meta property="og:description" content="Site description">
+<!-- This is only required if your favicon.ico file is not located in the root of the public site, or you wan tto use a different file name/png instead -->
 <link rel="shortcut icon" href="/favicon.ico">
 </head>
 <body>
