@@ -2,11 +2,67 @@
 
 ### "display" Property
 
+##### display: none 
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Positioning</title>
+<style type="text/css">
+
+li {
+	display: none;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+	<li>Austin</li>
+	<li>Dallas</li>
+	<li>Houston</li>
+	<li>Amarillo</li>
+</ul>
+
+</body>
+</html>
+
 ##### display: block
+
+
 
 ##### display: inline
 
-##### display: none 
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Positioning</title>
+<style type="text/css">
+
+li {
+	display: inline;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+	<li>Box one</li>
+	<li>Box one</li>
+	<li>Box one</li>
+	<li>Box one</li>
+	<li>Box one</li>
+	<li>Box one</li>
+	<li>Box one</li>
+</ul>
+
+</body>
+</html>
+```
+
+
 
 **Note** Mention "visibility: hidden" property and how it's different
 
