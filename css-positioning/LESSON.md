@@ -82,16 +82,6 @@ li {
 </html>
 ```
 
-### "width" Property
-
-##### width: 
-
-##### max-width:
-
-##### margin: auto
-
-##### "px" vs "%" vs "em"
-
 ### "position" Property
 
 ##### static
@@ -101,6 +91,16 @@ li {
 ##### fixed
 
 ##### absolute 
+
+### "width" Property
+
+##### width: 
+
+##### max-width:
+
+##### margin: auto
+
+##### "px" vs "%" vs "em"
 
 ### "float" Property
 
