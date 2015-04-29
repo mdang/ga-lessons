@@ -318,6 +318,14 @@ footer {
 
 ##### "clearfix"
 
+```HTML
+<style type="text/css">
+
+.clearfix {
+	overflow: auto;
+}
+</style>
+```
 
 ### BONUS: 
 * Look up the "box-sizing" property and see how it changes the box model 
