@@ -322,6 +322,7 @@ footer {
 
 ##### "clearfix"
 
+The "clearfix" workaround is used on parent containers with floating elements inside of them. Without it, the parent container would not get any height. 
 
 ```HTML
 <!DOCTYPE html>
