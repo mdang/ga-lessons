@@ -232,6 +232,8 @@ img {
 
 ### "float" Property
 
+Using the "float" property, elements can be pushed to the left or right, allowing other elements to wrap around it.
+
 ```HTML
 <!DOCTYPE html>
 <html>
