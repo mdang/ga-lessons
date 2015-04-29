@@ -3,6 +3,8 @@
 ### "display" Property
 
 ##### display: none 
+
+```HTML
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,6 +28,7 @@ li {
 
 </body>
 </html>
+```
 
 ##### display: block
 
