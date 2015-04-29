@@ -275,6 +275,8 @@ footer {
 
 ##### "clear" property
 
+Elements that come after an element that has been floated will flow around it. To get out, use "clear". 
+
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -318,12 +320,15 @@ footer {
 
 ##### "clearfix"
 
+
+
 ```HTML
 <style type="text/css">
 
 .clearfix {
 	overflow: auto;
 }
+
 </style>
 ```
 
