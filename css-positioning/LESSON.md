@@ -11,8 +11,9 @@
 <title>CSS Positioning</title>
 <style type="text/css">
 
-li {
+ul {
 	display: none;
+	/*visibility: hidden;*/
 }
 
 </style>
@@ -24,6 +25,7 @@ li {
 	<li>Houston</li>
 	<li>Amarillo</li>
 </ul>
+<footer>&copy; 2015 General Assembly</footer>
 </body>
 </html>
 ```
