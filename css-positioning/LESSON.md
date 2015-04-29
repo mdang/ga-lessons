@@ -170,6 +170,53 @@ img {
 
 ##### absolute 
 
+Absolute elements are removed from the normal flow and can overlap other elements. 
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Positioning</title>
+<style type="text/css">
+
+body {
+	background: #ccc;
+}
+ul {
+	position: relative;
+}
+li {
+	height: 100px;
+}
+img {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+.relative {
+	position: relative;
+	left: 150px;
+}
+.absolute {
+	position: absolute;
+	left: 150px;
+}
+
+</style>
+</head>
+<body>
+<ul>
+	<li>Austin</li>
+	<li>Dallas</li>
+	<li class="absolute">Houston</li>
+	<li>Amarillo</li>
+</ul>
+<img src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/ga-lockup-1788582934ade008a8ea6068b784b8ee.png" alt="">
+<footer>&copy; 2015 General Assembly</footer>
+</body>
+</html>
+```
+
 ### "width" Property
 
 ##### width: 
