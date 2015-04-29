@@ -325,13 +325,45 @@ footer {
 
 
 ```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Positioning</title>
 <style type="text/css">
+
+nav {
+	width: 200px;
+	float: left;
+}
 
 .clearfix {
 	overflow: auto;
 }
 
 </style>
+</head>
+<body>
+<section>
+	<nav class="left">
+		<ul>
+			<li>Austin</li>
+			<li>Dallas</li>
+			<li>Houston</li>
+			<li>Amarillo</li>
+		</ul>
+	</nav>
+	<div class="right clearfix">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non fermentum nibh, eu mattis turpis. Pellentesque sagittis tincidunt enim vel gravida. Mauris egestas, mauris id vehicula cursus, erat ante finibus ipsum, nec tincidunt tellus tortor non augue. Vivamus vitae dui auctor leo varius bibendum. Donec egestas nulla dui, ac tincidunt justo mattis eget. Proin vestibulum fermentum molestie. Nunc efficitur sapien non sem bibendum, id venenatis magna laoreet.</p>
+
+		<p>Nunc volutpat vitae mauris et elementum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum auctor ex ut ex aliquet dapibus. Praesent consequat quam ut odio suscipit egestas. Nulla metus ante, ultricies et felis vitae, rhoncus faucibus ante. Nulla elit nisl, pharetra eu neque vitae, porttitor condimentum nisl. Phasellus eget mollis nisi, vitae suscipit dui. Vivamus euismod quis ligula et mollis. Integer hendrerit nisl ac ipsum eleifend sagittis.</p>
+
+		<p>Curabitur risus elit, venenatis ac tellus nec, pharetra faucibus orci. Aliquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris aliquam pharetra elementum. Fusce a vehicula lectus. Etiam accumsan quis quam semper molestie. Donec molestie vehicula enim congue pellentesque. Aliquam augue eros, venenatis malesuada bibendum quis, dictum in lectus.</p>
+
+		<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce vel efficitur ex, faucibus feugiat nunc. Suspendisse pellentesque nisl sit amet orci aliquet feugiat. Nullam vel sodales ipsum. Praesent iaculis laoreet tortor vitae condimentum. Donec sed orci fermentum, iaculis mi sit amet, consequat mi. Vestibulum vehicula sodales venenatis. Nunc sit amet eros at enim lacinia varius. Suspendisse potenti. Donec a luctus lacus, sit amet fermentum sem. Donec bibendum varius odio, sit amet ultrices nisl vehicula ut. Suspendisse blandit, nunc nec cursus posuere, nunc lorem venenatis augue, nec imperdiet lorem quam eu orci. Phasellus ac orci et urna volutpat laoreet commodo vitae massa.</p>
+	</div>
+<footer>&copy; 2015 General Assembly</footer>
+</body>
+</html>
 ```
 
 ### BONUS: 
