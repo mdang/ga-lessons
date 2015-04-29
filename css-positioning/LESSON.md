@@ -100,10 +100,73 @@ li {
 ### "position" Property
 
 ##### static
+Static is the default value. An element positioned with "position: static" is not positioned in any special way. Follows the natural flow of the document. 
 
 ##### relative
+Relative behaves just like "static" unless you add "top", "bottom", "left", or "right"
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Positioning</title>
+<style type="text/css">
+
+ul {
+	position: relative;
+	top: 400px;
+	left: 50px;
+}
+
+</style>
+</head>
+<body>
+<ul>
+	<li>Austin</li>
+	<li>Dallas</li>
+	<li>Houston</li>
+	<li>Amarillo</li>
+</ul>
+</body>
+</html>
+```
 
 ##### fixed
+Fixed elements are always positioned in the same location, even if the user scrolls
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Positioning</title>
+<style type="text/css">
+
+body {
+	background: #ccc;
+}
+ul {
+	position: relative;
+}
+img {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+</style>
+</head>
+<body>
+<ul>
+	<li>Austin</li>
+	<li>Dallas</li>
+	<li>Houston</li>
+	<li>Amarillo</li>
+</ul>
+<img src="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/ga-lockup-1788582934ade008a8ea6068b784b8ee.png" alt="">
+<footer>&copy; 2015 General Assembly</footer>
+</body>
+</html>
+```
 
 ##### absolute 
 
