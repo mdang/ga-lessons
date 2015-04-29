@@ -1,16 +1,16 @@
 ## CSS Positioning
 
-### "display" property
+### "display" Property
 
-##### block
+##### display: block
 
-##### inline
+##### display: inline
 
-##### none 
+##### display: none 
 
 **Note** Mention "visibility: hidden" property and how it's different
 
-### "width" property
+### "width" Property
 
 ##### width: 
 
@@ -18,7 +18,7 @@
 
 ##### margin: auto
 
-### "position" property
+### "position" Property
 
 ##### static
 
@@ -28,7 +28,7 @@
 
 ##### absolute 
 
-### "float" property
+### "float" Property
 
 ##### "clear" property
 
