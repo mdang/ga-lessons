@@ -1,44 +1,38 @@
 ## CSS Positioning
 
-### What happens with no layout properties
-
-> **I Do (10 min)** Quickly demonstrate div, p, span, a, with background colors
-
-#### Recap: Box Model 
-
 ### "display" property
 
-#### block
+##### block
 
-#### inline
+##### inline
 
-#### none 
+##### none 
 
 **Note** Mention "visibility: hidden" property and how it's different
 
 ### "width" property
 
-#### width: 
+##### width: 
 
-#### max-width:
+##### max-width:
 
-#### margin: auto
+##### margin: auto
 
 ### "position" property
 
-#### static
+##### static
 
-#### relative
+##### relative
 
-#### fixed
+##### fixed
 
-#### absolute 
+##### absolute 
 
 ### "float" property
 
-#### "clear" property
+##### "clear" property
 
-#### "clearfix"
+##### "clearfix"
 
 
 ### BONUS: 
