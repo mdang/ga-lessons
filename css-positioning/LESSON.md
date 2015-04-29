@@ -232,7 +232,89 @@ img {
 
 ### "float" Property
 
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Positioning</title>
+<style type="text/css">
+
+body {
+	background: #ccc;
+}
+ul {
+	
+}
+li {
+	background: black;
+	color: white;
+	width: 250px;
+	margin-right: 2px;
+	float: left;
+	list-style-type: none;
+}
+footer {
+	
+}
+
+</style>
+</head>
+<body>
+<nav>
+<ul>
+	<li>Austin</li>
+	<li>Dallas</li>
+	<li>Houston</li>
+	<li>Amarillo</li>
+</ul>
+</nav>
+<footer>&copy; 2015 General Assembly</footer>
+</body>
+</html>
+```
+
 ##### "clear" property
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Positioning</title>
+<style type="text/css">
+
+body {
+	background: #ccc;
+}
+ul {
+	
+}
+li {
+	background: black;
+	color: white;
+	width: 250px;
+	margin-right: 2px;
+	float: left;
+	list-style-type: none;
+}
+footer {
+	clear: left;
+}
+
+</style>
+</head>
+<body>
+<nav>
+<ul>
+	<li>Austin</li>
+	<li>Dallas</li>
+	<li>Houston</li>
+	<li>Amarillo</li>
+</ul>
+</nav>
+<footer>&copy; 2015 General Assembly</footer>
+</body>
+</html>
+```
 
 ##### "clearfix"
 
