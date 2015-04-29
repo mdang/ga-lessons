@@ -323,6 +323,44 @@ footer {
 ##### "clearfix"
 
 
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Positioning</title>
+<style type="text/css">
+
+.container {
+	background: green;
+}
+
+.other {
+	background: blue;
+}
+
+img {
+  float: right;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+</style>
+</head>
+<body>
+	<div class="container clearfix">
+    <span class="label">Some content</span>
+    <img src="http://media0.giphy.com/media/v0x4zvenp9TEc/giphy.gif" alt="">
+    <p>
+      Uh oh... this image is taller than the element containing it, and it's floated, so it's overflowing outside of its container!
+    </p>
+    <div class="other">This is another div container</div>
+  </div>
+<footer>&copy; 2015 General Assembly</footer>
+</body>
+</html>
+```
 
 ```HTML
 <!DOCTYPE html>
