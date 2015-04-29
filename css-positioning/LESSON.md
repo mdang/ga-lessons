@@ -84,6 +84,19 @@ li {
 </html>
 ```
 
+> **You Do (15 min)** 
+
+* Create a heading for "Life Optimizer"
+* Create a horizontal navigation menu underneath with the following items: 
+  * Home
+  * Products
+  * Pricing
+  * Disney Land
+  * Contact Us
+* Create a class called "incorrect" that hides any HTML elements using "display: hidden"
+* Assign the class "incorrect" to the "Disney Land" element
+* BONUS: Assign a font and background color to the navigation menu items
+
 ### "position" Property
 
 ##### static
