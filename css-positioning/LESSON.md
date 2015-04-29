@@ -225,7 +225,10 @@ img {
 
 ##### margin: auto
 
-##### "px" vs "%" vs "em"
+##### "px" vs "%"
+
+* "px" - Columns, margins, padding are a set size no matter how the viewport or fonts are resized
+* "%" - Columns, margins, padding are resized as the viewport is changed
 
 ### "float" Property
 
