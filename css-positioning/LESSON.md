@@ -1,5 +1,11 @@
 ## CSS Positioning
 
+### No Layout 
+
+What elements look like without any styling 
+
+### CSS Box Model
+
 ### "display" Property
 
 ##### display: none 
@@ -403,6 +409,8 @@ nav {
 </body>
 </html>
 ```
+
+> **You Do** Using the previous code, create a menu with floating menu items that are each 200px wide. Then use percent instead to fill up the entire page.
 
 ### BONUS: 
 * Look up the "box-sizing" property and see how it changes the box model 
