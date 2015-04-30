@@ -178,7 +178,7 @@ Triggering custom events and why you would want to. Custom events are not tied t
 **I Do / We Do**
 Create a button that fires an on-click event that loops 1000 times and triggers a custom event that notifies you when it's complete. (it pops up saying that it's tired) 
 
-```
+```JAVASCRIPT
 <!DOCTYPE html>
 <html>
 <head>
