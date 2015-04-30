@@ -179,7 +179,37 @@ Triggering custom events and why you would want to. Custom events are not tied t
 Create a button that fires an on-click event that loops 1000 times and triggers a custom event that notifies you when it's complete. (it pops up saying that it's tired) 
 
 ```
-[code]
+<!DOCTYPE html>
+<html>
+<head>
+<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+  <meta charset="utf-8">
+  <title></title>
+  <script type="text/javascript">
+    
+    $(function() {
+      $('#runner').on('click', function() {
+        var i = 0;
+        
+        while (i < 1000) {
+          i++;
+        }
+        
+        $('#runner').trigger('finished');
+      });
+      
+      $('#runner').on('finished', function() {
+        console.log("I'm so tired!!!!");
+      });
+      
+    });
+
+  </script>
+</head>
+<body>
+  <input id="runner" type="button" value="Start running">
+</body>
+</html>
 ```
 
 Canceling default actions in events (preventDefault, stopPropagation)
