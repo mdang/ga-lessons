@@ -49,6 +49,42 @@ southwest.com | mouseover
 #### Event Handlers
 So now that we know how important and common events are, how do we capture an event? We do this through event handlers, which are functions we assign to an event. 
 
+**I Do** Create a button and assign an onClick event that will display a simple message to the user.
+
+> Step 1: Add it as an HTML attribute 
+
+```HTML
+<a href="#" id=“cool-button" onclick=“alert(‘Good job clicking me!’)”>Click me</a>
+```
+
+> Step 2: Add it with a named function
+
+```HTML
+<a href="#" id=“cool-button" onclick=“buttonClicked()”>Click me</a>
+```
+
+```JAVASCRIPT
+<script> 
+  function buttonClicked() { 
+    alert(‘Good job clicking on me’); 
+  } 
+</script>
+```
+
+> Step 3: Add handler with native JavaScript
+
+```HTML
+<a href="#" id=“cool-button">Click me</a>
+```
+```JAVASCRIPT
+<script> 
+  document.getElementById('cool-button').onclick = buttonClicked;
+  function buttonClicked() { 
+    alert('Good job clicking on me'); 
+  } 
+</script>
+```
+
 **I Do** Demonstrate the onLoad event, show what happens when you try to access DOM element at the top of the page without checking if the DOM has loaded yet
 
 > Step 1: Doesn't work, because the DOM element hasn't loaded yet
@@ -93,42 +129,6 @@ So now that we know how important and common events are, how do we capture an ev
   <h1 id="heading">This is the heading</h1>
 </body>
 </html>
-```
-
-**I Do** Create a button and assign an onClick event that will display a simple message to the user.
-
-> Step 1: Add it as an HTML attribute 
-
-```HTML
-<a href="#" id=“cool-button" onclick=“alert(‘Good job clicking me!’)”>Click me</a>
-```
-
-> Step 2: Add it with a named function
-
-```HTML
-<a href="#" id=“cool-button" onclick=“buttonClicked()”>Click me</a>
-```
-
-```JAVASCRIPT
-<script> 
-  function buttonClicked() { 
-    alert(‘Good job clicking on me’); 
-  } 
-</script>
-```
-
-> Step 3: Add handler with native JavaScript
-
-```HTML
-<a href="#" id=“cool-button">Click me</a>
-```
-```JAVASCRIPT
-<script> 
-  document.getElementById('cool-button').onclick = buttonClicked;
-  function buttonClicked() { 
-    alert('Good job clicking on me'); 
-  } 
-</script>
 ```
 
 **Class Question** Do you see any problems with this approach? What happens when you want to add another one?
