@@ -49,6 +49,52 @@ southwest.com | mouseover
 #### Event Handlers
 So now that we know how important and common events are, how do we capture an event? We do this through event handlers, which are functions we assign to an event. 
 
+**I Do** Demonstrate the onLoad event, show what happens when you try to access DOM element at the top of the page without checking if the DOM has loaded yet
+
+> Step 1: Doesn't work, because the DOM element hasn't loaded yet
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script type="text/javascript">
+    
+    var elem = document.getElementById('heading');
+    elem.innerHTML = 'This is a different heading';
+    
+  </script>
+</head>
+<body>
+  <h1 id="heading">This is the heading</h1>
+</body>
+</html>
+```
+
+> Step 2: Show it working with onload event
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script type="text/javascript">
+    
+    window.onload = function() {
+      var elem = document.getElementById('heading');
+      elem.innerHTML = 'This is a different heading';
+    };
+    
+  </script>
+</head>
+<body>
+  <h1 id="heading">This is the heading</h1>
+</body>
+</html>
+```
+
 **I Do** Create a button and assign an onClick event that will display a simple message to the user.
 
 > Step 1: Add it as an HTML attribute 
