@@ -54,13 +54,13 @@ So now that we know how important and common events are, how do we capture an ev
 > Step 1: Add it as an HTML attribute 
 
 ```HTML
-<a href="#" id=“cool-button" onclick=“alert(‘Good job clicking me!’)”>Click me</a>
+<a href="#" id=“click-demo" onclick=“alert(‘Good job clicking me!’)”>Click me</a>
 ```
 
 > Step 2: Add it with a named function
 
 ```HTML
-<a href="#" id=“cool-button" onclick=“buttonClicked()”>Click me</a>
+<a href="#" id=“click-demo" onclick=“buttonClicked()”>Click me</a>
 ```
 
 ```JAVASCRIPT
@@ -74,11 +74,11 @@ So now that we know how important and common events are, how do we capture an ev
 > Step 3: Add handler with native JavaScript
 
 ```HTML
-<a href="#" id=“cool-button">Click me</a>
+<a href="#" id=“click-demo">Click me</a>
 ```
 ```JAVASCRIPT
 <script> 
-  document.getElementById('cool-button').onclick = buttonClicked;
+  document.getElementById('click-demo').onclick = buttonClicked;
   function buttonClicked() { 
     alert('Good job clicking on me'); 
   } 
@@ -164,11 +164,11 @@ Modify the previous example to have two event handlers, one to display the quote
 > Step 1: Introduce event listeners
 
 ```HTML
-<a href="#" id=“cool-button">Click me</a>
+<a href="#" id=“click-demo">Click me</a>
 ```
 ```JAVASCRIPT
 <script> 
-  var link = document.getElementById('cool-button');
+  var link = document.getElementById('click-demo');
   link.addEventListener('click', function() {
     alert('Good job one');
   });
