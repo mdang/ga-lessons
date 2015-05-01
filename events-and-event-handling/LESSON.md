@@ -158,17 +158,17 @@ Modify the previous example to have two event handlers, one to display the quote
 > Step 2: Add handler with jQuery
 
 ```HTML
-<a href="#" id=“cool-button">Click me</a>
+<a href="#" id=“click-demo">Click me</a>
 ```
 
 ```JAVASCRIPT
 <script type="text/javascript">
-$(‘#cool-button’).click(function() { 
-  alert(‘Good job clicking me with jQuery’); 
-} 
-$(‘#cool-button’).click(function() { 
-  alert(‘I agree, nicely done’); 
-} 
+$('#click-demo').on('click', function() {
+  console.log('Click handler 1 fired');
+});  
+$('#click-demo').on('click', function() {
+  console.log('Click handler 2 fired');
+});
 </script>
 ``` 
 
