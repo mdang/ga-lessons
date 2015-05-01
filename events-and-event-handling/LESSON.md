@@ -235,6 +235,34 @@ Create a button that fires an on-click event that loops 1000 times and triggers 
 
 Canceling default actions in events (preventDefault, stopPropagation)
 
+**I Do**
+Demonstrate preventing the default action from taking place
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+  <a href="http://google.com" id="click-demo">Lead me to the Google</a>
+  
+  <script type="text/javascript">
+  
+    $('#click-demo').on('click', function(event) {
+        alert('Not today!');
+        
+        // event.preventDefault();
+        return false;
+      });
+    
+  </script>
+</body>
+</html>
+```
+
 **I Do / We Do**
 You have a new boss who despises the letter x for some reason. Create a text input that will replace the letter x with a "-" every time someone attempts to use it
 
