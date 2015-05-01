@@ -238,6 +238,11 @@ Canceling default actions in events (preventDefault, stopPropagation)
 **I Do**
 Demonstrate preventing the default action from taking place
 
+- Using ```e.preventDefault()``` does not keep events from bubbling up
+- Using ```e.stopImmediatePropagation()``` DOES keep events from bubbling up
+- Using ```return false``` with regular JavaScript will NOT keep events from bubbling up
+- Using ```return false``` with jQuery DOES keep events from bubbling up
+
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -247,16 +252,23 @@ Demonstrate preventing the default action from taking place
   <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 </head>
 <body>
-  <a href="http://google.com" id="click-demo">Lead me to the Google</a>
-  
+	<div id="demo-container">
+  	<a href="http://google.com" id="click-demo">Lead me to the Google</a>
+  </div>
+
   <script type="text/javascript">
   
     $('#click-demo').on('click', function(event) {
         alert('Not today!');
         
         // event.preventDefault();
-        return false;
+        // event.stopImmediatePropagation();
+        // return false;
       });
+
+    $('#demo-container').on('click', function(event) {
+  		alert('I registered a click also!');
+  	});
     
   </script>
 </body>
