@@ -192,6 +192,8 @@ Create a button that fires an on-click event that loops 1000 times and triggers 
         var i = 0;
         
         while (i < 1000) {
+          // Some really long operation that takes a while to complete
+          
           i++;
         }
         
