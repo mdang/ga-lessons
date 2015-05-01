@@ -242,7 +242,7 @@ You have a new boss who despises the letter x for some reason. Create a text inp
 [code]
 ```
 
-**You Do 20min**
+**You Do - 20min**
 
 Step 1: Create a basic form to capture the following fields: 
 
@@ -253,7 +253,7 @@ Step 2: Add a submit button
 
 Step 3: Create a ```submit``` event handler that will capture the form contents. This event handler should also prevent the default action, which is to submit the form
 
-Step 4: Get the results of the inputs and display them on the page
+Step 4: Get the values of the inputs and display them on the page
 
 ### Closing Framing
 On the desk, write down 3 DOM events that are particularly interesting to you.
