@@ -131,6 +131,29 @@ So now that we know how important and common events are, how do we capture an ev
 </html>
 ```
 
+> Step 3: Show page loading with jQuery
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+  <meta charset="utf-8">
+  <title></title>
+  <script type="text/javascript">
+
+    $(function() {
+      $('#heading').text('This is a different heading');
+    });
+
+  </script>
+</head>
+<body>
+  <h1 id="heading">This is the heading</h1>
+</body>
+</html>
+```
+
 **Class Question** Do you see any problems with this approach? What happens when you want to add another one?
 
 Students now see how limited assigning a single function as the handler can be. How do we add multiple event handlers? Event listeners allow us to assign more than one function to handle an event. 
