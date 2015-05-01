@@ -266,7 +266,7 @@ Demonstrate preventing the default action from taking place
         // return false;
       });
 
-    $('#demo-container').on('click', function(event) {
+    $('#demo-container').on('click', function() {
   		alert('I registered a click also!');
   	});
     
