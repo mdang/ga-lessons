@@ -212,12 +212,8 @@ Create a button that fires an on-click event that loops 1000 times and triggers 
     
     $(function() {
       $('#runner').on('click', function() {
-        var i = 0;
-        
-        while (i < 1000) {
+        for (var i=0; i < 1000; i++) {
           // Some really long operation that takes a while to complete
-          
-          i++;
         }
         
         $('#runner').trigger('finished');
