@@ -147,6 +147,10 @@ So now that we know how important and common events are, how do we capture an ev
     $(function() {
       $('#heading').text('This is a different heading');
     });
+    
+    $(document).ready(function() {
+      // This is the long way of checking 	
+    });
 
   </script>
 </head>
