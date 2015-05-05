@@ -145,7 +145,9 @@ var arr = []; // Array literal, equivalent to var arr = new Array();
 
 #### Describe the Single Responsibility Principle and why it's important
 
+> A class should have only one reason to change.
 
+Make sure functions/modules only have a single purpose. Multiple reasons for using it is an indication that you need to refactor. 
 
 #### Refactor a program with DRY principles
 
