@@ -308,6 +308,8 @@ You have a new boss who despises the letter x for some reason. Create a text inp
     $('#filtered').on('keypress', function(event) {
       console.log(event.keyCode);
       
+      // NOTE: This is a tricky exercise because different browsers will report different keyCodes. 
+      // 120 is the keyCode for "x" on Chrome
       if (event.keyCode == 120) {
         event.preventDefault();
       }
