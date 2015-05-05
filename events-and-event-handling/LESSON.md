@@ -276,14 +276,14 @@ Demonstrate preventing the default action from taking place
 </html>
 ```
 
-**I Do / We Do**
+**You Do (Group) - 20min**
 You have a new boss who despises the letter x for some reason. Create a text input that will replace the letter x with a "-" every time someone attempts to use it
 
 ```
 [code]
 ```
 
-**You Do - 20min**
+**You Do - 15min**
 
 Step 1: Create a basic form to capture the following fields: 
 
