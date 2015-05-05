@@ -21,7 +21,7 @@ Coding conventions are centered around best practice principles for developers t
 
 #### Why
 
-Following best practices helps to ensure that code can be easily maintained and bugs are easily discovered/fixed.
+Following best practices help to ensure that code can be easily maintained and bugs are easily discovered/fixed.
 
 ### I do, we do, you do
 
