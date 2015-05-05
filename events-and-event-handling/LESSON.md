@@ -249,12 +249,14 @@ Create a button that fires an on-click event that loops 1000 times and triggers 
 </html>
 ```
 
+#### Event Objects
+
+Browsers which follow W3C standards always pass the event object as the first argument for the handler.
+
 Canceling default actions in events (preventDefault, stopPropagation)
 
 **I Do**
 Demonstrate preventing the default action from taking place
-
-Browsers which follow W3C standards always pass the event object as the first argument for the handler.
 
 - Using ```e.preventDefault()``` does not keep events from bubbling up
 - Using ```e.stopImmediatePropagation()``` DOES keep events from bubbling up
