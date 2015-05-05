@@ -279,8 +279,30 @@ Demonstrate preventing the default action from taking place
 **You Do (Group) - 20min**
 You have a new boss who despises the letter x for some reason. Create a text input that will replace the letter x with a "-" every time someone attempts to use it
 
-```
-[code]
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+
+  <input type="text" id="filtered">
+  
+  <script type="text/javascript">
+    $('#filtered').on('keypress', function(event) {
+      console.log(event.keyCode);
+      
+      if (event.keyCode == 120) {
+        event.preventDefault();
+      }
+      
+    });
+  </script>
+</body>
+</html>
 ```
 
 **You Do - 15min**
