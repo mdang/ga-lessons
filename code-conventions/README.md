@@ -68,12 +68,14 @@ Following best practices helps to ensure that code can be easily maintained and 
 
 #### Properly space and indent a program with multiple nested statements
 
+[exercise]
 
 #### Describe the Single Responsibility Principle and why it's important
 
 
+
 #### Refactor a program with DRY principles
 
-
+[exercise]
 
 
