@@ -1,4 +1,4 @@
-## Events and Event handling
+## Events and Event Handling
 
 ### Lesson Objectives
 
