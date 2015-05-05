@@ -205,7 +205,7 @@ Step 1: Create a basic form to capture the following fields:
 
 Step 2: Add an input button
 
-Step 3: Create a ```click``` event handler that will capture the form contents.
+Step 3: Using jQuery, create a ```click``` event handler that will capture the form contents.
 
 Step 4: Get the values of the inputs and display them on the page.
 
