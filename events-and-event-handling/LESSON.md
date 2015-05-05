@@ -120,10 +120,14 @@ So now that we know how important and common events are, how do we capture an ev
   <title></title>
   <script type="text/javascript">
     
+    // Window is loaded entirely, including images/CSS
     window.onload = function() {
       var elem = document.getElementById('heading');
       elem.innerHTML = 'This is a different heading';
     };
+    
+    // document.onload -> varied support
+    // body.onload -> varied support
     
   </script>
 </head>
@@ -144,6 +148,7 @@ So now that we know how important and common events are, how do we capture an ev
   <title></title>
   <script type="text/javascript">
 
+    // jQuery worries about how to detect the DOM ready event across browsers
     $(function() {
       $('#heading').text('This is a different heading');
     });
