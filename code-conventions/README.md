@@ -63,11 +63,6 @@ Following best practices helps to ensure that code can be easily maintained and 
 Syntactic sugar is programming syntax that is designed to make code more human readable and concise. It makes the language "sweeter" for humans to read and use.
 
 ```JAVASCRIPT
-var obj = {}; // Object literal, equivalent to var obj = new Object();
-var arr = []; // Array literal, equivalent to var arr = new Array();
-```
-
-```JAVASCRIPT
 arg = arg || 'default value'; // if arg evaluates to false, use 'default'
 ```
 
@@ -118,8 +113,13 @@ if (i === s) // false
 
 // Same as: 
 if (typeof i === 'string' && i == s) {
-
+    //... 
 }
+```
+
+```JAVASCRIPT
+var obj = {}; // Object literal, equivalent to var obj = new Object();
+var arr = []; // Array literal, equivalent to var arr = new Array();
 ```
 
 #### Use 'syntactic sugar' operators
