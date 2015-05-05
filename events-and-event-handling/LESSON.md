@@ -196,6 +196,19 @@ $('#click-demo').on('click', function() {
 </script>
 ``` 
 
+**You Do - 15min**
+
+Step 1: Create a basic form to capture the following fields: 
+
+- First Name
+- Last Name
+
+Step 2: Add an input button
+
+Step 3: Create a ```click``` event handler that will capture the form contents.
+
+Step 4: Get the values of the inputs and display them on the page.
+
 #### Custom Events
 Triggering custom events and why you would want to. Custom events are not tied to the DOM and can be triggered by you at anytime during script execution. 
 
@@ -277,7 +290,7 @@ Demonstrate preventing the default action from taking place
 ```
 
 **You Do (Group) - 20min**
-You have a new boss who despises the letter x for some reason. Create a text input that will replace the letter x with a "-" every time someone attempts to use it
+You have a new boss who despises the letter x for some reason. Create a text input that will prevent the user from typing in the letter "x" when they type. 
 
 ```HTML
 <!DOCTYPE html>
@@ -304,19 +317,6 @@ You have a new boss who despises the letter x for some reason. Create a text inp
 </body>
 </html>
 ```
-
-**You Do - 15min**
-
-Step 1: Create a basic form to capture the following fields: 
-
-- First Name
-- Last Name
-
-Step 2: Add a submit button
-
-Step 3: Create a ```submit``` event handler that will capture the form contents. This event handler should also prevent the default action, which is to submit the form
-
-Step 4: Get the values of the inputs and display them on the page
 
 ### Closing Framing
 On the desk, write down 3 DOM events that are particularly interesting to you.
