@@ -71,6 +71,23 @@ var arr = []; // Array literal, equivalent to var arr = new Array();
 arg = arg || 'default value'; // if arg evaluates to false, use 'default'
 ```
 
+```JAVASCRIPT
+var shadeOfBlue = useDarkBlue ? darkBlue : lightBlue;
+
+// Same as: 
+var shadeOfBlue;
+
+if (useDarkBlue) {
+    shadeOfBlue = darkBlue;
+} else {
+    shadeOfBlue = lightBlue;
+}
+```
+
+```JAVASCRIPT 
+
+```
+
 #### Use 'syntactic sugar' operators
 
 [exercise]
