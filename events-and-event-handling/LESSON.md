@@ -254,6 +254,8 @@ Canceling default actions in events (preventDefault, stopPropagation)
 **I Do**
 Demonstrate preventing the default action from taking place
 
+Browsers which follow W3C standards always pass the event object as the first argument for the handler.
+
 - Using ```e.preventDefault()``` does not keep events from bubbling up
 - Using ```e.stopImmediatePropagation()``` DOES keep events from bubbling up
 - Using ```return false``` with regular JavaScript will NOT keep events from bubbling up
