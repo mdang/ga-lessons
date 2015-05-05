@@ -9,6 +9,7 @@
 * Bind an event handler with jQuery
 * Add multiple event handlers with event listeners
 * Trigger custom events
+* Describe the event object
 * Prevent the default behavior of certain HTML elements
 
 ### Opening Framing
