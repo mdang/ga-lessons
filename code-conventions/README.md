@@ -85,7 +85,41 @@ if (useDarkBlue) {
 ```
 
 ```JAVASCRIPT 
+i++;
 
+// Same as: 
+i = i + 1;
+```
+
+```JAVASCRIPT
+i--;
+
+// Same as: 
+i = i - 1;
+```
+
+```JAVASCRIPT
+// Multi-line strings
+
+var str = "This is \
+all one \
+string.";
+```
+
+```JAVASCRIPT
+// Checking value AND type 
+
+var i = 0;
+var s = "0";
+
+if (i == s)  // true
+
+if (i === s) // false
+
+// Same as: 
+if (typeof i === 'string' && i == s) {
+
+}
 ```
 
 #### Use 'syntactic sugar' operators
