@@ -60,7 +60,13 @@ Following best practices helps to ensure that code can be easily maintained and 
 
 #### Explain what 'syntactic sugar' means and how it can be useful
 
+Syntactic sugar is programming syntax that is designed to make code more human readable and concise. It makes the language "sweeter" for humans to read and use.
 
+```JAVASCRIPT
+
+
+
+```
 
 #### Use 'syntactic sugar' operators
 
