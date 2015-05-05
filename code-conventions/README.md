@@ -118,6 +118,19 @@ if (typeof i === 'string' && i == s) {
 ```
 
 ```JAVASCRIPT
+var props = { a: 1, b: 2 };
+
+("a" in props) // true
+("b" in props) // true
+("c" in props) // false
+
+// Same as: 
+if (typeof props.a !== 'undefined') {
+    // Run code.. 
+}
+```
+
+```JAVASCRIPT
 var obj = {}; // Object literal, equivalent to var obj = new Object();
 var arr = []; // Array literal, equivalent to var arr = new Array();
 ```
