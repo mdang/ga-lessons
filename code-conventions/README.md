@@ -4,7 +4,7 @@
 
 * Explain why coding conventions are important and why we should follow them
 * Properly organize your project
-* Describe the naming conventions for variables, methods, classes
+* Describe the naming conventions for variables, methods
 * Name methods, classes and variables correctly
 * Explain what code commenting is, why it's valuable and when to use it
 * Add comments to a program to ease readability and describe meaning
@@ -41,29 +41,30 @@ Following best practices helps to ensure that code can be easily maintained and 
         └── jquery.min.js
 ```
 
-#### Describe the naming conventions for variables, methods, classes
+#### Describe the naming conventions for variables, methods
 
+* variables, methods - Camel case 
+* namespace, function constructors - Pascal case
 
 #### Name methods, classes and variables correctly
 
+- Show google.com JavaScript source: this is not how you should name your variables/functions, this code has been minimized 
 
 #### Explain what code commenting is, why it's valuable and when to use it
 
+- Use for pseudocode, know what you were thinking 6 months from now
 
 #### Add comments to a program to ease readability and describe meaning
 
+[exercise]
 
 #### Explain what 'syntactic sugar' means and how it can be useful
 
-
-#### Add comments to a program to ease readability and describe meaning
-
-
-#### Explain what 'syntactic sugar' means and how it can be useful
 
 
 #### Use 'syntactic sugar' operators
 
+[exercise]
 
 #### Properly space and indent a program with multiple nested statements
 
