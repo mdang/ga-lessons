@@ -209,6 +209,8 @@ Step 3: Using jQuery, create a ```click``` event handler that will capture the f
 
 Step 4: Get the values of the inputs and display them on the page.
 
+BONUS: Add a "select" element with options for "Mr, Mrs, Ms" and display the selection on the page.
+
 #### Custom Events
 Triggering custom events and why you would want to. Custom events are not tied to the DOM and can be triggered by you at anytime during script execution. 
 
