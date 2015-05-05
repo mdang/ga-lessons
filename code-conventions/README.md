@@ -27,6 +27,19 @@ Following best practices helps to ensure that code can be easily maintained and 
 
 #### Properly organize your project
 
+```
+.
+├── css
+│   └── main.css
+├── favicon.ico
+├── fonts
+├── images
+├── index.html
+└── js
+    ├── app.js
+    └── libs
+        └── jquery.min.js
+```
 
 #### Describe the naming conventions for variables, methods, classes
 
