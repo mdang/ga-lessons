@@ -110,7 +110,7 @@ if (i == s)  // true
 if (i === s) // false
 
 // Same as: 
-if (typeof i === 'string' && i == s) {
+if (typeof i == 'string' && i == s) {
     //... 
 }
 ```
