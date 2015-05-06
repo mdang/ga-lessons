@@ -138,8 +138,13 @@ var arr = []; // Array literal, equivalent to var arr = new Array();
 [exercise]
 
 #### Properly space and indent a program with multiple nested statements
+**You Do - 15min**
 
-[exercise]
+HTML 
+- Classwork at: https://github.com/ga-students/wdi-atx-1-class/blob/master/w02/d04/code-structure/indent.html
+
+JavaScript 
+- Homework from: https://github.com/ga-students/wdi-atx-1-hw/tree/master/assignments/w01/d04
 
 #### Describe the Single Responsibility Principle and why it's important
 
