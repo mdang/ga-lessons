@@ -95,14 +95,6 @@ i = i - 1;
 ```
 
 ```JAVASCRIPT
-// Multi-line strings
-
-var str = "This is \
-all one \
-string.";
-```
-
-```JAVASCRIPT
 // Checking value AND type 
 
 var i = 0;
