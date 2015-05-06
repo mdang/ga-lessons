@@ -56,7 +56,8 @@ Following best practices help to ensure that code can be easily maintained and b
 
 #### Add comments to a program to ease readability and describe meaning
 
-[exercise]
+- Talk about how Max and Matt commented the keyCodes example. Explain how easy it would be to delete one of keyCodes, see it still work. Bug produced without even knowing. 
+- Document functions, function arguments, header of the file, variables if they are not clear
 
 #### Explain what 'syntactic sugar' means and how it can be useful
 
