@@ -95,6 +95,11 @@ i = i - 1;
 ```
 
 ```JAVASCRIPT
+var txt1 = "What a very ";
+txt1 += "nice day";
+```
+
+```JAVASCRIPT
 // Checking value AND type 
 
 var i = 0;
