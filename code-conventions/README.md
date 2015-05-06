@@ -95,8 +95,8 @@ i = i - 1;
 ```
 
 ```JAVASCRIPT
-var txt1 = "What a very ";
-txt1 += "nice day";
+var txt1 = 'What a very ';
+txt1 += 'nice day';
 ```
 
 ```JAVASCRIPT
