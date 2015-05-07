@@ -43,12 +43,13 @@ Following best practices help to ensure that code can be easily maintained and b
 
 #### Describe the naming conventions for variables, methods
 
-* variables, methods - Camel case 
+* variables, functions, methods - Camel case 
 * namespace, function constructors - Pascal case
 
 #### Name methods, classes and variables correctly
 
 - Show google.com JavaScript source: this is not how you should name your variables/functions, this code has been minimized 
+- Show jQuery project source, how they have minimized and full source
 
 #### Explain what code commenting is, why it's valuable and when to use it
 
