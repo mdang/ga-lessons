@@ -135,10 +135,6 @@ var obj = {}; // Object literal, equivalent to var obj = new Object();
 var arr = []; // Array literal, equivalent to var arr = new Array();
 ```
 
-#### Use 'syntactic sugar' operators
-
-[exercise]
-
 #### Properly space and indent a program with multiple nested statements
 **You Do - 20min**
 
