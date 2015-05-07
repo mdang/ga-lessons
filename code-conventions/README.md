@@ -135,6 +135,11 @@ var obj = {}; // Object literal, equivalent to var obj = new Object();
 var arr = []; // Array literal, equivalent to var arr = new Array();
 ```
 
+#### Examples of proper code formatting
+
+- https://github.com/aws/aws-sdk-js/blob/master/scripts/lib/translator.js
+- https://github.com/facebook/react/blob/master/vendor/jasmine/diff.js
+
 #### Properly space and indent a program with multiple nested statements
 **You Do - 20min**
 
