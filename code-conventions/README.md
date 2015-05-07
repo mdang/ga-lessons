@@ -54,6 +54,7 @@ Following best practices help to ensure that code can be easily maintained and b
 #### Explain what code commenting is, why it's valuable and when to use it
 
 - Use for pseudocode, know what you were thinking 6 months from now
+- Self documenting code, goes back to variable naming
 
 #### Add comments to a program to ease readability and describe meaning
 
