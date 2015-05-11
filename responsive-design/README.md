@@ -56,12 +56,10 @@ Test your site to see if it's mobile friendly:
 
 #### Responsive Web Design Patterns
 
-Emerging quickly
+Common techniques for achieving responsive layouts. Emerging quickly
 
 > https://developers.google.com/web/fundamentals/layouts/rwd-patterns
 
-
- 
 
 
 
