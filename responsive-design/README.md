@@ -135,7 +135,7 @@ orientation | e.g. (orientation: portrait), (orientation: landscape)
 <style>
   @media (min-width: 500px) and (max-width: 600px) {
     h1 {
-      color: fuchsia;
+      color: blue;
     }
 </style>
 ```
