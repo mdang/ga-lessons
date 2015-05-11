@@ -57,6 +57,27 @@ Test your site to see if it's mobile friendly:
 
 #### Differences between a responsive website and a mobile-specific website
 
+**Responsive Web Designs**
+Automatically adapts and adjusts itself to the available viewing area
+
+PROS
+* One website and codebase for multiple devices - easier to maintain 
+* One website url, no redirects to something like m.facebook.com
+* Lower cost of development - 1 website instead of 2
+
+CONS
+* You're trying to optimize the UX for two very different platforms
+* Some older devices and browsers won't present the design as you'd expect
+
+**Mobile Specific Website**
+
+PROS
+* User experience is optimized for both platforms. Fully takes into consideration the benefits and downsides of each platform
+* Speed - No downloading any unneccessary code, page will load faster 
+
+CONS 
+* Cost - More expensive to maintain two sites 
+* Multiple URL's. User has to know both URL's or more likely have to wait for a redirect which will delay the process a couple of seconds
 
 #### Use media queries to target viewport sizes
 
