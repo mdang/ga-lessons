@@ -22,7 +22,7 @@
 
 #### Why
 
-
+Support the huge plethora of screen sizes available today. Every screen size imaginable exists, from large TV/projectors to smart watches. 
 
 ### I do, we do, you do
 
