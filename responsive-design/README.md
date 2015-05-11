@@ -7,6 +7,7 @@
 * Explain the difference between a responsive website and a mobile-specific website
 * Use media queries to target viewport sizes
 * Explain how % or em is different from px for layout
+* Describe some common responsive design patterns 
 * Using responsive images
 * Using responsive video
 * Understand the difference between SVG and PNG
@@ -52,6 +53,12 @@ Test your site to see if it's mobile friendly:
 * Even better, keep them on the same page and minimize full page loads when possible
 * Do not use fixed width elements 
 * 
+
+#### Responsive Web Design Patterns
+
+Emerging quickly
+
+> https://developers.google.com/web/fundamentals/layouts/rwd-patterns
 
 
  
