@@ -6,7 +6,6 @@
 * Describe what it means to go mobile first
 * Explain the difference between a responsive website and a mobile-specific website
 * Use media queries to target viewport sizes
-* Explain how % or em is different from px for layout
 * Using responsive images
 * Using responsive video
 * Describe some common responsive design patterns 
