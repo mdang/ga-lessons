@@ -57,7 +57,7 @@ Test your site to see if it's mobile friendly:
 
 #### Differences between a responsive website and a mobile-specific website
 
-**Responsive Web Designs**
+**Responsive Web Design**
 
 Automatically adapts and adjusts itself to the available viewing area
 
