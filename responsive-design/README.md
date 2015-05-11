@@ -82,9 +82,13 @@ CONS
 
 #### Set the viewport
 
+The meta viewport tag gives the browser instructions on how to control the page's dimensions and scaling
+
 ```HTML
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
+
+[gist]
 
 #### Use media queries to target viewport sizes
 
