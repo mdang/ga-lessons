@@ -101,6 +101,17 @@ Don't use fixed widths
 
 #### Use media queries to target viewport sizes
 
+Media queries are filters that can be applied to CSS styles. They make it easy to change styles based on physical characteristics of the device, like display type, width, height, orientation. 
+
+```HTML
+<link rel="stylesheet" href="print.css" media="print">
+```
+
+```CSS
+@media print {
+  /* print style sheets go here */
+}
+```
 
 #### Using responsive images
 
