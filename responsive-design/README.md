@@ -142,6 +142,17 @@ orientation | e.g. (orientation: portrait), (orientation: landscape)
 
 #### Using responsive images
 
+```CSS
+#content img {
+  max-width:600px;
+  height:auto;
+}
+```
+
+<picture>
+
+PictureFill - JavaScript that enables support for the <picture> element for older browsers that doesn't support it yet
+http://scottjehl.github.io/picturefill/
 
 #### Using responsive video
 
