@@ -88,6 +88,10 @@ The meta viewport tag gives the browser instructions on how to control the page'
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
+**width=device-width** Mobile browsers will by default render the site at a desktop screen width and then try to make that content look better by increasing font sizes and scaling the content. This setting instructs the browser to set the width to the actual device width and reflow content according to the actual screen size. 
+
+**initial-scale=1** When changing the orientation of the device, mobile browsers will keep the page width constant and zoom into the content. This attribute instructs the browser to use a 1:1 relationship between CSS pixels and device pixels regardless of orientation.
+
 [gist]
 
 #### Use media queries to target viewport sizes
