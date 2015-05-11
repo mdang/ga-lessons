@@ -24,3 +24,34 @@
 
 
 ### I do, we do, you do
+
+#### Describe what it means to go mobile first 
+
+#### Why is it important to go mobile first? 
+
+In early 2014, mobile internet usage surpassed PC internet usage for the first time. Most of this is traffic from apps, but easily shows how important designing for mobile is. 
+
+Earlier this year, Google stopped displaying websites that are not mobile friendly in mobile search results.  
+
+In the US:
+
+* 94% of users search for local information on their phones. Nearby restaurants, directions, etc. 
+* 77% of all mobile searches are done at home, where the user also has access to their PC
+
+#### How do you make websites mobile friendly? 
+
+Test your site to see if it's mobile friendly: 
+> https://www.google.com/webmasters/tools/mobile-friendly
+
+* If the user has to pinch/zoom to view content, then it's not considered mobile friendly
+* 
+
+
+
+
+
+
+
+
+
+
