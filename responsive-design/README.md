@@ -113,6 +113,20 @@ Media queries are filters that can be applied to CSS styles. They make it easy t
 }
 ```
 
+```CSS
+@media (query) {
+  /* CSS Rules used when query matches */
+}
+```
+
+Attribute | Example
+----------|--------------
+min-width | e.g. min-width: 640px
+max-width | 
+min-height | e.g. min-height: 1000px
+max-height | 
+orientation | e.g. (orientation: portrait), (orientation: landscape) 
+
 #### Using responsive images
 
 
