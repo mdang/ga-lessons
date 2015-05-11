@@ -45,8 +45,14 @@ In the US:
 Test your site to see if it's mobile friendly: 
 > https://www.google.com/webmasters/tools/mobile-friendly
 
+* Figure out the main objectives for the site and make it easy for them to accomplish these objectives 
+* Use a responsive web design that lays out content optimized for the current screen size
 * If the user has to pinch/zoom to view content, then it's not considered mobile friendly
-* 
+
+
+ 
+
+
 
 
 
