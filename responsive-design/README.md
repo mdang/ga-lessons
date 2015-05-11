@@ -27,7 +27,7 @@ To support the huge plethora of screen sizes available today. Every screen size 
 
 #### Describe what it means to go mobile first 
 
-<img src="https://developers.google.com/webmasters/mobile-sites/imgs/mobile-seo/viewport.png">
+Start with a mobile optimized website with the most important content/features, then build a more fully featured desktop version on top of that. 
 
 #### Why is it important to go mobile first? 
 
@@ -93,6 +93,12 @@ The meta viewport tag gives the browser instructions on how to control the page'
 
 [gist]
 
+#### Size content to the viewport
+
+Don't use fixed widths 
+
+**I Do 10min** - Show example of a page in a fixed layout 
+
 #### Use media queries to target viewport sizes
 
 
@@ -107,6 +113,7 @@ The meta viewport tag gives the browser instructions on how to control the page'
 
 #### How to test responsive layouts while developing
 
+Using Chrome emulation tool 
 
 #### Responsive Web Design Patterns
 
