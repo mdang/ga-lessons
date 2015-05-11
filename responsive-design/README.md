@@ -27,6 +27,8 @@
 
 #### Describe what it means to go mobile first 
 
+<img src="https://developers.google.com/webmasters/mobile-sites/imgs/mobile-seo/viewport.png">
+
 #### Why is it important to go mobile first? 
 
 In early 2014, mobile internet usage surpassed PC internet usage for the first time. Most of this is traffic from apps, but easily shows how important designing for mobile is. 
