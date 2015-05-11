@@ -58,6 +58,7 @@ Test your site to see if it's mobile friendly:
 #### Differences between a responsive website and a mobile-specific website
 
 **Responsive Web Designs**
+
 Automatically adapts and adjusts itself to the available viewing area
 
 PROS
@@ -78,6 +79,12 @@ PROS
 CONS 
 * Cost - More expensive to maintain two sites 
 * Multiple URL's. User has to know both URL's or more likely have to wait for a redirect which will delay the process a couple of seconds
+
+#### Set the viewport
+
+```HTML
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
 
 #### Use media queries to target viewport sizes
 
