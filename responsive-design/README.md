@@ -127,6 +127,19 @@ min-height | e.g. min-height: 1000px
 max-height | 
 orientation | e.g. (orientation: portrait), (orientation: landscape) 
 
+```HTML
+<link rel="stylesheet" media="(max-width: 640px)" href="max-640px.css">
+<link rel="stylesheet" media="(min-width: 640px)" href="min-640px.css">
+<link rel="stylesheet" media="(orientation: portrait)" href="portrait.css">
+<link rel="stylesheet" media="(orientation: landscape)" href="landscape.css">
+<style>
+  @media (min-width: 500px) and (max-width: 600px) {
+    h1 {
+      color: fuchsia;
+    }
+</style>
+```
+
 #### Using responsive images
 
 
