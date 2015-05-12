@@ -5,13 +5,13 @@
 * Describe the benefits of using responsive design
 * Describe what it means to go mobile first
 * Explain the difference between a responsive website and a mobile-specific website
+* Describe how to test responsive layouts while developing
 * Use media queries to target viewport sizes
 * Using responsive images
 * Using responsive video
 * Describe some common responsive design patterns 
 * Understand the difference between SVG and PNG
 * Describe the differences when designing for larger screens
-* Describe how to test responsive layouts while developing
 * Create a responsive layout that adjusts according to the screen/window size
 
 ### Opening Framing
