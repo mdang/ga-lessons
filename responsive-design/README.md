@@ -79,6 +79,16 @@ CONS
 * Cost - More expensive to maintain two sites 
 * Multiple URL's. User has to know both URL's or more likely have to wait for a redirect which will delay the process a couple of seconds
 
+#### Examples of responsive websites
+
+> http://foodsense.is
+
+> http://time.com
+
+> https://www.spotify.com/us/
+
+> http://rsd.joshemerson.co.uk
+
 #### Set the viewport
 
 The meta viewport tag gives the browser instructions on how to control the page's dimensions and scaling
@@ -156,6 +166,9 @@ http://scottjehl.github.io/picturefill/
 
 #### Using responsive video
 
+> http://www.etchfor.me
+
+> 
 
 #### Describe differences when designing for larger screens
 
