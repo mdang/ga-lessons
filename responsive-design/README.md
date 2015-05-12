@@ -182,7 +182,9 @@ Common techniques for achieving responsive layouts.
 
 > https://bradfrost.github.io/this-is-responsive/patterns.html
 
+**Class Exercise - 20min**
 
+Browse the repository of repsonsive web layouts and integrate responsive images in them
 
 
 
