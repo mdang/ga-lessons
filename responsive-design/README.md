@@ -51,8 +51,6 @@ Test your site to see if it's mobile friendly:
 * Keep users in one browser window, it can often be difficult to navigate back
 * Even better, keep them on the same page and minimize full page loads when possible
 * Do not use fixed width elements 
-* 
-
 
 #### Differences between a responsive website and a mobile-specific website
 
@@ -107,8 +105,6 @@ The meta viewport tag gives the browser instructions on how to control the page'
 
 Don't use fixed widths 
 
-**I Do 10min** - Show example of a page in a fixed layout 
-
 #### Use media queries to target viewport sizes
 
 Media queries are filters that can be applied to CSS styles. They make it easy to change styles based on physical characteristics of the device, like display type, width, height, orientation. 
@@ -150,6 +146,8 @@ orientation | e.g. (orientation: portrait), (orientation: landscape)
   }
 </style>
 ```
+
+**Class Exercise - 20min** Use media queries to apply styles to the following HTML
 
 #### Describe differences when designing for larger screens
 
