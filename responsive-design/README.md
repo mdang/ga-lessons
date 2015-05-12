@@ -151,6 +151,8 @@ orientation | e.g. (orientation: portrait), (orientation: landscape)
 </style>
 ```
 
+#### Describe differences when designing for larger screens
+
 #### Using responsive images
 
 ```CSS
@@ -174,14 +176,13 @@ Example of using responsive images
 
 > http://www.etchfor.me
 
-#### Describe differences when designing for larger screens
-
+**I Do - 5 min**
 
 #### Responsive Web Design Patterns
 
-Common techniques for achieving responsive layouts. Emerging quickly
+Common techniques for achieving responsive layouts.
 
-> https://developers.google.com/web/fundamentals/layouts/rwd-patterns
+> https://bradfrost.github.io/this-is-responsive/patterns.html
 
 
 
