@@ -168,14 +168,8 @@ http://scottjehl.github.io/picturefill/
 
 > http://www.etchfor.me
 
-> 
-
 #### Describe differences when designing for larger screens
 
-
-#### How to test responsive layouts while developing
-
-Using Chrome emulation tool 
 
 #### Responsive Web Design Patterns
 
