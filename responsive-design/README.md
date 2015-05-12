@@ -147,6 +147,7 @@ orientation | e.g. (orientation: portrait), (orientation: landscape)
     h1 {
       color: blue;
     }
+  }
 </style>
 ```
 
