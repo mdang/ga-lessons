@@ -165,6 +165,9 @@ orientation | e.g. (orientation: portrait), (orientation: landscape)
 PictureFill - JavaScript that enables support for the <picture> element for older browsers that doesn't support it yet
 http://scottjehl.github.io/picturefill/
 
+**I Do - 10min**
+Example of using responsive images
+
 #### Using responsive video
 
 > http://newrelic.com/
