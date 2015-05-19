@@ -31,6 +31,8 @@ The rules provided by the HTTP protocol are important because they allow us to t
 
 ### Differentiate between the internet and web
 
+The internet is a network of networks that connect millions of computers together globally. It allows any computer to connect to any other computer as long as they are both connected to the internet. The world wide web is built on top of the internet, and it's one way of accessing information on the internet. Using HTTP, this is how we access web documents, images, and video on the web. 
+
 ### How the internet works, including what a web server is and what a client is
 
 ### What are protocols?
