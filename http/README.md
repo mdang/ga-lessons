@@ -59,6 +59,9 @@ IP (Meet Ivan Pakkitz)
 
 ### DNS and its role in the client/server relationship 
 
+**Ask students for websites**
+[Demo looking up websites by IP Address]
+
 ### What is HTTP and how is it different from other protocols? 
 
 ### Request and response headers
