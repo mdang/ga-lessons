@@ -35,6 +35,9 @@ The rules provided by the HTTP protocol are important because they allow us to t
 
 ### What are protocols?
 
+##CLASS EXERCISE - 20min
+IP (Meet Ivan Pakkitz)
+
 ### What is TCP/IP?
 
 ### IP Addresses 
