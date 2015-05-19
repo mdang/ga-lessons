@@ -48,12 +48,12 @@ Meeting a famous actor
 - Get their autograph
 - Tell your friends that you're best friends with them
 
+## CLASS EXERCISE - 20min
+IP (Meet Ivan Pakkitz)
+
 ### What is TCP/IP?
 
 Transmission Control Protocol/ Internet Protocol
-
-## CLASS EXERCISE - 20min
-IP (Meet Ivan Pakkitz)
 
 ### IP Addresses 
 
