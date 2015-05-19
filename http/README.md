@@ -35,6 +35,8 @@ The rules provided by the HTTP protocol are important because they allow us to t
 
 ### What are protocols?
 
+Protocols define rules and a standard way of doing things. 
+
 ##CLASS EXERCISE - 20min
 IP (Meet Ivan Pakkitz)
 
