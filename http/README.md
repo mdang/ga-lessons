@@ -27,7 +27,7 @@ HTTP is the foundation for data communication on the world wide web. It defines 
 
 #### Why
 
-The rules provided by the HTTP protocol are important because they allow us to transmit web documents, images, videos in a standardized and reliable fashion. 
+The rules provided by the HTTP protocol are important because they allow us to transmit web documents, images, videos in a standardized and reliable manner. 
 
 ### Differentiate between the internet and web
 
