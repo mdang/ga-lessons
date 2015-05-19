@@ -12,7 +12,7 @@
 * Describe what query parameters are and how to encode them properly
 * Define HTTP and differentiate it from other protocols
 * List some common HTTP response codes
-* Explain what SSL is (high level)
+* Explain what SSL is
 * Describe the role of ports for incoming/outgoing data
 * Explain what a REST API is
 * List the HTTP verbs most relevant to REST API's
