@@ -58,9 +58,8 @@ IP (Meet Ivan Pakkitz)
 
 ### HTTP Verbs 
 
-### Class Exercise 
+##CLASS EXERCISE - 20min 
 Create, read, update, delete using HTTP Verbs 
-[20 min]
 
 
 
