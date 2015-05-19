@@ -48,6 +48,9 @@ Meeting a famous actor
 - Get their autograph
 - Tell your friends that you're best friends with them
 
+List of network protocols:
+http://en.wikipedia.org/wiki/List_of_network_protocols_(OSI_model)
+
 ## CLASS EXERCISE - 20min
 IP (Meet Ivan Pakkitz)
 
