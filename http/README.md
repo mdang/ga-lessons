@@ -8,6 +8,7 @@
 * Explain what TCP/IP is
 * IP Addresses
 * Define DNS and identify its role in the client-server relationship
+* Explain the difference between domains and subdomains
 * Define HTTP and differentiate it from other protocols
 * Explain request and response headers
 * List some common HTTP response codes
@@ -76,12 +77,26 @@ IP (Meet Ivan Pakkitz)
 
 Transmission Control Protocol/ Internet Protocol
 
+TCP/IP defines how electronic devices (like computers) should connect over the internet, and how data should be transmitted. 
+
+TCP is responsible for breaking data down into packets and assembling them back together again. 
+
+IP is responsible for addressing, sending, and receiving of the data packets.
+
 ### IP Addresses 
 
 ### DNS and its role in the client/server relationship 
 
+DNS is really just a big map of domain names to IP addresses
+
+[QUESTION: Why is this useful?]
+- Easier to remember friendly url's
+- IP Addresses change
+
 **Ask students for websites**
 [Demo looking up websites by IP Address]
+
+### Domains vs Subdomains
 
 ### What is HTTP and how is it different from other protocols? 
 
@@ -90,6 +105,8 @@ Transmission Control Protocol/ Internet Protocol
 ### HTTP response codes
 
 ### SSL
+
+[QUESTION: When would we want to use SSL?]
 
 ### Describe ports for incoming/outgoing data
 
