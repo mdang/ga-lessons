@@ -42,7 +42,7 @@ Meeting a famous actor
 
 - Act really surprised
 - Tell them you're their biggest fan
-- Say you've seen all their movies 20 times
+- Say you've seen all their movies at least 20 times
 - Get their autograph
 - Tell your friends that you're best friends with them
 
