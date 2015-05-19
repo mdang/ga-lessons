@@ -37,6 +37,15 @@ The rules provided by the HTTP protocol are important because they allow us to t
 
 Protocols define rules and a standard way of doing things. 
 
+Example: 
+Meeting a famous actor 
+
+- Act really surprised
+- Tell them you're their biggest fan
+- Say you've seen all their movies 20 times
+- Get their autograph
+- Tell your friends that you're best friends with them
+
 ##CLASS EXERCISE - 20min
 IP (Meet Ivan Pakkitz)
 
