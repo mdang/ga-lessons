@@ -40,6 +40,8 @@ IP (Meet Ivan Pakkitz)
 
 ### What is TCP/IP?
 
+Transmission Control Protocol/ Internet Protocol
+
 ### IP Addresses 
 
 ### DNS and its role in the client/server relationship 
