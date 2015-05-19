@@ -27,7 +27,39 @@ HTTP is the foundation for data communication on the world wide web. It defines 
 
 #### Why
 
-The rules provided by HTTP is important because 
+The rules provided by the HTTP protocol are important because they allow us to transmit web documents, images, videos in a standardized and reliable fashion. 
+
+### Differentiate between the internet and web
+
+### How the internet works, including what a web server is and what a client is
+
+### What are protocols?
+
+### What is TCP/IP?
+
+### IP Addresses 
+
+### DNS and its role in the client/server relationship 
+
+### What is HTTP and how is it different from other protocols? 
+
+### Request and response headers
+
+### HTTP response codes
+
+### SSL
+
+### Describe ports for incoming/outgoing data
+
+### REST API's
+
+### HTTP Verbs 
+
+### Class Exercise 
+Create, read, update, delete using HTTP Verbs 
+[20 min]
+
+
 
 
 
