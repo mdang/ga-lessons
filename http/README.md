@@ -8,9 +8,8 @@
 * Explain what TCP/IP is
 * IP Addresses
 * Define DNS and identify its role in the client-server relationship
-* Define URI and explain whats its purpose is
-* Describe what query parameters are and how to encode them properly
 * Define HTTP and differentiate it from other protocols
+* Explain request and response headers
 * List some common HTTP response codes
 * Explain what SSL is
 * Describe the role of ports for incoming/outgoing data
@@ -24,8 +23,13 @@
 ### Opening Framing
 #### What
 
-
+HTTP is the foundation for data communication on the world wide web. It defines the set of rules used to send text, images, videos on the web.
 
 #### Why
+
+The rules provided by HTTP is important because 
+
+
+
 
 
