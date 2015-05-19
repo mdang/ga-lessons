@@ -31,7 +31,7 @@ The rules provided by the HTTP protocol are important because they allow us to t
 
 ### Differentiate between the internet and web
 
-The internet is a network of networks that connect millions of computers together globally. It allows any computer to connect to any other computer as long as they are both connected to the internet. The world wide web is built on top of the internet, and it's one way of accessing information on the internet. Using HTTP, this is how we access web documents, images, and video on the web. 
+The internet is a network of networks that connect millions of computers together globally. It allows any computer to connect to any other computer as long as they are both connected to the internet. The world wide web is built on top of the internet, and it's one way of accessing information on the internet. Using HTTP, this is how we access web documents, images, and video on the web. Examples of accessing the internet without HTTP include email and instant messaging.
 
 ### How the internet works, including what a web server is and what a client is
 
@@ -50,6 +50,24 @@ Meeting a famous actor
 
 List of network protocols:
 http://en.wikipedia.org/wiki/List_of_network_protocols_(OSI_model)
+
+- Protocols have 3 defining characteristics. These are not specific to computer or networking protocols:
+  - Syntax
+    * Data Format - How do we encode and represent our messages?
+    * Addressing - How do we indicate sender and receiver
+    * Routing - How do we get our message from A -> B
+    * Reliability - How do we make sure our message got there, and do we retry if
+      not?
+    * Synchronization - How we do make sure messages are interpreted in the correct
+      order?
+  - Semantics
+    - The meaning of the things being said (equivalent to defining words in the
+english language, and them having meaning in introductions).
+  - Synchronization (of communication)
+    - System wouldn't work if we didn't have a sense of an order.
+    - Example: Nerdiest joke I know...
+      * The barman says: “We don’t serve faster-than-light particles here.” A
+        tachyon enters a bar.
 
 ## CLASS EXERCISE - 20min
 IP (Meet Ivan Pakkitz)
