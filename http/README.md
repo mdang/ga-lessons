@@ -53,18 +53,17 @@ List of network protocols:
 http://en.wikipedia.org/wiki/List_of_network_protocols_(OSI_model)
 
 - Protocols have 3 defining characteristics. These are not specific to computer or networking protocols:
-  - Syntax
+- http://www.ansmachine.net/2013/08/protocol-syntax-semantics-timing.html
+
+  - Syntax - structure and format of the data
     * Data Format - How do we encode and represent our messages?
     * Addressing - How do we indicate sender and receiver
     * Routing - How do we get our message from A -> B
     * Reliability - How do we make sure our message got there, and do we retry if
       not?
-    * Synchronization - How we do make sure messages are interpreted in the correct
-      order?
-  - Semantics
-    - The meaning of the things being said (equivalent to defining words in the
+  - Semantics - The meaning of the things being said (equivalent to defining words in the
 english language, and them having meaning in introductions).
-  - Synchronization (of communication)
+  - Synchronization 
     - System wouldn't work if we didn't have a sense of an order.
     - Example: Nerdiest joke I know...
       * The barman says: “We don’t serve faster-than-light particles here.” A
