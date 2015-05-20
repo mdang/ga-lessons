@@ -63,6 +63,7 @@ Meeting a famous actor
 - Tell them you're their biggest fan
 - Say you've seen all their movies at least 20 times
 - Get their autograph
+- Bouncer comes and tells you to get out of there
 - Tell your friends that you're best friends with them
 
 List of network protocols:
