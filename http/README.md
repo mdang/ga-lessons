@@ -111,8 +111,6 @@ DNS is really just a big map of domain names to IP addresses
 
 http://en.wikipedia.org/wiki/List_of_HTTP_header_fields
 
-### HTTP response codes
-
 ### SSL
 
 HTTPS - Handles secure communication b/w client and server 
@@ -121,6 +119,10 @@ HTTPS - Handles secure communication b/w client and server
 ### Describe ports for incoming/outgoing data
 
 ### REST API's
+
+### HTTP response codes
+
+http://www.restapitutorial.com/httpstatuscodes.html
 
 ### HTTP Verbs 
 
