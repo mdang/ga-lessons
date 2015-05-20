@@ -120,6 +120,10 @@ HTTPS - Handles secure communication b/w client and server
 
 ### REST API's
 
+Respresentational State Transfer
+
+REST is an architectural style for developing lightweight web services. Used by many popular websites and generally favored over other alternatives like SOAP. When web services use a REST architecture they are said to be RESTful. 
+
 ### HTTP response codes
 
 http://www.restapitutorial.com/httpstatuscodes.html
