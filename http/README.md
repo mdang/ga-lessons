@@ -132,7 +132,7 @@ DNS is really just a big map of domain names to IP addresses
 
 http://en.wikipedia.org/wiki/List_of_HTTP_header_fields
 
-### SSL
+### HTTPS (SSL)
 
 HTTPS - Handles secure communication b/w client and server 
 [QUESTION: When would we want to use SSL?]
