@@ -79,6 +79,14 @@ english language, and them having meaning in introductions).
  - Example: Nerdiest joke I know...
   * The barman says: “We don’t serve faster-than-light particles here.” A tachyon enters a bar.
 
+### Why are protocols important? 
+
+- Example of needing plans for building a house 
+- Depending on who it is, you might get: 
+ * Give you a text message
+ * Write up a 20 page document with blueprints
+ * Give you a drawing of a house
+
 ## CLASS EXERCISE - 20min
 IP (Meet Ivan Pakkitz)
 
