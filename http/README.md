@@ -41,6 +41,16 @@ The internet is a network of networks that connect millions of computers togethe
 Protocols define rules and a standard way of doing things. 
 
 Example: 
+Formal introduction to someone
+
+- Handshake
+- Less senior person says "Hi, #{others name}, nice to meet you!"
+- More senior person responds in kind.
+- Each party comments on the weather.
+- General communication can begin.
+- When someone says 'boy, howdy, look at the time', then it's time to stop communicating
+
+Example: 
 Meeting a famous actor 
 
 - Act really surprised
