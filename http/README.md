@@ -84,7 +84,8 @@ english language, and them having meaning in introductions).
 - Example of needing plans for building a house 
 - Depending on who it is, you might get: 
  * Give you a text message
- * Write up a 20 page document with blueprints
+ * Write up a 20 page document
+ * Get a blueprint 
  * Give you a drawing of a house
 
 ## CLASS EXERCISE - 20min
