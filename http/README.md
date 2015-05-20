@@ -105,12 +105,17 @@ DNS is really just a big map of domain names to IP addresses
 
 ### What is HTTP and how is it different from other protocols? 
 
+**Hyper Text Transfer Protocol** - Sits on top of TCP/IP and handles the communication between web servers and clients. HTTP is used to send requests and receive responses. 
+
 ### Request and response headers
+
+http://en.wikipedia.org/wiki/List_of_HTTP_header_fields
 
 ### HTTP response codes
 
 ### SSL
 
+HTTPS - Handles secure communication b/w client and server 
 [QUESTION: When would we want to use SSL?]
 
 ### Describe ports for incoming/outgoing data
