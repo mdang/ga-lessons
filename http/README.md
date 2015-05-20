@@ -109,18 +109,18 @@ Just as someone needs your mailing address to send you a letter, computers need 
 
 4 sets of numbers, ranging from 1 to 3 digits
 
-### DNS and its role in the client/server relationship 
-
-**Domain Name System**
-
-DNS is really just a big map of domain names to IP addresses
-
-[QUESTION: Why is this useful?]
+[QUESTION: Why do we not want to visit websites with this IP addresses?]
 - Easier to remember friendly url's
 - IP Addresses change
 
 **Ask students for websites**
 [Demo looking up websites by IP Address]
+
+### DNS and its role in the client/server relationship 
+
+**Domain Name System**
+
+DNS is really just a big map of domain names to IP addresses
 
 ### Domains vs Subdomains
 
