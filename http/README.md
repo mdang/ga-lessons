@@ -52,22 +52,20 @@ Meeting a famous actor
 List of network protocols:
 http://en.wikipedia.org/wiki/List_of_network_protocols_(OSI_model)
 
-- Protocols have 3 defining characteristics. These are not specific to computer or networking protocols:
-- http://www.ansmachine.net/2013/08/protocol-syntax-semantics-timing.html
+Protocols have 3 defining characteristics. These are not specific to computer or networking protocols:
+http://www.ansmachine.net/2013/08/protocol-syntax-semantics-timing.html
 
-  - Syntax - structure and format of the data
-    * Data Format - How do we encode and represent our messages?
-    * Addressing - How do we indicate sender and receiver
-    * Routing - How do we get our message from A -> B
-    * Reliability - How do we make sure our message got there, and do we retry if
-      not?
-  - Semantics - The meaning of the things being said (equivalent to defining words in the
+- **Syntax** - structure and format of the data
+  * Data Format - How do we encode and represent our messages?
+  * Addressing - How do we indicate sender and receiver
+  * Routing - How do we get our message from A -> B
+  * Reliability - How do we make sure our message got there, and do we retry if not?
+- **Semantics** - The meaning of the things being said (equivalent to defining words in the
 english language, and them having meaning in introductions).
-  - Synchronization 
-    - System wouldn't work if we didn't have a sense of an order.
-    - Example: Nerdiest joke I know...
-      * The barman says: “We don’t serve faster-than-light particles here.” A
-        tachyon enters a bar.
+- **Synchronization** 
+  - System wouldn't work if we didn't have a sense of an order.
+  - Example: Nerdiest joke I know...
+    * The barman says: “We don’t serve faster-than-light particles here.” A tachyon enters a bar.
 
 ## CLASS EXERCISE - 20min
 IP (Meet Ivan Pakkitz)
