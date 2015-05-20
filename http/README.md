@@ -36,6 +36,12 @@ The internet is a network of networks that connect millions of computers togethe
 
 ### How the internet works, including what a web server is and what a client is
 
+### Break down HTTP
+
+HyperText
+Transfer
+Protocol
+
 ### What are protocols?
 
 Protocols define rules and a standard way of doing things. 
