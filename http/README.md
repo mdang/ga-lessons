@@ -130,6 +130,14 @@ http://www.restapitutorial.com/httpstatuscodes.html
 
 ### HTTP Verbs 
 
+* POST
+* GET
+* PUT
+* DELETE
+
+##CLASS EXERCISE - 10min
+Look up the documentation for the Facebook, Twitter, or Twillio API's. Then discuss in class some of the actions that you can do, and the verbs used for them. 
+
 ##CLASS EXERCISE - 20min 
 Create, read, update, delete using HTTP Verbs 
 
