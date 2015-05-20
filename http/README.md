@@ -82,6 +82,8 @@ TCP is responsible for breaking data down into packets and assembling them back 
 
 IP is responsible for addressing, sending, and receiving of the data packets.
 
+[GIST: Structure of a data packet]
+
 ### IP Addresses 
 
 ### DNS and its role in the client/server relationship 
