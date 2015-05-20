@@ -111,6 +111,8 @@ Just as someone needs your mailing address to send you a letter, computers need 
 
 ### DNS and its role in the client/server relationship 
 
+**Domain Name System**
+
 DNS is really just a big map of domain names to IP addresses
 
 [QUESTION: Why is this useful?]
