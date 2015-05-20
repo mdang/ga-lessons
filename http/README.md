@@ -86,6 +86,10 @@ IP is responsible for addressing, sending, and receiving of the data packets.
 
 ### IP Addresses 
 
+Just as someone needs your mailing address to send you a letter, computers need an IP address to locate other devices connected to the internet. IP Addresses allow for the identification of billions of devices connected to the internet. 
+
+4 sets of numbers, ranging from 1 to 3 digits
+
 ### DNS and its role in the client/server relationship 
 
 DNS is really just a big map of domain names to IP addresses
