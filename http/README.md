@@ -116,7 +116,7 @@ Just as someone needs your mailing address to send you a letter, computers need 
 
 4 sets of numbers, ranging from 1 to 3 digits
 
-[QUESTION: Why do we not want to visit websites with this IP addresses?]
+[QUESTION: Why do we not want to visit websites with IP addresses?]
 - Easier to remember friendly url's
 - IP Addresses change
 
