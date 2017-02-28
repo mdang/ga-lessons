@@ -1,7 +1,5 @@
 # Git(Hub)
 
-In this lesson we'll cover branching, merging, and working with teams
-
 ### Lesson Objectives
 
 * Explain the difference between cloning and forking a repo
