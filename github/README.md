@@ -4,10 +4,10 @@ In this lesson we'll cover branching, merging, and working with teams
 
 ### Lesson Objectives
 
-* Review the basic commands for Git
-* Explain the difference b/w cloning and forking a repo
-* Submit a pull request on GitHub for a branch
-* Explain the workflow for developing a project with other developers
+* Explain the difference between cloning and forking a repo
+* Explain the uses of Git and GitHub for tracking changes and collaborating on projects
+* Write some code to improve their work, commit the changes, and write a strong commit message
+* Deploy their first live website using gh-pages
 
 ## Review
 
