@@ -78,7 +78,7 @@ Fetching, merging, and pulling are related commands that you will frequently use
 
 [`git pull`](https://git-scm.com/docs/git-pull) is the combination of fetching and merging to the newly fetched version of the current branch.
 
-![image](https://cloud.githubusercontent.com/assets/6520345/15020568/663aa804-11d7-11e6-83f6-774e43bc2ea6.png)
+![image](./assets/1.png)
 
 ## Collaboration Workflows
 
@@ -88,7 +88,7 @@ There are two main scenarios for collaborating on coding projects:
 2. Another developer makes you a **collaborator** on a project they own, giving you the ability to make pull requests directly from the project's *remote feature branches* to the project's *remote master*. (Note that as a collaborator on a project, you also have the ability to push directly to the master branch, which you should NEVER do.)
 
 
-![github-collab-diagram](https://cloud.githubusercontent.com/assets/7833470/12072895/69abd404-b0b1-11e5-8d8c-4ff54c13b0a0.png)
+![github-collab-diagram](./assets/2.png)
 
 
 **For this project, you should be collaborators!**
