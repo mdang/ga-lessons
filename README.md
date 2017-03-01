@@ -1,4 +1,4 @@
-## General Assembly Lesson Plans
+# Lesson Plans
 
 ### Fundamentals
 
