@@ -10,4 +10,4 @@
 
 ### Installfest
 
-[Installfest Repo](https://github.com/GA-WDI/installfest)
+[Installfest Repo and Instructions](https://github.com/GA-WDI/installfest)
