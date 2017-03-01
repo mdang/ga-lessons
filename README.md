@@ -2,11 +2,11 @@
 
 ### Fundamentals
 
-* [Icebreakers and Installfest]()
-* [Command Line]()
-* [Git]()
-* [GitHub]()
+* [Icebreakers and Installfest](./icebreakers-installfest)
+* [Command Line](./command-line)
+* [Git](./git)
+* [GitHub](./github)
 
 ### Front-end
 
-* [CSS Fundamentals]()
+* [CSS Fundamentals](./css-fundamentals)
