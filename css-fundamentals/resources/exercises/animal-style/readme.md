@@ -52,7 +52,6 @@ Be sure to add a link to the CSS file in the index page, and create a valid HTML
 - Make the mammals bold.
 - Make the birds italic.
 - Make the fish underlined.
-
 - Create a new unordered list, and add a list item for each the following plants:
 
 ```
