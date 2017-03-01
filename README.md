@@ -1,12 +1,12 @@
-# General Assembly Lesson Plans
+## General Assembly Lesson Plans
 
-## Fundamentals
+### Fundamentals
 
 * [Icebreakers and Installfest]()
 * [Command Line]()
 * [Git]()
 * [GitHub]()
 
-## Front-end
+### Front-end
 
 * [CSS Fundamentals]()
