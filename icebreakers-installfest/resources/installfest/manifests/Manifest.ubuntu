@@ -1,0 +1,58 @@
+utils/script_header
+
+utils/script_env_vars
+utils/define_terminal_colors
+utils/log_file
+utils/log_screen
+
+utils/script_instructions
+utils/password_capture
+
+# rename below to os_...
+ubuntu/determine_os_version
+ubuntu/update_software
+ubuntu/install_system_packages
+# rename above to apt_install_core_tools
+
+github_capture_credentials
+github_add_ssh_key
+git_configure
+
+# set up default deployment with heroku
+# ubuntu/set_up_heroku
+# FIXME (PJ) rename and add key and etc.
+
+# password_keep_alive
+
+rbenv_remove_rvm
+rbenv_install
+rbenv_set_default_gems
+ubuntu/add_rbenv_to_bashrc
+# rename or remove above...
+
+rbenv_install_version
+rbenv_set_version
+
+# password_keep_alive
+
+ubuntu/nvm_setup
+nvm_install
+nvm_install_version
+
+ubuntu/install_apps
+# rename above apt_...
+# ubuntu/install_atom
+
+ubuntu/install_postgres
+# rename above: postgres_install_apt
+
+# settings!
+# settings/script_repo_clone
+# copy_over_dotfiles
+
+# turned off for now!
+# ubuntu/install_mailutils
+
+code_dir_create
+
+utils/script_footer

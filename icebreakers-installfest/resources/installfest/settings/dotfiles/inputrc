@@ -1,0 +1,18 @@
+# Inputrc deals with the mapping of the keyboard for certain situations.
+# This file is the start-up file used by readline, the input related library
+# used by bash and most other shells.
+# http://www.linuxfromscratch.org/blfs/view/5.1/postlfs/inputrc.html
+
+# Tab improvements
+
+# Make Tab autocomplete regardless of filename case
+set completion-ignore-case on
+
+# Do not autocomplete hidden files unless the pattern explicitly begins with a
+# dot
+set match-hidden-files off
+
+# List all matches in case multiple possible completions are possible
+set show-all-if-ambiguous on
+
+TAB: menu-complete

@@ -1,0 +1,79 @@
+shebang
+
+commentary/header
+# handle_options_and_start_logging
+
+define_terminal_colors
+commentary/quoth_the_bard
+commentary/instructions
+# -> pause_awhile "begin"
+# -> echo "${GREEN}The play's the thing...${GREEN}"
+
+# -> quoth_the_bard "${HOW_NOW_TERMINAL[@]}"
+# -> pause_awhile "define environmental variables for the install"
+# tests/add_assert_functions
+tests/mock_assert_functions
+set_env_vars
+set_script_branch
+
+capture_password
+
+# -> pause_awhile "update your OS with necessary tools"
+ubuntu/update_software
+ubuntu/install_system_packages
+
+# -> quoth_the_bard "${HOW_NOW_GIT[@]}"
+# -> pause_awhile "add GitHub credentials to our keychain"
+capture_github_credentials
+
+# -> quoth_the_bard "${HOW_NOW_SSH_KEYS[@]}"
+add_ssh_key_to_github
+configure_git
+
+clone_script_repo
+
+# set up default deployment with heroku
+ubuntu/set_up_heroku
+
+keep_alive_password
+
+
+# -> quoth_the_bard "${HOW_NOW_GEMS[@]}"
+# -> pause_awhile "install rbenv and Gem list"
+remove_rvm
+ubuntu/install_rbenv
+set_default_gems_with_rbenv
+ubuntu/add_rbenv_to_bashrc
+copy_over_dotfiles
+
+# -> quoth_the_bard "${HOW_NOW_RUBY[@]}"
+# -> pause_awhile "install Ruby with rbenv"
+install_beloved_ruby_version
+set_global_ruby_version
+tests/check_for_gems
+
+keep_alive_password
+
+# -> quoth_the_bard "${HOW_NOW_NODE[@]}"
+# -> pause_awhile "install Node and npm"
+ubuntu/install_nvm
+install_node_and_npm
+
+# -> quoth_the_bard "${HOW_NOW_DB[@]}"
+# -> pause_awhile "install PostgreSQL"
+ubuntu/install_postgres
+
+# currently not using
+# install_vim_plugins
+# install_oh_my_zsh
+
+# -> quoth_the_bard "${HOW_NOW_CONFIGURE[@]}"
+# -> pause_awhile "do final configurations"
+create_student_folders
+
+
+ubuntu/install_mailutils
+# report_log # FIXME (phlco) skipping the email line
+
+# -> quoth_the_bard "${HOW_NOW_FINISH[@]}"
+commentary/fin

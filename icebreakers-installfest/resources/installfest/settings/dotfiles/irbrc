@@ -1,0 +1,15 @@
+# Just kick us over into PRY
+begin
+  require "pry"
+  puts "Starting Pry. If you want IRB rerun with -f"
+  Pry.start
+  exit
+rescue LoadError => e
+  warn "=> Unable to load pry. Try gem install pry"
+end
+
+# IRB settings if needed
+# require 'irb/completion'
+# Resources
+# https://github.com/janlelis/irbtools
+# http://rakeroutes.com/blog/customize-your-irb/

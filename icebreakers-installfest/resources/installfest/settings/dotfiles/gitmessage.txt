@@ -1,0 +1,8 @@
+
+# <- Subject message. Maximum 50 characters.   ->|
+#
+# <- After two line breaks come the rest of the lines, or the body.  ->|
+# <- The maximum line length for the body is 72 characters.          ->|
+#
+# For more info on how to write a good commit message, see:
+# http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html

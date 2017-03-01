@@ -1,0 +1,19 @@
+shebang
+handle_options_and_start_logging
+
+define_terminal_colors
+tests/add_assert_functions
+set_env_vars
+set_script_branch
+
+capture_password
+
+# install ruby and gems with rbenv
+remove_rvm
+ubuntu/prep_only_ruby_install
+ubuntu/install_rbenv
+set_default_gems_with_rbenv
+ubuntu/add_rbenv_to_bashrc
+install_beloved_ruby_version
+set_global_ruby_version
+tests/check_for_gems

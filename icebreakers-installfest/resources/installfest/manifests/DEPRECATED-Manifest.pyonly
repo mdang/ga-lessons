@@ -1,0 +1,15 @@
+shebang
+handle_options_and_start_logging
+
+define_terminal_colors
+tests/add_assert_functions
+set_env_vars
+set_script_branch
+
+capture_password
+
+# install python and pip with pyenv
+# right now installing anaconda, and no extra packages
+install_pyenv
+install_and_set_python_version
+install_pip

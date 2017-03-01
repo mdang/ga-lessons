@@ -1,0 +1,16 @@
+# colors
+red    = "\e[0;31m"
+reset  = "\e[0m"
+yellow = "\e[0;33m"
+
+# set a nice prompt for rails
+if ( ENV['RAILS_ENV'] || defined? Rails )
+  begin
+    rails_root = File.basename(Dir.pwd)
+    Pry.config.prompt_name = "#{red}#{rails_root}#{reset}"
+  rescue Exception
+    warn "Could not load"
+  end
+else
+  Pry.config.prompt_name = "#{red}Pry#{reset}"
+end

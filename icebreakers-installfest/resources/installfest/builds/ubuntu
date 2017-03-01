@@ -1,0 +1,669 @@
+#!/usr/bin/env bash
+
+COMPILED_AT='Mon Sep 26 14:44:46 PDT 2016'
+#
+#  _           _        _ _  __           _
+# (_)_ __  ___| |_ __ _| | |/ _| ___  ___| |_
+# | | '_ \/ __| __/ _` | | | |_ / _ \/ __| __|
+# | | | | \__ \ || (_| | | |  _|  __/\__ \ |_
+# |_|_| |_|___/\__\__,_|_|_|_|  \___||___/\__|
+#
+# Installation, Setup and Dotfile Creation Script
+# for Students of General Assemb.ly's WDI Program
+
+# Authors: Phillip Lamplugh, GA Instructor (2014),
+#          PJ Hughes, GA Instructor (2014 & 2015)
+
+# Resources:
+#
+# https://github.com/thoughtbot/laptop
+# https://github.com/toranb/ubuntu-development-machine
+# https://github.com/divio/osx-bootstrap
+# https://github.com/paulirish/dotfiles
+# https://github.com/mathiasbynens/dotfiles/
+# https://github.com/ndbroadbent/dotfiles
+
+# References:
+#
+# http://www.sudo.ws/
+# http://www.gnu.org/software/bash/manual/bashref.html
+# http://www.shellcheck.net
+# http://explainshell.com/
+
+#-------------------------------------------------------------------------------
+# Set up basic env vars (utils/script_env_vars.sh)
+#-------------------------------------------------------------------------------
+
+# Standard Bash Variables
+# `OSTYPE` A string describing the operating system Bash is running on.
+# `MACHTYPE` system type in cpu-company-system
+# `SECONDS` number of seconds since the shell was started.
+
+# FIXME (PJ) should have a better place to decide these versions:
+#   Ruby (rbenv), Python (pyenv), Node (nvm)
+BELOVED_RUBY_VERSION="2.2.3"
+CURRENT_STABLE_RUBY_VERSION="2.2.3"
+
+# TODO (pj) decide what the python versions should really be...
+#   and maybe come up with a bigger, better place to hang this info
+BELOVED_PYTHON_VERSION="anaconda-2.0.1"
+CURRENT_STABLE_PYTHON_VERSION="3.4.1"
+
+# NOT BEING USED YET, BUT SHOULD!
+NODE_VERSION="stable" # using nvm's language...
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  SYSTEM="mac"
+  BASH_FILE=".bash_profile"
+  MINIMUM_MAC_OS="10.7.0"
+else
+  SYSTEM="ubuntu"
+  BASH_FILE=".bashrc"
+fi
+
+SCRIPT_ROOT="$HOME/.wdi"
+
+# TODO (PJ) this needs to be more robust, BY FAR!
+SCRIPT_REPO="https://github.com/GA-WDI/installfest_script.git"
+SCRIPT_REPO_BRANCH="master"
+
+# the downloaded repo
+SCRIPT_DIR="$SCRIPT_ROOT/installfest"
+SCRIPT_SETTINGS="$SCRIPT_DIR/settings"
+
+SCRIPT_DOTFILES=$SCRIPT_SETTINGS/dotfiles/*
+SCRIPT_FONTS=$SCRIPT_SETTINGS/fonts/*
+SCRIPT_SUBL_SETTINGS=$SCRIPT_SETTINGS/sublime_settings/*
+SCRIPT_SUBL_PACKAGES=$SCRIPT_SETTINGS/sublime_packages/*
+SCRIPT_THEMES=$SCRIPT_SETTINGS/terminal/*
+
+# the working folder
+STUDENT_FOLDER="$HOME/code/wdi"
+
+# Deprecated as part of the utils/report_log.sh system...
+# TODO (PJ) update how reporting is done?
+# OWNER="ga-students"
+# REPO="wdi_melville_instructors"
+
+mkdir -p "$SCRIPT_ROOT"
+
+#-------------------------------------------------------------------------------
+# Set text formatting (utils/define_terminal_colors.sh)
+#-------------------------------------------------------------------------------
+
+# set 256 color profile where possible
+if [[ $COLORTERM == gnome-* && $TERM == xterm ]] && infocmp gnome-256color >/dev/null 2>&1; then
+  export TERM=gnome-256color
+elif infocmp xterm-256color >/dev/null 2>&1; then
+  export TERM=xterm-256color
+fi
+
+# Reset formatting
+RESET=$(      tput sgr0)
+
+# Foreground color
+BLACK=$(      tput setaf 0)
+RED=$(        tput setaf 1)
+GREEN=$(      tput setaf 2)
+YELLOW=$(     tput setaf 3)
+BLUE=$(       tput setaf 4)
+MAGENTA=$(    tput setaf 5)
+CYAN=$(       tput setaf 6)
+WHITE=$(      tput setaf 7)
+
+# Background color
+BG_BLACK=$(   tput setab 0)
+BG_RED=$(     tput setab 1)
+BG_GREEN=$(   tput setab 2)
+BG_YELLOW=$(  tput setab 3)
+BG_BLUE=$(    tput setab 4)
+BG_MAGENTA=$( tput setab 5)
+BG_CYAN=$(    tput setab 6)
+BG_WHITE=$(   tput setab 7)
+
+# Style
+UNDERLINE=$(  tput smul)
+NOUNDERLINE=$(tput rmul)
+BOLD=$(       tput bold)
+ITALIC=$(     tput sitm)
+
+#-------------------------------------------------------------------------------
+# Logging (utils/log_file.sh)
+#-------------------------------------------------------------------------------
+
+clear
+
+# set up logfile
+LOGFILE="$SCRIPT_ROOT/install.log"
+
+exec > >(tee $LOGFILE); exec 2>&1
+
+echo "Script compiled at: ${COMPILED_AT}"
+echo "Script execution begun: $(date)"
+echo ""
+
+# utils/log_screen.sh
+
+function show () {
+  echo -e "${BG_WHITE}${BLACK}> $* ${RESET}"
+}
+
+function inform () {
+  if [[ $2 ]]; then echo ""; fi
+  echo -e "${BG_GREEN}${BLACK}${BOLD}>>>>  $1 ${RESET}"
+}
+
+function warn () {
+  if [[ $2 ]]; then echo ""; fi
+  echo -e "${BG_YELLOW}${BLACK}${BOLD}>>>>  $1 ${RESET}"
+}
+
+function fail () {
+  if [[ $2 ]]; then echo ""; fi
+  echo -e "${BG_RED}${WHITE}${BOLD}>>>>  $1 ${RESET}"
+}
+
+function pause_awhile () {
+  if [[ $2 ]]; then echo ""; fi
+  echo -e "${BG_YELLOW}${BLACK}${BOLD}>>>>  $1 ${RESET}"
+  read -p "${BG_YELLOW}${BLACK}${BOLD}Press <Enter> to continue.${RESET}"
+}
+
+function pause_and_warn () {
+  if [[ $2 ]]; then echo ""; fi
+  echo -e "${BG_YELLOW}${BLACK}${BOLD}>>>>  $1 ${RESET}"
+  echo -e "${BG_YELLOW}${BLACK}${BOLD}>>>> ${RESET}"
+  read -p "${BG_YELLOW}${BLACK}${BOLD}>>>>  Continue? [Yy] ${RESET} " -n 1 -r
+
+  if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+    fail "Exiting..." true
+    exit 1;
+  fi
+}
+
+#-------------------------------------------------------------------------------
+# We begin! (utils/script_instructions.sh)
+#-------------------------------------------------------------------------------
+
+show "${BOLD}Welcome to the Installfest! ${RESET}"
+show ""
+show "Throughout the script you will be asked to enter your password. "
+show "Unless otherwise stated, this is asking for your "
+show "${BOLD}computer's password. ${RESET}"
+show ""
+show "This script will install, update, and configure files and "
+show "applications that you will use in class."
+
+# utils/password_capture.sh
+
+# capture the user's password
+inform "Enter your computer's password so that " true
+inform "  we can make the necessary changes. "
+inform "  The password will not be visible as you type: "
+
+sudo -p "Password:" echo "${BG_WHITE}> Thank you! ${RESET}"
+
+# TODO (phlco) remove the description part with a regex capture group
+os_version=$(lsb_release -a | grep -i Description)
+
+#-------------------------------------------------------------------------------
+# Check for software updates
+#-------------------------------------------------------------------------------
+
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y dist-upgrade
+
+packagelist=(
+  # Autoconf is an extensible package of M4 macros that produce shell scripts
+  # to automatically configure software source code packages.
+  autoconf
+
+  # Automake is a tool for automatically generating Makefile.in
+  automake
+
+  # general-purpose parser generator that converts an annotated context-free
+  # grammar into an LALR or GLR parser for that grammar.
+  bison
+
+  # generic library support script
+  libtool
+
+  # a YAML 1.1 parser and emitter
+  libyaml-dev
+
+  # provides a set of functions for use by applications that allow users to
+  # edit command lines as they are typed in
+  libreadline6
+  libreadline6-dev
+  libreadline-dev
+
+  # XML C parser and toolkit
+  libxml2-dev
+
+  # a language for transforming XML documents into other XML documents.
+  libxslt1-dev
+
+  # gnome-keyring is a daemon in the session, similar to ssh-agent,
+  # and other applications can use it to store passwords and other
+  # sensitive information
+  # atom dependency?
+  libgnome-keyring-dev
+
+  # OpenSSL implementation of SSL
+  libssl-dev
+  libcurl4-openssl-dev
+
+  # version control
+  git
+  git-core
+
+  # copy to clipboard
+  xclip
+
+  # command line tool for transferring data with URL syntax
+  curl
+
+  # This software provides an abstraction of the used apt repositories.
+  python-software-properties
+
+  # a reference for all the packages needed to compile a debian package
+  # generally includes the gcc/g++ compilers an libraries and some other utils
+  build-essential
+
+  # library implementing the deflate compression method found in gzip and PKZIP
+  zlib1g-dev
+
+  # generates an index file of names found in source files of various
+  # programming languages.
+  exuberant-ctags
+
+  # Header files and static library for compiling C programs to link with the
+  # libpq library in order to communicate with a PostgreSQL database backend.
+  libpq-dev
+  # or try
+  # gem install pg  --   --with-pg-lib=/usr/lib
+
+  # self-contained, serverless, transactional SQL database engine.
+  sqlite3
+  libsqlite3-dev
+
+  # ASCII ART!!!!
+  figlet
+
+  # tree visualizer for filesystems
+  tree
+
+  # visualization tool for ERDs
+  graphviz
+
+  # image resizing
+  imagemagick
+
+  # headless WebKit scriptable with a JavaScript API.
+  phantomjs
+)
+
+sudo apt-get -y install ${packagelist[@]}
+
+assert_package_installed ${packagelist[@]}
+
+#-------------------------------------------------------------------------------
+# Capture GitHub credentials (github_capture_credentials.sh)
+#-------------------------------------------------------------------------------
+
+inform "Enter information to set up your GitHub configuration." true
+
+read -p "Enter your Github Username: "    github_name
+read -p "Enter your Github Email: "       github_email
+read -s -p "Enter your Github Password: " github_password
+echo ""
+read -p "Enter your (real) first name: "  fname
+read -p "Enter your (real) last name: "   lname
+
+show "Thank you!"
+
+#-------------------------------------------------------------------------------
+# Create and Upload SSH key (github_add_ssh_key.sh)
+#-------------------------------------------------------------------------------
+
+# SSH keys establish a secure connection between your computer and GitHub
+# This script follows these instructions
+# `https://help.github.com/articles/generating-ssh-keys`
+
+# SSH Keygen
+inform "Generating an SSH key to establish a secure connection " true
+inform "  your computer and GitHub. "
+
+pause_awhile "Note: when you see the prompts:
+        'Enter a file in which to save the key (...)',
+        'Enter passphrase (empty for no passphrase)', and
+        'Enter passphrase again'
+      ${BOLD}just press Enter! Do NOT input anything!
+" true
+
+ssh-keygen -t rsa -b 4096 -C $github_email
+ssh-add ~/.ssh/id_rsa
+
+public_key=$(cat ~/.ssh/id_rsa.pub)
+
+# TODO (PJ) test if this fails or not!
+show "SSH key created..."
+
+# Upload to GitHub
+inform "Uploading SSH key to GitHub..." true
+
+# TODO (PJ) test if this fails or not!
+curl https://api.github.com/user/keys \
+  -H "User-Agent: WDIInstallFest" \
+  -H "Accept: application/vnd.github.v3+json" \
+  -u "$github_name:$github_password" \
+  -d '{"title":"WDI Installfest", "key":"'"$public_key"'"}'
+
+echo ""
+show "Key uploaded!" true
+
+#-------------------------------------------------------------------------------
+# Add user's Git info to ~/.gitconfig (git_configure.sh)
+#-------------------------------------------------------------------------------
+
+inform "Setting Git configurations..." true
+
+# https://www.kernel.org/pub/software/scm/git/docs/git-config.html
+git config --global user.name    "$fname $lname"
+git config --global user.github  $github_name
+git config --global user.email   $github_email
+
+# set colors
+git config --global color.ui always
+
+git config --global color.branch.current   "green reverse"
+git config --global color.branch.local     green
+git config --global color.branch.remote    yellow
+
+git config --global color.status.added     green
+git config --global color.status.changed   yellow
+git config --global color.status.untracked red
+
+# set editor
+# change to `subl -w` if you want to open merge messages in Sublime.
+git config --global core.editor "nano"
+
+# default branch to push to
+git config --global push.default current
+
+# set global gitignore
+git config --global core.excludesfile ~/.gitignore_global
+
+# Turn off rerere
+git config --global rerere.enabled false
+
+# Turn off auto rebase if the user has somehow turned it on
+git config --global pull.rebase false
+
+# add commit template
+git config --global commit.template ~/.gitmessage.txt
+
+# add some useful shortcuts
+git config --global alias.s 'status'
+git config --global alias.sha 'rev-parse HEAD'
+git config --global alias.last 'log -1 HEAD --oneline --decorate'
+git config --global alias.ll 'log --oneline --decorate'
+git config --global alias.set-master 'branch --set-upstream-to=origin/master master'
+git config --global alias.back 'reset --soft HEAD~1'
+git config --global alias.again 'commit -c ORIG_HEAD'
+git config --global alias.set-deploy = "!git config --local alias.deploy \"subtree push --prefix $1 origin gh-pages\""
+git config --global alias.co 'checkout'
+git config --global alias.bs 'branch -v'
+git config --global alias.rs 'remote -v'
+git config --global alias.ci 'commit'
+show "Complete!"
+
+# rbenv_remove_rvm.sh
+
+inform "Removing RVM..." true
+
+# Uninstall RVM, so that we can use rbenv
+# http://stackoverflow.com/questions/3950260/howto-uninstall-rvm
+if hash rvm 2>/dev/null || [ -d ~/.rvm ]; then
+  yes | rvm implode
+  rm -rf ~/.rvm
+else
+  show "RVM is not installed. Moving on."
+fi
+
+#-------------------------------------------------------------------------------
+# Install rbenv (rbenv_install.sh)
+#-------------------------------------------------------------------------------
+
+inform "Installing rbenv, our Ruby version manager..." true
+
+RBENV_DIR="$HOME/.rbenv"
+
+if [[ -e "$RBENV_DIR" ]]; then
+  show "Already installed! Moving on..."
+else
+  # Not using brew install (on Mac) because it is problematic...
+  git clone https://github.com/sstephenson/rbenv.git "$RBENV_DIR"
+fi
+
+# enable shims and autocompletion for the rest of this script...
+# this also needs to run in the bash_profile
+export PATH="${RBENV_DIR}/bin:$PATH"
+eval "$(rbenv init -)"
+
+inform "Installing rbenv plugins..." true
+
+RBENV_REHASH="${RBENV_DIR}/plugins/rbenv-gem-rehash"
+RBENV_DEFAULT="${RBENV_DIR}/plugins/rbenv-default-gems"
+RBENV_BUILD="${RBENV_DIR}/plugins/ruby-build"
+
+if [[ -e "$RBENV_REHASH" ]]; then
+  show "Rehash plugin already installed! Moving on..."
+else
+  # Automatically install gems every time you install a new version of Ruby
+  git clone https://github.com/sstephenson/rbenv-gem-rehash.git "$RBENV_REHASH"
+fi
+
+if [[ -e "$RBENV_DEFAULT" ]]; then
+  show "Default gems plugin installed! Moving on..."
+else
+  # Automatically runs rbenv rehash every time you install or uninstall a gem
+  git clone https://github.com/sstephenson/rbenv-default-gems.git "$RBENV_DEFAULT"
+fi
+
+if [[ -e "$RBENV_BUILD" ]]; then
+  show "Ruby build plugin already installed! Moving on..."
+else
+  # Provides an `rbenv install` command
+  # ruby-build is a dependency of rbenv-default-gems, so it gets installed
+  # TODO (PJ) remove then?
+  git clone https://github.com/sstephenson/ruby-build.git "$RBENV_BUILD"
+fi
+
+show "Complete!"
+
+#-------------------------------------------------------------------------------
+# Set default gems to install by rbenv (rbenv_set_default_gems.sh)
+#-------------------------------------------------------------------------------
+
+inform "Setting default gems to install with Ruby versions..." true
+
+# Make sure we skip documentation installation during install...
+# There is a more full .gemrc that will be installed with dotfiles later.
+echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+
+touch "${RBENV_DIR}/default-gems"
+
+# Our gems to install
+GEMLIST=(
+  bundler         # Maintains a consistent environment for ruby applications.
+  # capybara        # Acceptance test framework for web applications
+  # guard           # handle events on file system modifications
+  # jasmine         # JavaScript testing
+  pry             # alternative to the standard IRB shell
+  # pry-coolline    # live syntax highlighting for the Pry REPL
+  # rails           # full stack, Web application framework
+  # rspec           # testing tool for Ruby
+  # sinatra         # a DSL for quickly creating web applications in Ruby
+  # sinatra-contrib # common Sinatra extensions
+  github_api      # Ruby interface to github API v3
+  # hipchat         # HipChat HTTP API Wrapper
+  awesome_print   # pretty print your Ruby objects with style
+  rainbow         # colorizing printed text on ANSI terminals
+)
+
+for gem in ${GEMLIST[@]}; do
+  echo "${gem}" >> "${RBENV_DIR}/default-gems"
+done
+
+show "Complete!"
+
+# For testing and simplicity with Ubuntu, add these to the .bashrc until it's
+# overwritten...
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+
+source ~/.bashrc
+
+#-------------------------------------------------------------------------------
+# Install Ruby (rbenv_install_version.sh)
+#-------------------------------------------------------------------------------
+
+inform "Installing correct Ruby version and optimizing for your system..." true
+inform "  Note: this may take a VERY LONG TIME!"
+
+ruby_check=$(rbenv versions | grep $BELOVED_RUBY_VERSION)
+
+if [[ "$ruby_check" == *$BELOVED_RUBY_VERSION* ]]; then
+  show "$BELOVED_RUBY_VERSION is installed! Moving on..."
+else
+  rbenv install $BELOVED_RUBY_VERSION
+fi
+
+# rbenv_set_version.sh
+
+rbenv global $BELOVED_RUBY_VERSION
+rbenv rehash
+
+# ubuntu/nvm_setup.sh
+
+# NVM dependencies
+sudo apt-get install build-essential libssl-dev
+
+# git clone https://github.com/creationix/nvm.git ~/.nvm && cd ~/.nvm && git checkout `git describe --abbrev=0 --tags`
+
+#-------------------------------------------------------------------------------
+# Install NVM (nvm_install.sh)
+#-------------------------------------------------------------------------------
+
+inform "Installing nvm, our Node version manager..." true
+
+NVM_DIR="$HOME/.nvm"
+
+if [[ -e "$NVM_DIR" ]]; then
+  show "Already installed. Moving on..."
+else
+  # install Node Version Manager
+  git clone https://github.com/creationix/nvm.git "$NVM_DIR" && cd "$NVM_DIR" && git checkout `git describe --abbrev=0 --tags`
+  show "Complete!"
+fi
+
+#-------------------------------------------------------------------------------
+# Install Node (nvm_install_version.sh)
+#-------------------------------------------------------------------------------
+
+inform "Installing correct Node version and updated NPM..." true
+
+# load nvm command in the script
+# will do this and more in the bash_profile for the users
+source ~/.nvm/nvm.sh
+
+# Install and use version using NVM
+nvm install "$NODE_VERSION"
+
+# Ensure we have the most recent version of npm
+npm install npm -g
+
+show "Complete!"
+
+# Google Chrome.........The Browser
+# HipChat...............The Chat Client
+# Sublime Text 2........The Text Editor
+
+# chrome
+sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo apt-get -y update
+sudo apt-get -y install google-chrome-stable
+
+# hipchat
+# sudo sh -c 'echo "deb http://downloads.hipchat.com/linux/apt stable main" > /etc/apt/sources.list.d/atlassian-hipchat.list'
+# wget -O - https://www.hipchat.com/keys/hipchat-linux.key | sudo apt-key add -
+# sudo apt-get -y update
+# sudo apt-get -y install hipchat
+
+# sublime
+sudo add-apt-repository -y ppa:webupd8team/sublime-text-2
+sudo apt-get -y update
+sudo apt-get -y install sublime-text
+
+# zsh
+# sudo apt-get -y install zsh
+
+# flux
+# sudo add-apt-repository -y ppa:kilian/f.lux
+# sudo apt-get -y update
+# sudo apt-get -y install fluxgui
+
+# hub
+git clone https://github.com/github/hub.git
+cd hub
+# TODO (phlco) permission problems... sudo chown -R `whoami` /usr/local/* ?
+rake install prefix=/usr/local
+
+# vim
+sudo apt-get -y install vim
+
+# emacs
+# sudo apt-get -y install emacs
+
+# open source object-relational database management system
+# https://www.digitalocean.com/community/articles/how-to-install-and-use-postgresql-on-ubuntu-12-04
+# TODO phlco set up user
+# https://help.ubuntu.com/community/PostgreSQL
+# sudo apt-get -y install postgresql-xc-client
+# sudo apt-get -y install postgresql-client
+# sudo apt-get -y install postgresql
+# sudo apt-get -y install postgresql-contrib
+# sudo apt-get -y install pg_ctl # initialize stop/start posgres
+sudo apt-get -y install postgresql
+sudo apt-get -y install postgresql-contrib
+sudo apt-get -y install libpq-dev # should fix issue with installing pg gem
+
+sudo -u postgres createuser --superuser $USER
+# TODO phlco. taking out?
+# sudo -u postgres psql
+# create a history?
+touch ~/.psql_history
+
+createdb $USER
+
+# Install ruby interface for Postgres
+gem install pg
+# code_dir_create.sh
+
+inform "Creating directory for wdi: $STUDENT_FOLDER" true
+mkdir -p $STUDENT_FOLDER
+show "Complete!"
+
+#-------------------------------------------------------------------------------
+# We're done! (utils/script_footer.sh)
+#-------------------------------------------------------------------------------
+
+inform "We're done!" true
+echo "#-- fin -- #"
+
+fail "Please close your terminal and open a new one!" true
+echo ""
+

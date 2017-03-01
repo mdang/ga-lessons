@@ -1,0 +1,64 @@
+# http://git-scm.com/book/en/Getting-Started-First-Time-Git-Setup
+
+[alias]
+  co = checkout
+  unstage = reset HEAD --
+  edit   = commit --amend --edit
+  revise = commit --amend -aC HEAD
+  lg = log --decorate --pretty=oneline --abbrev-commit --graph
+  lg = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
+  st = status -sb -uall
+  df = diff --color --color-words --abbrev
+  undocommit = reset --soft HEAD^
+  undopush = push -f origin HEAD^:master
+
+[branch]
+  autosetuprebase = always
+
+[browser "gitscm"]
+  cmd = /bin/sh -c 'open http://git-scm.com/docs/$(basename $1 .html)' --
+
+[commit]
+  template = ~/.gitmessage.txt
+
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore_global
+
+[color]
+  # Available Colors
+  # normal, black, red, green, yellow, blue, magenta, cyan, or white
+  # bold, dim, ul, blink, and reverse
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  pager = true
+  ui = always
+
+[color "branch"]
+  current = green
+  local = green
+  remote = yellow
+  plain   = blue
+
+[color "status"]
+  added = green
+  changed = yellow
+  untracked = red blink
+
+[filter "media"]
+  clean = git-media-clean %f
+  smudge = git-media-smudge %f
+
+[help]
+  browser = gitscm
+
+[push]
+  default = current
+  #  push the current branch to update a branch with the same name on the receiving end.
+  # Works in both central and non-central workflows.
+  # This is the safest option and is suited for beginners.
+
+[sequence]
+  editor = nano

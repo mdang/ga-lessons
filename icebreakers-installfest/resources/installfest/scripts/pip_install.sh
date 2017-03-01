@@ -1,0 +1,3 @@
+# TODO (pj) test this...
+
+curl --show-error --retry 5 https://bootstrap.pypa.io/get-pip.py | sudo python

@@ -1,0 +1,7 @@
+{
+  // These general best-practices are only for Markdown.
+  "trim_trailing_white_space_on_save": false,
+  "word_wrap": true,
+  "wrap_width": 100,
+  "tab_size": 4
+}

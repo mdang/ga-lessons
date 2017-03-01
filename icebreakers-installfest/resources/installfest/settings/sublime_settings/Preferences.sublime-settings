@@ -1,0 +1,44 @@
+{
+  "bold_folder_labels": true,
+  "close_windows_when_empty": true,
+  "color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+  "default_line_ending": "unix",
+  "drag_text": false,
+  "draw_white_space": "selection",
+  "ensure_newline_at_eof_on_save": true,
+  "font_face": "Source Code Pro SemiBold",
+  "font_options":
+  [
+    "subpixel_antialias"
+  ],
+  "font_size": 11.0,
+  // "font_face": "Monaco",
+  // "font_options": [
+  //   "subpixel_antialias",
+  //   "gray_antialias",
+  //   "no_bold"
+  // ],
+  // "font_size": 16.0,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "hot_exit": false,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "remember_open_files": false,
+  "rulers":
+  [
+    72,
+    80,
+    119
+  ],
+  "tab_size": 2,
+  "theme": "Default.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": false,
+  "wrap_width": 100,
+  // "draw_minimap_border": false,
+  "always_show_minimap_viewport": false
+}
