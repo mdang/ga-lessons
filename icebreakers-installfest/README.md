@@ -1,4 +1,4 @@
-## Icebreakers and Installfest
+# Icebreakers and Installfest
 
 1. Create a new **README.md** using one of the examples in the `resources` folder as a starting point. 
 2. Edit the information to include relevant dates, etc for the new cohort
