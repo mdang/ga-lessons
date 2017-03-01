@@ -11,11 +11,18 @@
 * Understand best practices for specificity and cascading
 * Use CSS vendor prefixes for cross browser compliance
 
+## Topics
+
+- Inline styles, inline stylesheets, external stylesheets 
+- CSS selectors
+- CSS shorthand (font, padding, margin, border)
+
 ### Inspiration 
 
 * [Britt Shoyer's Portfolio](https://brittshroyer.github.io/)
 * [CSS Zen Garden](http://www.mezzoblue.com/zengarden/alldesigns/)
 * Single Div Challenge 
+  - [Single Div Website](http://a.singlediv.com/)
   - [Coffee](https://codepen.io/techxastrish/pen/zKgKoN)
   - [Backpack](https://codepen.io/techxastrish/pen/LbWVPj)
   - [Pie](https://codepen.io/techxastrish/pen/gLWWNy)
