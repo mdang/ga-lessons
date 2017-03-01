@@ -11,3 +11,11 @@
 * Understand best practices for specificity and cascading
 * Use CSS vendor prefixes for cross browser compliance
 
+### Inspiration 
+
+* [Britt Shoyer's Portfolio](https://brittshroyer.github.io/)
+* [CSS Zen Garden](http://www.mezzoblue.com/zengarden/alldesigns/)
+* Single Div Challenge 
+  - [Coffee](https://codepen.io/techxastrish/pen/zKgKoN)
+  - [Backpack](https://codepen.io/techxastrish/pen/LbWVPj)
+  - [Pie](https://codepen.io/techxastrish/pen/gLWWNy)
