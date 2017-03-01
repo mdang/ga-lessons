@@ -1,0 +1,55 @@
+section {
+  font-size: 16px;
+  padding: 0 320px;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 32px;
+  padding: 8px 0;
+  border-bottom: 3px solid #000;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+  width: 480px;
+  margin: 25px 0;
+}
+
+/* 
+DEMO PART 2: Comment out the above and uncomment the below code. 
+Update the font-size on the section to demonstrate how anything sized in ems is also updated.
+Convert px to rem 
+*/
+/* section {
+  font-size: 16px;
+  padding: 0 20em;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 2em;
+  padding: .5em 0;
+  border-bottom: .2em solid #000;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.618em;
+  width: 30em;
+  margin: 1.618em 0;
+} */
+
+
+
+/* DEMO PART 3: 
+Now show how media queries tie in.
+*/
+/* 
+@media screen and (max-width: 1000px){
+  section {
+    font-size: 18px;
+    padding: 0 10em;
+  }
+} */

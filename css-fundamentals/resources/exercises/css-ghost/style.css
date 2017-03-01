@@ -1,0 +1,37 @@
+.ghost{
+
+}
+.ghost div{
+
+}
+.ghost:hover div{
+
+}
+@keyframes hover{
+  from{
+
+  }
+  to{
+
+  }
+}
+@keyframes roam-the-earth{
+  0%{
+
+  }
+  20%{
+
+  }
+  40%{
+
+  }
+  60%{
+
+  }
+  80%{
+
+  }
+  100%{
+
+  }
+}

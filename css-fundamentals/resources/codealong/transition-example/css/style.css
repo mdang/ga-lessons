@@ -1,0 +1,25 @@
+/*------------------------------------------
+  SETUP                   
+/------------------------------------------*/
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+div {
+  border: none;
+  outline: none;
+  background-color: #F78FA7;
+  padding: 50px 20px;
+  border-radius: 4px;
+  margin-left: 0;
+  transition: all 2s ease-in-out;
+}
+
+
+div:hover {
+  background-color: yellow;
+  margin-left: 100px;
+}

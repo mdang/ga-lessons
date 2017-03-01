@@ -1,0 +1,40 @@
+body {
+  background-color: #F5F5F5;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #E1574C;
+}
+
+.loading-dots {
+  width: 130px;
+  margin: 0 auto;
+  opacity: 0.5;
+}
+
+.dot {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #E1574C;
+  margin-left: 0.8em;
+
+}
+
+
+.loader {
+  width: 70px;
+  height: 70px;
+  margin: 3em auto;
+  border-radius: 100%;
+  border-right: 5px solid #F5F5F5;
+  border-left: 5px solid #F5F5F5;
+  border-top: 5px solid #E1574C;
+  border-bottom: 5px solid #E1574C;
+  /* Animation property */
+
+
+}
+
+
+/* Keyframe Animation */
