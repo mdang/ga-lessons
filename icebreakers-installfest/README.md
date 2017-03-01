@@ -3,8 +3,8 @@
 ### Introductions
 
 1. Create a new **README.md** using one of the examples in the `resources` folder as a starting point. 
-2. Edit the information to include relevant dates, etc for the new cohort
-3. View in presentation format with [SlideDeck](https://slideck.io)
+2. Edit the information to include relevant dates, etc for the new cohort.
+3. View in presentation format with [SlideDeck](https://slideck.io).
 
 Examples: 
 
