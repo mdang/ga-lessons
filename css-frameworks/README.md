@@ -10,7 +10,7 @@
 
 
 
-## Introduction: Grids (10 mins)
+## Introduction: Grids
 ### Why use a CSS grid?
 
 #### Structure
