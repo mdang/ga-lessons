@@ -8,9 +8,19 @@
 * Implement class-based CSS
 * Create a responsive layout that adjusts according to the screen/window size
 
+## What is Responsive Design?
 
+"Responsive web design (RWD) is an approach to web design aimed at crafting sites to provide an optimal viewing and interaction experience— easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from desktop computer monitors to laptops to cellphones).
 
-## Introduction: Grids
+A site designed with RWD adapts the layout to the viewing environment by using fluid, proportion-based grids, flexible images, etc..."
+
+Source: [Wikipedia](https://en.wikipedia.org/wiki/Responsive_web_design)
+
+![image](https://cloud.githubusercontent.com/assets/6520345/20849406/63b6290e-b88b-11e6-91d6-ab998c89a87d.png)
+
+**Find an example of responsive design on the web!**
+
+## Grids
 ### Why use a CSS grid?
 
 #### Structure
@@ -36,7 +46,7 @@ _Even if you don't use a grid system, these concepts will translate across other
 #### Gutters
 * Provides spacing between our columns. Optional, but useful.
 
-## Introduction: Bootstrap
+## Bootstrap
 
 Many workplaces use an extablished grid system, such as [Bootstrap](http://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/).
 
