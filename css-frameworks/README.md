@@ -4,9 +4,11 @@
 
 * Describe the benefits of using responsive design
 * Describe what it means to go mobile first
-* Explain the difference between a responsive website and a mobile-specific website
-* Create a responsive layout that adjusts according to the screen/window size
 * Explain how a grid system works
+* Implement class-based CSS
+* Create a responsive layout that adjusts according to the screen/window size
+
+
 
 ## Introduction: Grids (10 mins)
 ### Why use a CSS grid?
@@ -34,11 +36,11 @@ _Even if you don't use a grid system, these concepts will translate across other
 #### Gutters
 * Provides spacing between our columns. Optional, but useful.
 
-## Introduction: Bootstrap (20 mins) (If Time Permits)
+## Introduction: Bootstrap
 
 Many workplaces use an extablished grid system, such as [Bootstrap](http://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/).
 
-Bootstrap is "the most popular HTML, CSS and JS framework for developing responsive, mobile first projects on the web."
+Bootstrap is a **library of CSS classes** that helps make any old site look nice with very little effort. It comes with a **grid system** that makes laying out content on a variety of screen sizes much easier to deal with. Proficiency in at least one CSS framework allows you to make better first impressions when people land on your page.
 
 Features:
 
