@@ -46,6 +46,34 @@ _Even if you don't use a grid system, these concepts will translate across other
 #### Gutters
 * Provides spacing between our columns. Optional, but useful.
 
+## What is Class-based CSS?
+
+Create modular classes that *encapsulate* a certain behavior and name them semantically.
+
+How would you style CSS for these elements?
+
+* `.shout` —  make all of the characters uppercase in the element's text
+* `.shadow` — add a drop-shadow to text inside the element
+* `.invert` — flip an element upside-down
+
+<details><summary>Example solution</summary>
+
+```css
+.shout {
+	text-transform: uppercase;
+}
+
+.shadow {
+	text-shadow: 1px 1px 2px black;
+}
+
+.invert {
+	transform: rotate(180deg);
+}
+```
+
+</details>
+
 ## Bootstrap
 
 Many workplaces use an extablished grid system, such as [Bootstrap](http://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/).
