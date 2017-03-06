@@ -3,7 +3,7 @@
 ### Learning Objectives
 
 - Explain what a first class function is, and its implications for programming in Javascript
-- Explain the difference between referencing and invoking a function.
+- Explain the difference between referencing and invoking a function
 - Explain the concept of a 'callback' and how we can pass functions as arguments to other functions
 - Describe how Javascript functions relate to Javascript objects
 - Describe what an anonymous function is and when you would use one
