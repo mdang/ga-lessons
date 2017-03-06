@@ -1,0 +1,11 @@
+1. iterate over an array: Dr Fells wordlists for auditing
+
+2. iterate over the fields of an object: flash cards for testing
+    
+3. invoking a named function: html color normalization
+
+4. passing a created function: filtering a list of objects
+
+5. passing a named functions as sort comparators
+
+6. receiving a fucntion as a function argument.
