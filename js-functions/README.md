@@ -118,15 +118,15 @@ var totalPoints = addBonusPoints(55);
 We can also use the `return` statement to end function execution.
 
 ```js
-var rockAndRoll = function (muted) {
-   var song = "It's only Rock 'N' Roll";
-   var artist = "Rolling Stones";
+var rockAndRoll = function(muted) {
+  var song = "It's only Rock 'N' Roll";
+  var artist = "Rolling Stones";
 
-   if (muted === true) {
-       return; // Here we use return as a way to exit a function, instead of returning any value
-   }
+  if (muted === true) {
+    return; // Here we use return as a way to exit a function, instead of returning any value
+  }
 
-    console.log("Now playing: " + song + " by " + artist);
+  console.log("Now playing: " + song + " by " + artist);
 }
 
 rockAndRoll(true);
