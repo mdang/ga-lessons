@@ -160,9 +160,7 @@ Scope has to do with where identifiers are defined (not where they are executed)
 
 ### Memory Usage
 
-Another difference between global and local variables is the use of memory.
-
-Every variable takes up memory. The more memory our script requires, the slower our web page.
+Another difference between global and local variables is the use of memory. Every variable takes up memory. The more memory our script requires, the slower our web page.
 
 #### Local Variables
 
