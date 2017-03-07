@@ -23,7 +23,7 @@
 
 Functions are especially useful because they enable a developer to segment large, unwieldy applications into smaller, more manageable pieces.
 
-## Function Definitions
+## Function Declarations
 
 ```js
 function sayHello() {
