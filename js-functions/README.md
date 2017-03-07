@@ -64,3 +64,54 @@ var area = function (width, height) {
 
 area(5, 3);
 ```
+
+## Return Statements
+
+The return statement stops the execution of a function and returns a value from that function
+
+```js
+// Here this function "spits out" the sum of the parameters x and y
+var sum = function (x, y) {
+  return x + y;
+}
+
+// We then save that sum to the variable totalSum.
+var totalSum = sum(3, 4);
+=> 7
+// The variable totalSum will now hold the value 7.
+```
+
+### Storing Return Values in Variables
+
+```js
+function addBonusPoints (score) {
+    if (score > 50) {
+        return score + (score * .10);
+                // if score is 50, then 60.5 will be returned
+    }
+
+    return score;
+}
+
+var totalPoints = addBonusPoints(55);
+// The variable totalPoints will now hold 60.5
+```
+
+### Exiting a function
+
+We can also use the `return` statement to end function execution
+
+```js
+var rockAndRoll = function (muted) {
+   var song = "It's only Rock 'N' Roll";
+   var artist = "Rolling Stones";
+
+   if (muted === true) {
+       return; // Here we use return as a way to exit a function, instead of returning any value
+   }
+
+    console.log("Now playing: " + song + " by " + artist);
+}
+
+rockAndRoll(true);
+```
