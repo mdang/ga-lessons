@@ -36,13 +36,6 @@ var data = {
 <details>
   <summary>What data type are the elements within `students`?</summary>
   <p>
-    They are objects!
-  </p>
-</details>  
-
-<details>
-  <summary>What data type are the elements within `students`?</summary>
-  <p>
   The `students` array contains objects as its elements!
   </p>
 </details>
