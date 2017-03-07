@@ -67,7 +67,7 @@ area(5, 3);
 
 ## Function Declarations vs Function Expressions
 
-In JS, function declarations are always moved, or "hoisted," to the top of their scope by the interpreter.
+In JS, function declarations are always moved, or **hoisted**, to the top of their scope by the interpreter.
 
 In other words, you can call a function declaration before defining it, which is **not** the case with function expressions.
 
