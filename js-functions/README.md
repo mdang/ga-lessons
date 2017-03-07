@@ -31,6 +31,8 @@ function sayHello() {
 }
 ```
 
+> Function declarations are also referred to as **named functions**
+
 ### Naming Conventions
 
 - camelCase
@@ -50,6 +52,8 @@ var errorAlert = function() {
    alert('Error!!');
 }
 ```
+
+> Function expressions are also referred to as assigning **anonymous functions** to variables
 
 ## Arguments and Parameters
 
