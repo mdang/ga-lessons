@@ -136,17 +136,16 @@ A variable that is declared outside a function definition is a **global** variab
 
 Scope has to do with where identifiers are defined (not where they are executed). This is why JavaScript is said to have lexical scope, which essentially means you can see where variables are defined within code and know the scope of the variable.
 
-Rules of scope: 
+**Rules of scope**: 
 
 - Scopes can be nested within one another
 - Inner scopes can see outward, but outward scopes cannot see inward
 - When looking for an identifier, JS starts in the most immediate scope, and moves outward until it finds something
-- When creating a variable without the var keyword, that variable's scope is global
-- When using the var keyword to declare a variable, that variable's scope is the local scope where it was declared
+- When creating a variable without the `var` keyword, that variable's scope is global
+- When using the `var` keyword to declare a variable, that variable's scope is the local scope where it was declared
 - Arguments to functions become a part of that function's local scope
 - Anytime a function is declared, a new scope is created
 - When we declare variables inside a function, those variables will only be accessible from within that function
-- By nature, variables declared and defined within a function are created and destroyed as soon as the function starts and stops
 - When a variable is declared **outside a function**, it is referred to as a **global variable**. A global variable has global scope, which means *all scripts and functions on a web page can access it*
 
 ### Memory Usage
