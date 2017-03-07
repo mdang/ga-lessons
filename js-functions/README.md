@@ -10,5 +10,4 @@
 - Explain the difference between referencing and invoking a function
 - Explain what a first class function is, and its implications for programming in Javascript
 - Explain the concept of a 'callback' and how we can pass functions as arguments to other functions
-- Define "variable scope" in the context of a program
 - Explain variable scoping rules in JavaScript
