@@ -81,6 +81,12 @@ In JS, function declarations are always moved, or **hoisted**, to the top of the
 
 In other words, you can call a function declaration before defining it, which is **not** the case with function expressions.
 
+## Exercise
+
+**10 min**
+
+[For and Functions](./exercises/for-and-functions.md)
+
 ## Return Statements
 
 The return statement stops the execution of a function and returns a value from that function.
