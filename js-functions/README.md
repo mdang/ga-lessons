@@ -136,3 +136,21 @@ A variable that is declared outside a function definition is a **global** variab
 - By nature, variables declared and defined within a function are created and destroyed as soon as the function starts and stops.
 - When a variable is declared **outside a function**, it is referred to as a **global variable**. A global variable has global scope, which means *all scripts and functions on a web page can access it*.
 - When we have a variable with local scope, *it cannot be referenced outside of that function*.
+
+### Memory Usage
+
+Another difference between global and local variables is the use of memory.
+
+Every variable takes up memory. The more memory our script requires, the slower our web page.
+
+#### Local Variables
+
+The interpreter creates local variables when it runs a function and removes them right after that function finishes running.
+
+#### Global Variables
+
+Global variables, on the other hand, are stored in the processor's memory for as long as the page is loaded in the browser.
+
+As a result, global variables can be inefficient, because they will continue to take up memory space even when they are not actually in use.
+
+It's very possible to have naming conflicts with global variables.
