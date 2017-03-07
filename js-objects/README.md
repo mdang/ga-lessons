@@ -128,3 +128,49 @@ dog.bark = function() {
 };
 ```
 
+## Checking for Property Existence
+
+The `hasOwnProperty` method is useful for checking a property's existence on the object itself. It won't check the object's prototype for any inherited properties.
+
+```js
+var obj = {
+  foo: true,
+};
+
+obj.hasOwnProperty('foo'); // true
+obj.hasOwnProperty('bar'); // false
+```
+
+## Iterating Through Properties and Methods
+
+A `for..in` loop iterates over enumerable properties within an object. Certain properties are inherited from an object's prototype like the `toString()` method which are not considered enumerable.
+
+```js
+var obj = {
+  a:1, 
+  b:2, 
+  c:3
+};
+
+for (var prop in obj) {
+  console.log(prop + " = " + obj[prop]);
+}
+```
+
+## Context
+
+In JavaScript, `this` is a keyword that refers to the current object/container. When you use the `this` keyword inside an object method, `this` is bound to the "immediate" enclosing object.
+
+```js
+var classroom = {
+  name: "WDI",
+  campus: "Austin",
+  start: "1/1/2000",
+  classInfo: function(){
+    console.log("This is " + this.name + " and the class starts on " + this.start);
+  }
+};
+
+classroom.classInfo()
+=> This is WDI and it starts on 1/1/2000
+```
