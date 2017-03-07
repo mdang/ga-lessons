@@ -196,4 +196,6 @@ classroom.classInfo()
 
 ## Exercise 
 
+**20 min**
+
 [My Austin Food Truck](./exercises/my-austin-food-truck.md)
