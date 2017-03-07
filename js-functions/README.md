@@ -65,6 +65,12 @@ var area = function (width, height) {
 area(5, 3);
 ```
 
+## Function Declarations vs Function Expressions
+
+In JS, function declarations are always moved, or "hoisted," to the top of their scope by the interpreter.
+
+In other words, you can call a function declaration before defining it, which is **not** the case with function expressions.
+
 ## Return Statements
 
 The return statement stops the execution of a function and returns a value from that function
@@ -97,7 +103,7 @@ var totalPoints = addBonusPoints(55);
 // The variable totalPoints will now hold 60.5
 ```
 
-### Exiting a function
+### Exiting a Function
 
 We can also use the `return` statement to end function execution
 
