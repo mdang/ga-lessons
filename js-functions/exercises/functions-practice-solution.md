@@ -1,4 +1,4 @@
-## JavaScript Functions (Solutions)
+## Functions Practice (Solutions)
 
 ```js
 var words = ["hello", "what", "is", "up", "dude"];
