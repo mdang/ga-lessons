@@ -1,6 +1,6 @@
 # Accessing Data from an Object
 
-**10 min** - Pair Exercise
+**10 min**
 
 Below is a truncated version of WDI 10's cohort data. The `data` object is a grouping of key-value pairs that describes the class.  Take some time to study the structure and the data types within the data object. It's a bit more complex.
 
