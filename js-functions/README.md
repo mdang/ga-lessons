@@ -200,3 +200,7 @@ Callbacks are functions passed as arguments to other functions, to be executed a
 * `forEach()`
 * `setTimeout()`
 * `setInterval()`
+
+## Exercise
+
+[JavaScript Array Filter](./exercises/array-filter.md)
