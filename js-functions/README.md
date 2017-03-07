@@ -31,6 +31,10 @@ function sayHello() {
 }
 ```
 
+### Naming Conventions
+
+- camelCase
+
 ## Function Expressions 
 
 A **function expression** defines a function by producing a value that's stored in a variable.
