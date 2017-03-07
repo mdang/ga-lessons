@@ -101,12 +101,12 @@ var totalSum = sum(3, 4);
 
 ```js
 function addBonusPoints (score) {
-    if (score > 50) {
-        return score + (score * .10);
-                // if score is 50, then 60.5 will be returned
-    }
+  if (score > 50) {
+    // if score is 50, then 60.5 will be returned
+    return score + (score * .10);
+  }
 
-    return score;
+  return score;
 }
 
 var totalPoints = addBonusPoints(55);
