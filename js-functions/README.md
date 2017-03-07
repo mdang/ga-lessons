@@ -193,7 +193,7 @@ function shout(a, foo) {
 shout('world!', sayHello);
 ```
 
-### Callbacks
+## Callbacks
 
 Callbacks are functions passed as arguments to other functions, to be executed at another time. We frequently use callbacks when we have a process we want to run, but only at a certain time later. 
 
