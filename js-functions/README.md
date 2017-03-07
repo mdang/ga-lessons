@@ -203,4 +203,12 @@ Callbacks are functions passed as arguments to other functions, to be executed a
 
 ## Exercise
 
+**10 min**
+
 [JavaScript Array Filter](./exercises/array-filter.md)
+
+## Exercise
+
+**20 min**
+
+[Function Practice](./exercises/functions-practice.md)
