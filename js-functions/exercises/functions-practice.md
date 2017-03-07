@@ -1,4 +1,4 @@
-## JavaScript Functions
+## Functions Practice
 
 **20 min**
 
