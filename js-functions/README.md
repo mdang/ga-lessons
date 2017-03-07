@@ -17,7 +17,7 @@
 - A function can be thought of as a program within a larger program. They often perform small or repetitive tasks.
 - 'Function' is a term that comes out of mathematics. The basic idea of a function is simple — it's a relationship between a set of inputs and a set of outputs
 
-## Benefits of Using Functions
+## Benefits
 
 **Code Reuse** - "Don't Repeat Yourself" (DRY) is a principle of coding - keep your programs DRY! Reusing code makes it easier to change how your program works, since you only have to make updates in one place. If you find yourself writing the same code two or more times, a good rule of thumb is to move it into a function!
 
