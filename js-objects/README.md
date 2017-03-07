@@ -117,6 +117,12 @@ delete object.property      // Dot notation
 delete object['property']   // Bracket notation
 ```
 
+## Exercise
+
+**10 min**
+
+[Access Data](./exercises/access-data.md)
+
 ## Methods
 
 ```js
