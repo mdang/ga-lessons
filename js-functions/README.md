@@ -16,7 +16,7 @@
 
 A function can be thought of as a program within a larger program. They often perform small or repetitive tasks.
 
-'Function' is a term that comes out of mathematics. The basic idea of a function is simple — it's a relationship between a set of inputs and a set of outputs
+'Function' is a term that comes out of mathematics. The basic idea of a function is simple — it's a relationship between a set of inputs and a set of outputs.
 
 ## Why
 
