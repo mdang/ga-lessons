@@ -44,3 +44,23 @@ var errorAlert = function() {
    alert('Error!!');
 }
 ```
+
+## Arguments and Parameters
+
+```js
+// Bad
+var area = function () {
+  var width = 5;
+  var length = 3;
+  console.log(width * length);
+}
+
+area();
+
+// Good
+var area = function (width, height) {
+  console.log(width * length);
+}
+
+area(5, 3);
+```
