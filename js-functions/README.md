@@ -211,4 +211,4 @@ Callbacks are functions passed as arguments to other functions, to be executed a
 
 **20 min**
 
-[Function Practice](./exercises/functions-practice.md)
+[Functions Practice](./exercises/functions-practice.md)
