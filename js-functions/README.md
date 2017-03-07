@@ -178,9 +178,8 @@ It's very possible to have naming conflicts with global variables.
 - All functions are objects, however not all objects are functions
 - Referencing vs. invoking
 
-### Passing Functions as Arguments
-
 ```javascript
+// Passing a function as an argument
 function sayHello(name){
   return 'hello '+ name;
 }
