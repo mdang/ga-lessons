@@ -128,7 +128,9 @@ var rockAndRoll = function (muted) {
 rockAndRoll(true);
 ```
 
-## Function Scope
+## Scope
+
+The variable scope describes where in a program a variable can be seen. In other words, where it can be used.
 
 A variable that is declared outside a function definition is a **global** variable, and its value is accessible and modifiable throughout your program. A variable that is declared inside a function definition is **local**.
 
