@@ -16,6 +16,20 @@
 
 ## What
 
+An object is a **collection of key-value pairs** that all have some sort of relationship and are connected logically to one another. Below is an example of an object.
+
+```js
+// Literal Object Definition
+var car = {
+  wheels: 4,
+  topSpeed: 110,
+  currentSpeed: 0,
+  color: 'blue',
+  inWorkingOrder: true,
+  damage: ['chipped windshield','dented back left bumper', 'passenger window squeaks']
+}
+```
+
 ## Why
 
 From Eloquent JavaScript:
