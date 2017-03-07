@@ -79,7 +79,7 @@ In other words, you can call a function declaration before defining it, which is
 
 ## Return Statements
 
-The return statement stops the execution of a function and returns a value from that function
+The return statement stops the execution of a function and returns a value from that function.
 
 ```js
 // Here this function "spits out" the sum of the parameters x and y
@@ -111,7 +111,7 @@ var totalPoints = addBonusPoints(55);
 
 ### Exiting a Function
 
-We can also use the `return` statement to end function execution
+We can also use the `return` statement to end function execution.
 
 ```js
 var rockAndRoll = function (muted) {
@@ -127,3 +127,12 @@ var rockAndRoll = function (muted) {
 
 rockAndRoll(true);
 ```
+
+## Function Scope
+
+A variable that is declared outside a function definition is a **global** variable, and its value is accessible and modifiable throughout your program. A variable that is declared inside a function definition is **local**.
+
+- When we declare variables inside a function, those variables will only be accessible from within that function. This is known as scope.
+- By nature, variables declared and defined within a function are created and destroyed as soon as the function starts and stops.
+- When a variable is declared **outside a function**, it is referred to as a **global variable**. A global variable has global scope, which means *all scripts and functions on a web page can access it*.
+- When we have a variable with local scope, *it cannot be referenced outside of that function*.
