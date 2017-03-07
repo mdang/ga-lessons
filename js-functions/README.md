@@ -182,27 +182,21 @@ It's very possible to have naming conflicts with global variables.
 
 ```javascript
 function sayHello(name){
-	return 'hello '+ name;
+  return 'hello '+ name;
 }
 
 function shout(a, foo) {
-	alert(foo(a));
+  alert(foo(a));
 }
 
-shout('world!', sayHello);
 // alert box that says "hello world!"
+shout('world!', sayHello);
 ```
 
 ### Callbacks
 
-- Event driven programming
-
-> **QUESTION:** What are some times in real life that we have "event driven" actions programmed into our routines?
-
 - Callbacks are functions passed as arguments to other functions, to be executed at another time
 - We frequently use callbacks when we have a process we want to run, but only at a certain time later
-
-In class callback demos of: 
 
 * `map()`
 * `forEach()`
