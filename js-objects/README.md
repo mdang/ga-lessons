@@ -193,3 +193,7 @@ var classroom = {
 classroom.classInfo()
 => This is WDI and it starts on 1/1/2000
 ```
+
+## Exercise 
+
+[My Austin Food Truck](./exercises/my-austin-food-truck.md)
