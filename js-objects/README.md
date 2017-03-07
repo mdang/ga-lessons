@@ -64,7 +64,7 @@ function Classroom(name, numberOfStudents) {
 var wdi = new Classroom("WDI Austin", 22);
 ```
 
-### Object.create
+### Object.create()
 
 ```js
 var Person = {
@@ -83,3 +83,48 @@ person2.type = "Student";
 person2.displayType();
 => Student
 ```
+
+## Setting and Retrieving Properties 
+
+### Dot Notation
+
+```js
+var dog = {};
+
+// Setting a value
+dog.numberOfLegs = 4;
+
+// Retrieving a value
+var numberOfLegs = dog.numberOfLegs;
+```
+
+### Bracket Notation
+
+```js
+var dog = {};
+
+// Setting a value
+dog['name'] = 'Scruffy';
+
+// Retrieving a value
+var name = dog['name'];
+```
+
+## Methods
+
+```js
+var dog = {};
+
+// Within the object literal
+dog = {
+  bark: function() {
+    console.log('bark bark bark!');
+  }
+};
+
+// Using dot notation 
+dog.bark = function() {
+  console.log('bark bark bark!');
+};
+```
+
