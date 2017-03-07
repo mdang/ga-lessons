@@ -149,8 +149,6 @@ The interpreter creates local variables when it runs a function and removes them
 
 #### Global Variables
 
-Global variables, on the other hand, are stored in the processor's memory for as long as the page is loaded in the browser.
-
-As a result, global variables can be inefficient, because they will continue to take up memory space even when they are not actually in use.
+Global variables, on the other hand, are stored in the processor's memory for as long as the page is loaded in the browser. As a result, global variables can be inefficient, because they will continue to take up memory space even when they are not actually in use.
 
 It's very possible to have naming conflicts with global variables.
