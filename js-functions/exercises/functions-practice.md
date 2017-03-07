@@ -37,7 +37,3 @@ wordReverse("Now I know what a TV dinner feels like");
 wordReverse("Put Hans back on the line");
 # => "line the on back Hans Put"
 ```
-
-### Possible Solutions
-
-https://gist.github.com/mdang/3c49533f3db9fb18dad4193d94b2cf33
