@@ -21,10 +21,22 @@
 
 **Code Reuse** - "Don't Repeat Yourself" (DRY) is a principle of coding - keep your programs DRY! Reusing code makes it easier to change how your program works, since you only have to make updates in one place. If you find yourself writing the same code two or more times, a good rule of thumb is to move it into a function!
 
+Functions are especially useful because they enable a developer to segment large, unwieldy applications into smaller, more manageable pieces.
+
 ## Function Definitions
 
 ```js
 function sayHello() {
   console.log('hello');
+}
+```
+
+## Function Expressions 
+
+A **function expression** defines a function by producing a value that's stored in a variable.
+
+```js
+var errorAlert = function() {
+   alert('Error!!');
 }
 ```
