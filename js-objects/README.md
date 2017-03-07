@@ -110,6 +110,13 @@ dog['name'] = 'Scruffy';
 var name = dog['name'];
 ```
 
+### Removing Properties 
+
+```js
+delete object.property      // Dot notation
+delete object['property']   // Bracket notation
+```
+
 ## Methods
 
 ```js
