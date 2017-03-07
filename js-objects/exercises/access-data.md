@@ -1,26 +1,30 @@
 # Accessing Data from an Object
 
-Below is a truncated version of WDI 938's cohort data. The `data` object is a grouping of key-value pairs that describes the class.  Take some time to study the structure and the data types within the data object. It's a bit more complex.
+Below is a truncated version of WDI 10's cohort data. The `data` object is a grouping of key-value pairs that describes the class.  Take some time to study the structure and the data types within the data object. It's a bit more complex.
 
 ```javascript
 var data = {
 	school: "General Assembly",
 	city: "Austin",
 	course: "Web Development Immersive",
-	course_id: "WDI938",
+	course_id: "10",
 	classroom: "2",
 	students: [{
 		id: 124140,
-		lastName: "Silva",
-		firstName: "Greice"
+		lastName: "Jon",
+		firstName: "Franchi"
 	}, {
 		id: 421124,
-		lastName: "Arellano",
-		firstName: "Ricardo"
+		lastName: "Ronak",
+		firstName: "Singh"
 	}, {
 		id: 824544,
-		lastName: "Cusimano",
-		firstName: "Zach"
+		lastName: "Matthew",
+		firstName: "Tan"
+	}, {
+		id: 247821,
+		lastName: "Juli",
+		firstName: "Michelsen"
 	}]
 }
 
@@ -59,7 +63,7 @@ To access an array within an object,  the method is similar to accessing any oth
 The `data.students` array is now accessible by using `studentArray` instead. We can access the first array element using bracket notation:  `studentArray[0]` or `data.students[0]`.
 
 <details>
-  <summary>How would you access Zach's data from within the `data` object?</summary>
+  <summary>How would you access Matthew's data from within the `data` object?</summary>
   <p>
   ```javascript
     data.students[2]
@@ -68,7 +72,7 @@ The `data.students` array is now accessible by using `studentArray` instead. We 
 </details>
 
 <details>
-  <summary>How would you access Ricardo's student id?</summary>
+  <summary>How would you access Ronak's student id?</summary>
   <p>
   ```javascript
     data.students[1].id;
@@ -77,10 +81,10 @@ The `data.students` array is now accessible by using `studentArray` instead. We 
 </details>
 
 <details>
-  <summary>How would you access Greice's last name?</summary>
+  <summary>How would you access Juli's last name?</summary>
   <p>
   ```javascript
-    data.students[0].lastName;
+    data.students[3].lastName;
   ```
   </p>
 </details>
