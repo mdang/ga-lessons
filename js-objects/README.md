@@ -141,6 +141,12 @@ dog.bark = function() {
 };
 ```
 
+## Exercise
+
+**20 min**
+
+[JS Calculator](./exercises/js_calculator.md)
+
 ## Checking for Property Existence
 
 The `hasOwnProperty` method is useful for checking a property's existence on the object itself. It won't check the object's prototype for any inherited properties.
