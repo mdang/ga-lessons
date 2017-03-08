@@ -153,6 +153,15 @@ var link = document.getElementById('click-demo');
   });
 ```
 
+### Add with jQuery
+
+```js
+$('#myButton').click(function(evt){
+    console.log(evt);
+    //console.log(this);
+});
+```
+
 ## Event Delegation
 
 Event bubbling enables a tactic called event delegation - attaching an event listener to a parent element when we actually want to listen for events on its children.  
