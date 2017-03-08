@@ -137,6 +137,22 @@ So now that we know how important and common events are, how do we capture an ev
 </html>
 ```
 
+### Add Listener with Vanilla JS
+
+```html
+<a href="#" id=“click-demo">Click me</a>
+```
+
+```js
+var link = document.getElementById('click-demo');
+  link.addEventListener('click', function() {
+    alert('Good job one');
+  });
+  link.addEventListener('click', function() {
+    alert('Good job two');
+  });
+```
+
 ## Event Delegation
 
 Event bubbling enables a tactic called event delegation - attaching an event listener to a parent element when we actually want to listen for events on its children.  
