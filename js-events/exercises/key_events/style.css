@@ -1,0 +1,50 @@
+body {
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'PT Serif', serif;
+}
+
+h1 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-transform: uppercase;
+	font-size: 5rem;
+}
+
+input {
+	border: 2px solid #dadada;
+	border-radius: 0;
+	background-color: #fff;
+  font-size: 1.125rem;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	outline: none;
+	color: #222;
+	margin: 0 .8rem 1rem 0;
+	padding: .8rem 1rem;
+	transition: all .15s;
+	border-radius: 4px;
+}
+
+button {
+	display: inline-block;
+  padding: 0.8125rem 2rem;
+  border: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 3px;
+  color: white;
+  background-color: #fa4542;
+  box-shadow: 0 3px 0 0 #be0201;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}    
+
+/* -------------------------------------------
+Styles to apply with JS 
+--------------------------------------------- */
+.error {
+    border: 2px solid #fa4542;
+}
