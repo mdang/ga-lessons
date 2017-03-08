@@ -162,6 +162,10 @@ $('#myButton').click(function(evt){
 });
 ```
 
+## Event Object
+
+### Prevent Default Behavior 
+
 ## Event Delegation
 
 Event bubbling enables a tactic called event delegation - attaching an event listener to a parent element when we actually want to listen for events on its children.  
