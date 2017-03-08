@@ -38,6 +38,23 @@ DOM events allow us to create the rich and interactive web experiences that user
 
 ## Events Fired
 
+**We Do**
+What are the kinds of events we have access to? 
+> Google “html dom events”
+
+List examples of most common DOM events that they will be interested in. They don’t need to know all of them, but know that these are the kinds of events available to be captured.
+
+### Examples
+Examples of websites and event handlers in action
+
+Website       | Examples
+------------- | ---------------------------------
+amazon.com    | auto-complete, pick a department
+espn.com      | button click (login)
+[Bootstrap](https://blackrockdigital.github.io/startbootstrap-freelancer) | scrolling through theme 
+
+**We Do** Ask the class for one of their favorite websites, find some events being handled and ask students to identify from the list what event was being captured
+
 ![Click Event](http://i.giphy.com/l0HlL2I8DbNa6JCJa.gif)
 
 In Chrome, we can use the `monitorEvents` utility function to log some events occurring in the window:
@@ -69,9 +86,56 @@ You can see some of this information if you use [event listener breakpoints](htt
 
 ## Event Listeners
 
+So now that we know how important and common events are, how do we capture an event? We do this through event handlers, which are callback functions we assign to an event.
+
 ### Check DOM ready
 
+**Does not work**
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script type="text/javascript">
 
+    var elem = document.getElementById('heading');
+    elem.innerHTML = 'This is a different heading';
+
+  </script>
+</head>
+<body>
+  <h1 id="heading">This is the heading</h1>
+</body>
+</html>
+```
+
+**Works**
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript">
+
+    // jQuery worries about how to detect the DOM ready event across browsers
+    $(function() {
+      $('#heading').text('This is a different heading');
+    });
+
+    $(document).ready(function() {
+      // This is the long way of checking   
+    });
+
+  </script>
+</head>
+<body>
+  <h1 id="heading">This is the heading</h1>
+</body>
+</html>
+```
 
 ## Event Delegation
 
