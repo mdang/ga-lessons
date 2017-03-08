@@ -1,0 +1,220 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+
+/* Global
+   ================================================================ */
+body {
+  font-family: "Merriweather", serif;
+  width: 800px;
+  margin: auto;
+  text-align: left;
+  color: #222;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* Headings
+   ================================================================ */
+h1, h2 {
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: .03em;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+
+h2 {
+  font-size: 34px;
+  text-align: center;
+}
+
+
+
+
+/* Layout
+   ================================================================ */
+section {
+  margin-top: 40px;
+}
+
+img {
+  display: block;
+  margin: 30px auto;
+}
+
+/* Buttons
+   ================================================================ */
+button {
+  font-family: "Roboto", "Merriweather", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 4px;
+  outline: 0;
+  background-color: #f78fa7;
+  box-shadow: inset 0 -3px rgba(0, 0, 0, .15);
+}
+
+
+/* Dropdowns
+   ================================================================ */
+.dropdowns {
+  min-height: 275px;
+}
+
+.dropdowns ul {
+  overflow: hidden;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: -3px;
+  padding: 0;
+  border: 2px solid #dfdfdf;
+}
+
+
+.dropdowns li {
+  padding: 10px;
+}
+
+.dropdowns li:hover {
+  background-color: #dfdfdf;
+}
+
+/* Boxes
+   ================================================================ */
+.boxes {
+  text-align: center;
+}
+
+.box {
+  font-size: 18px;
+  line-height: 80px;
+  display: inline-block;
+  margin: 1%;
+  padding: 0 20px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #05f2db;
+  overflow: hidden;
+}
+
+.box p {
+  margin: 0;
+}
+
+.crazy {
+  color: red;
+  border: 2px dotted red;
+}
+
+/* FAQs
+   ================================================================ */
+.faqs {
+  margin-bottom: 80px;
+}
+
+.faqs ul {
+  margin-top: 30px;
+}
+
+.faqs li {
+  width: 100%;
+}
+
+.faqs li:nth-child(odd) {
+  font-family: "Roboto", "Merriweather", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 48px;
+  margin: 0;
+  padding: 0 1em;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-bottom: 2px solid #cdcdcd;
+  background: #e5e5e5;
+}
+
+.faqs li:nth-child(even) {
+  line-height: 50px;
+  margin: 0;
+  padding-left: 1em;
+}
+
+.faqs li.active {
+  background-color: #ffd800;
+}
+
+/* Your CSS goes here!
+   ================================================================ */
+.fun {
+  /* Add your styles here! background-color and color for fonts (and other styles if you'd like!) */
+}
+
+
+body {
+  text-align: center;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #05F2DB;
+  display: inline-block;
+}
+
+
+
+input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: 2px solid #dfdfdf;
+  width: 300px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.fa {
+  font-size: 20px;
+}
+
+#loading {
+  display: none;
+}

@@ -1,0 +1,22 @@
+body {
+	text-align: center;
+	margin-top: 5rem;
+}
+
+button {
+	display: inline-block;
+  padding: 0.8125rem 2rem;
+  border: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 3px;
+  color: white;
+  background-color: #fa4542;
+  box-shadow: 0 3px 0 0 #be0201;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  outline: none;
+}    

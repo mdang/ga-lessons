@@ -1,0 +1,49 @@
+body {
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'PT Serif', serif;
+	padding: 0 0 3rem;
+	color: #333;
+}
+
+h1 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-transform: uppercase;
+	font-size: 5rem;
+}
+
+ul {
+	opacity: 0;
+	list-style: none;
+	padding-left: 0;
+	max-width: 400px;
+	margin: 3rem auto;
+	transition: opacity .3s ease-in-out;
+}
+
+.show-comments {
+	opacity: 1;
+}
+
+li {
+	padding: 1.2rem 0;
+	border-top: 2px solid #888;
+}
+li:last-of-type {
+	border-bottom: 2px solid #888;
+}
+
+p {
+	max-width: 600px;
+	margin: 0 auto 1rem;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 2px solid #888;
+	padding-bottom: 3px;
+	color: #3C4A53;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}

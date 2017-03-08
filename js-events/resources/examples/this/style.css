@@ -1,0 +1,12 @@
+body {
+	text-align: center;
+	margin-top: 5rem;
+}
+
+.circle {
+  display: inline-block;
+  background-color: #72EBD8;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
