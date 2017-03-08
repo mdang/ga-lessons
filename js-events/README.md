@@ -36,7 +36,7 @@ Actions that are generally out of our control like user interactions and web pag
 
 DOM events allow us to create the rich and interactive web experiences that users have come to expect in today's websites.
 
-## Events are always happening!
+## Events Fired
 
 ![Click Event](http://i.giphy.com/l0HlL2I8DbNa6JCJa.gif)
 
@@ -66,3 +66,61 @@ Events tell us a lot of information. For example, a "click" event includes not j
 	* Time (timestamp) when it happened.
 
 You can see some of this information if you use [event listener breakpoints](https://developers.google.com/web/tools/chrome-devtools/javascript/add-breakpoints#events) when looking at events in the Chrome JavaScript console.
+
+## Event Listeners
+
+### Check DOM ready
+
+
+
+## Event Delegation
+
+Event bubbling enables a tactic called event delegation - attaching an event listener to a parent element when we actually want to listen for events on its children.  
+
+This is most useful when the children aren't there when the page loads. It's impossible to attach an event listener to something that doesn't exist yet!
+
+Let's add a box 3 seconds after the DOM is ready to simulate content that we might have to wait for, like user input or results from an external API.
+
+We'll try to attach an event handler to it directly, as soon as the DOM is ready.
+
+We might try:
+`app.js`
+
+```js
+$(document).ready(function(){
+    // ...
+    window.setTimeout(addBox, 3000);
+    $(".box").on("click", toggleLongBox);
+});
+
+function addBox(){
+    console.log("adding a box!");
+    newBox = $('<div class="box"></div>');
+    $('#box-container').prepend(newBox);
+}
+
+function toggleLongBox(event){
+    $(this).toggleClass("long-box");
+}
+```
+
+The box doesn't respond to clicks because we tried to add the event listener too early!
+
+A common strategy is to add the event listener that _will contain_ the elements when they exist. Usually, developers add a special container in the HMTL. We have a div set up with id `"box-container"`.
+
+The `.on` method of jQuery conveniently lets us add an argument to specify which child elements should respond to an event if their parent is listening.
+
+`app.js`
+
+```js
+$(document).ready(function(){
+    // ...
+    window.setTimeout(addBox, 3000);
+    // $(".box").on("click", toggleLongBox);  // didn't work!
+    $("#box-container").on("click", ".box", toggleLongCon);
+});
+
+function toggleLongCon(event){
+    $(event.target).toggleClass("long-box");
+}
+```
