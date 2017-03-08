@@ -36,3 +36,33 @@ Actions that are generally out of our control like user interactions and web pag
 
 DOM events allow us to create the rich and interactive web experiences that users have come to expect in today's websites.
 
+## Events are always happening!
+
+![Click Event](http://i.giphy.com/l0HlL2I8DbNa6JCJa.gif)
+
+In Chrome, we can use the `monitorEvents` utility function to log some events occurring in the window:
+
+```js
+monitorEvents(window, ["click", "keypress", "resize", "scroll"]);
+```
+
+Here's a larger list of DOM event types:
+
+* `click`
+* `mouseenter`, `mouseleave`
+* `load`
+* `DOMContentLoaded`
+* `keydown`, `keypress`, `keyup`
+* `scroll`
+* `resize`
+* `change`
+
+> Note: some events can only be listened to by certain DOM elements. Check documentation.
+
+Events tell us a lot of information. For example, a "click" event includes not just the fact that a "click" occurred but also where, when and what was clicked:
+
+	* `x` and `y` screen coordinates.
+	* DOM element that got clicked.
+	* Time (timestamp) when it happened.
+
+You can see some of this information if you use [event listener breakpoints](https://developers.google.com/web/tools/chrome-devtools/javascript/add-breakpoints#events) when looking at events in the Chrome JavaScript console.
