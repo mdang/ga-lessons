@@ -30,5 +30,9 @@
 
 ## What
 
+Actions that are generally out of our control like user interactions and web pages being fully loaded result in DOM events to give developers a chance to respond to them. Event handlers are functions that capture these events and take action on them.
+
 ## Why
+
+DOM events allow us to create the rich and interactive web experiences that users have come to expect in today's websites.
 
