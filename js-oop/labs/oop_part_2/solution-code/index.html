@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Build your car!</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Template for vehicle options -->
+  <script id="vehicle-options-template" type="text/x-handlebars-template">
+    <div class="col-md-6 vehicle-option {{choice}}" data-panel="vehicle" data-price="{{price}}" data-option="{{choice}}"></div>
+  </script>
+
+  <!-- Template for color options -->
+  <script id="color-options-template" type="text/x-handlebars-template">
+    <div class="col-xs-3 panel-body color-option {{choice}}" data-panel="color" data-price="{{price}}" data-option="{{choice}}"></div>
+  </script>
+
+  <!-- Template for package options -->
+  <script id="package-options-template" type="text/x-handlebars-template">
+    <div class="panel panel-default">
+      <div class="panel-heading package-option" data-panel="package"data-price="{{price}}" data-option="{{choice}}">{{choice}}</div>
+    </div>
+  </script>
+
+  <!-- Template to display the summary -->
+  <script id="summary-options-template" type="text/x-handlebars-template">
+    <div class="summary-option">
+      <ul>
+        <li><strong>Vehicle</strong> &mdash; <span>{{vehicle.choice}}</span>: ${{vehicle.price}}</li>
+        <li><strong>Color</strong> &mdash; <span>{{color.choice}}</span>: ${{color.price}}</li>
+        <li><strong>Package</strong> &mdash; <span>{{package.choice}}</span>: ${{package.price}}</li>
+      </ul>
+    </div>
+  </script>
+
+  <div class="container-fluid">
+    <div class="row app-container">
+
+      <div class="col-md-4 options-container">
+        <!-- build a car navigation -->
+        <ul class="nav nav-tabs nav-justified navigation">
+          <li data-tab="vehicle" class="active"><a class="text-warning" href="#">1. Vehicle</a></li>
+          <li data-tab="color"><a class="text-warning" href="#">2. Color</a></li>
+          <li data-tab="package"><a class="text-warning" href="#">3. Packages</a></li>
+          <li data-tab="summary"><a class="text-warning" href="#">4. Summary</a></li>
+        </ul>
+
+        <!-- color options -->
+        <div id="options-display">
+        </div>
+
+        <!-- footer -->
+        <div class="col-md-4 navbar-fixed-bottom">
+          <h1 class="cost">Cost: <span class="cost-display"></span></h1>
+        </div>
+      </div>
+
+      <div class="col-md-8 demo-container">
+        <img class="col-md-12 vehicle-display" src="">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

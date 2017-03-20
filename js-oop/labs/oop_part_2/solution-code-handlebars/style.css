@@ -1,0 +1,167 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.app-container {
+  height: 100vh;
+}
+
+.navigation {
+  margin-bottom: 5%;
+}
+
+.options-container {
+  height: 100vh;
+  min-height: 400px;
+  position: relative;
+  padding: 20px 0 0;
+  border-right: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.demo-container {
+  height: 100vh;
+  min-height: 400px;
+}
+
+.navbar-fixed-bottom {
+  background-color: white;
+}
+
+
+.color-option {
+  cursor: pointer;
+  margin: 20px 2.5%;
+  border: 1px solid #ddd;
+}
+
+.color-option:first-of-type {
+  margin-left: 6%;
+}
+
+
+.black {
+  background-color: #00031E;
+}
+
+.white {
+  background-color: #FFFFFF;
+}
+
+.silver {
+  background-color: #828387;
+}
+
+
+.cadenza,
+.cadenza-black {
+  background: url('assets/cadenza-black.jpg');
+}
+
+.cadenza-silver {
+  background: url('assets/cadenza-silver.jpg');
+}
+
+.cadenza-white {
+  background: url('assets/cadenza-silver.jpg');
+}
+
+.forte-black {
+  background: url('assets/forte-black.jpg');
+}
+
+.forte,
+.forte-white {
+  background: url('assets/forte-white.jpg');
+}
+
+.forte-silver {
+  background: url('assets/forte-silver.jpg');
+}
+
+.optima-black {
+  background: url('assets/optima-black.jpg');
+}
+
+.optima-white {
+  background: url('assets/optima-white.jpg');
+}
+
+.optima,
+.optima-silver {
+  background: url('assets/optima-silver.jpg');
+}
+
+.sedona,
+.sedona-black {
+  background: url('assets/sedona-black.jpg');
+}
+
+.sedona-white {
+  background: url('assets/sedona-white.jpg');
+}
+
+.sedona-silver {
+  background: url('assets/sedona-silver.jpg');
+}
+
+.soul-black {
+  background: url('assets/soul-black.jpg');
+}
+
+.soul,
+.soul-white {
+  background: url('assets/soul-white.jpg');
+}
+
+.soul-silver {
+  background: url('assets/soul-silver.jpg');
+}
+
+
+.vehicle-option {
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.vehicle-display {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.package-option {
+  cursor: pointer;
+}
+
+.cost {
+  display: inline;
+}
+
+.price-anchor {
+  font-weight: bold;
+  font-size: 4rem;
+  margin-left: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.summary-option ul {
+  padding-left: 15px;
+}
+
+.summary-option li {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+
+li span {
+  text-transform: capitalize;
+}
