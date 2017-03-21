@@ -1,10 +1,10 @@
-#Bodyshop Part 2
+# Bodyshop Part 2
 
 Cars are great and all, but now it's time to extend this system and make it handle more types of vehicles.
 
 ## Requirements
 
-###Part 1 &mdash; Trucks
+### Part 1 &mdash; Trucks
 
 Create a new constructor called `Truck` that inherits `Car`.
 
@@ -22,7 +22,7 @@ Your `Truck` constructor should meet the following requirements.
   * passengers
 * Must default to 3 seats.
 
-###Part 2 -- Motorcycles
+### Part 2 -- Motorcycles
 
 Create a new constructor called `Motorcycle` that inherits your `Car` constructor.
 
