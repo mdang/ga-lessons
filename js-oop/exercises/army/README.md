@@ -1,6 +1,6 @@
 # Create your own Army
 
-You are going to take over the JavaScript world with a new army of Soldier objects.
+You are going to take over the JavaScript world with a new army of `Soldier` objects.
 
 Create a new soldier constructor function that allows you to create soldiers.
 
