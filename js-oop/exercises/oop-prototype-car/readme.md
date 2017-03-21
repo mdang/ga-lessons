@@ -2,7 +2,7 @@
 
 The idea of this lab is to get you comfortable with Object Oriented Programming (OOP) in JavaScript. By the end you should be comfortable working with objects and writing prototypes.
 
-##Requirements
+## Requirements
 
 We need a prototype for a car. Can you help us with your sweet JavaScript skills?
 
