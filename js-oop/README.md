@@ -532,6 +532,27 @@ Methods can also access properties within the object with the `this` identifier 
 
 ***
 
+## Exercise: Soldiers
+
+- 15 min
+
+[Create soldier objects](./exercises/army/readme.md)
+
+***
+
+## We Do: Adding Armies to Soldiers
+
+- Take the code for soldiers
+- Switch to files 
+  * js/army.js
+  * js/soldier.js
+  * js/main.js
+- Now we will add armies in addition to soldiers
+
+[Solution](./exercises/army_extended/)
+
+***
+
 <a name="modeling-flowers"></a>
 ## Independent Practice: Modeling Flowers (15 mins)
 
