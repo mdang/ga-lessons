@@ -1,0 +1,58 @@
+body {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: block;
+	width: 540px;
+	margin: 30px auto 0;
+	border-radius: 4px;
+	padding: 20px;
+	border: 4px solid #dfdfdf;
+}
+
+
+input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: 2px solid #dfdfdf;
+  width: 300px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+
+button {
+  font-family: "Roboto", "Merriweather", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 300px;
+  margin: 30px auto;
+  padding: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 4px;
+  outline: 0;
+  background-color: #f78fa7;
+  box-shadow: inset 0 -3px rgba(0, 0, 0, .15);
+}
+
+p {
+	margin-bottom: 40px;
+}
+
+
+img {
+  display: block;
+  margin: 20px auto;
+}
