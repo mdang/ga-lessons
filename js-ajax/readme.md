@@ -74,6 +74,16 @@ Values can be:
 - Use `search` endpoint to access data
 - Take data and output to the page with `text` or `html`
 
+***
+
+Exercise: Experiment with the Giphy API
+
+**15 min**
+
+- Try out the trending gifs API or another endpoint of your choice 
+
+***
+
 ## Same Origin Policy 
 
 - cors
