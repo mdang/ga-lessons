@@ -9,22 +9,25 @@
 
 ## How Web Requests Work
 - Diagram of web requests 
-- Client/Server model
+- Client/server model
 - Response codes
-- Chrome network tab
+- Chrome network tab to see network requests and status codes
 
 ## Ajax
 
 ### Advantages 
+
 - faster
-- separate front-end vs back-end
+- keep front-end vs back-end separate
 
 ### Disadvantages
+
 - js disabled
 - back button disabled
+- search engine optimization, crawlers
 - ui considerations
 
-#### Show examples of sites (Amazon autocomplete, Trello, GitHub registering)
+#### Show examples of sites (Amazon autocomplete, Trello boards, GitHub registering)
 
 ***
 
