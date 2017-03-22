@@ -76,7 +76,7 @@ Values can be:
 
 ***
 
-Exercise: Experiment with the Giphy API
+## Exercise: Experiment with the Giphy API
 
 **15 min**
 
