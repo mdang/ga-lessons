@@ -536,7 +536,7 @@ Methods can also access properties within the object with the `this` identifier 
 
 - 15 min
 
-[Create soldier objects](./exercises/army/readme.md)
+[Create soldier objects](./exercises/army/README.md)
 
 ***
 
