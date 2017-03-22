@@ -84,7 +84,7 @@ Values can be:
 
 ## Exercise: Google Books API
 
-**15 min**
+**20 min**
 
 [Google Books API Exercise](./exercises/googleapis)
 
