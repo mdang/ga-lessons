@@ -7,10 +7,23 @@
 - Implement an AJAX request to fetch data from an API.
 - Demonstrate the ability to read API documentation.
 
-
 ## Why we want to use API's
 
 - Show examples of sites (Amazon autocomplete, Trello, GitHub registering)
+
+## How Web Requests Work
+- Diagram of web requests 
+- Client/Server model
+- Response codes
+- Chrome network tab
+
+***
+
+Turn and Talk: 
+
+- With the person next to you, come up with 2 examples from sites you visit everyday that use AJAX
+
+***
 
 ## Ajax
 
@@ -22,12 +35,6 @@
 - js disabled
 - back button disabled
 - ui considerations
-
-## How Web Requests Work
-- Diagram of web requests 
-- Client/Server model
-- Response codes
-- Chrome network tab
 
 ## JSON
 
