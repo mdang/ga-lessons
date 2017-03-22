@@ -59,7 +59,11 @@ Can be:
 ## We Do 
 - Giphy API 
 
+## Same Origin Policy 
 
+- cors
+- jsonp
+- server side proxy
 
 ***
 
