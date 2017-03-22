@@ -13,14 +13,6 @@
 - Response codes
 - Chrome network tab
 
-***
-
-Turn and Talk: 
-
-- With the person next to you, come up with 2 examples from sites you visit everyday that use AJAX
-
-***
-
 ## Ajax
 
 ### Advantages 
@@ -32,9 +24,20 @@ Turn and Talk:
 - back button disabled
 - ui considerations
 
+#### Show examples of sites (Amazon autocomplete, Trello, GitHub registering)
+
+***
+
+Turn and Talk: 
+
+- With the person next to you, come up with 2 examples from sites you visit everyday that use AJAX
+
+***
+
 ## Why we want to use API's
 
-- Show examples of sites (Amazon autocomplete, Trello, GitHub registering)
+- Why would we as developers use them
+- Why would companies develop them
 
 ## JSON
 
