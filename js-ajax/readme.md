@@ -1,4 +1,4 @@
-# Ajax & API's
+# Ajax
 
 ### Learning Objectives
 
