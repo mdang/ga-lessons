@@ -2,11 +2,44 @@
 
 ### Learning Objectives
 
+- Describe APIs and identify common use cases.
+- Describe AJAX and list the advantages and disadvantages of using AJAX.
+- Implement an AJAX request to fetch data from an API.
+- Demonstrate the ability to read API documentation.
+
+
+## Why we want to use API's
+
+- Show examples of sites (Amazon autocomplete, Trello, GitHub registering)
+
+## Ajax
+
+### Advantages 
+- faster
+- separate front-end vs back-end
+
+### Disadvantages
+- js disabled
+- back button disabled
+- ui considerations
+
+## How Web Requests Work
+- Chrome network tab
+- Diagram of web requests 
+
+## JSON
+
+## AJAX with jQuery
+
+## Reading Documentation
+- Giphy API 
+
+## We Do 
+- Giphy API 
+
 
 
 ***
-
-Exercise: Google Books
 
 ## Independent Practice - Making an API Call (10 mins)
 
