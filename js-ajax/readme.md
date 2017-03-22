@@ -31,6 +31,16 @@
 
 ## JSON
 
+Can be: 
+
+- string
+- number
+- (JSON) object
+- array
+- true
+- false
+- null
+
 ## AJAX with jQuery
 
 ## Reading Documentation
