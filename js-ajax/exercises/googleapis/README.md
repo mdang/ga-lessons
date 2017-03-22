@@ -11,4 +11,5 @@ View the results in the console.
 
 ## Bonus
 
-Output the results you obtain from Ajax onto the webpage by manipulating the DOM with jQuery's `text` or `html` methods.
+* Output the results you obtain from Ajax onto the webpage by manipulating the DOM with jQuery's `text` or `html` methods
+* Refactor the request URL so that we add in any query parameters through the `data` option through the `$.ajax` method call
