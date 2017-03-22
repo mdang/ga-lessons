@@ -26,6 +26,7 @@
 ## How Web Requests Work
 - Chrome network tab
 - Diagram of web requests 
+- Client/Server model
 
 ## JSON
 
