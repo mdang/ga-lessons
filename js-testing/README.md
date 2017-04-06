@@ -18,3 +18,11 @@
   * Deploy with confidence. Companies like uShip can have developers contribute to production code on day 1 with confidence 
   * For large systems, it's nearly impossible for any single developer/team to know how all the pieces fit together. [Blind men and an elephant](https://en.wikipedia.org/wiki/Blind_men_and_an_elephant). We need testing to ensure one team doesn't break something else from another team 
   * Automate testing with CI 
+
+- Unit Testing 
+
+- Acceptance/Integration Testing
+
+- TDD 
+
+- BDD 
