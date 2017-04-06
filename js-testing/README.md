@@ -19,15 +19,19 @@
   * For large systems, it's nearly impossible for any single developer/team to know how all the pieces fit together. [Blind men and an elephant](https://en.wikipedia.org/wiki/Blind_men_and_an_elephant). We need testing to ensure one team doesn't break something else from another team 
   * Automate testing with CI 
 
-- Unit Testing 
+- **Unit Testing**
 
-- Acceptance/Integration Testing
+- **Acceptance/Integration Testing**
 
-- TDD 
+- **TDD**
   * Engineering focused, specific to bits of functionality
     1. Write tests that fail 
     2. Write code that makes the test pass
     3. Refactor code 
     4. Add more tests as needed 
 
-- BDD 
+- **BDD** 
+
+- Considerations for BDD vs TDD 
+  * TDD is very popular, but consider where the company is. If you're a startup, you're more likely to need to shift/pivot very frequently and you'll be writing more throw away code. TDD takes time. When your product starts becoming more solid or you're developing a version 2 product, consider going with TDD in my opinion 
+  * BDD is relevant for stakeholders and tests the bigger picture. This might be more appropriate to start off with
