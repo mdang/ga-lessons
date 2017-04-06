@@ -24,5 +24,10 @@
 - Acceptance/Integration Testing
 
 - TDD 
+ - Engineering focused, specific to bits of functionality
+  1. Write tests that fail 
+  2. Write code that makes the test pass
+  3. Refactor code 
+  4. Add more tests as needed 
 
 - BDD 
