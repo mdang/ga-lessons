@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- set viewport to device width to make site responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- bootstrap css -->
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- custom styles -->
+  <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+
+  <title>Express To Do App</title>
+</head>
+<body>
+
+  <!-- header -->
+  <div class="well">
+    <div class="container">
+      <div class="page-header">
+        <h1>To Do <small>get it done!</small></h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- page content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+        <!-- new todo form-->
+        <form class="form-inline" id="create-todo">
+          <div class="form-group">
+            <input type="text" name="task" class="form-control" placeholder="Task" autofocus>
+          </div>
+          <div class="form-group">
+            <input type="text" name="description" class="form-control" placeholder="Description">
+          </div>
+          <div class="form-group">
+            <input type="submit" class="btn btn-default" value="Add To Do">
+          </div>
+        </form>
+        <br>
+
+        <!-- list of todos -->
+        <ul class="list-group" id="todos-list">
+
+          <!-- handlebars template -->
+          <script id="todos-template" type="text/x-handlebars-template">
+            {{#each todos}}
+              <li class="list-group-item todo" data-id="{{_id}}">
+
+                <!-- todo label (task) -->
+                <span class="label label-default">{{task}}</span>
+
+                <!-- todo description -->
+                {{description}}
+
+                <div class="pull-right">
+                  <!-- pencil icon to toggle update form -->
+                  <a href="javascript:void(0)" data-toggle="collapse" data-target="#update-{{_id}}">
+                    <span class="glyphicon glyphicon-pencil"></span>
+                  </a>
+
+                  <!-- trash can icon to delete todo -->
+                   <a href="javascript:void(0)" class="delete-todo">
+                    <span class="glyphicon glyphicon-trash"></span>
+                  </a>
+                </div>
+
+                <!-- form to update todo -->
+                <div class="collapse" id="update-{{_id}}">
+                  <br>
+                  <form class="form-inline update-todo">
+                    <div class="form-group">
+                      <input type="text" name="task" class="form-control" placeholder="Task" value="{{task}}">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" name="description" class="form-control" placeholder="Description" value="{{description}}">
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" class="btn btn-block btn-default" value="Update">
+                    </div>
+                  </form>
+                </div>
+              </li>
+            {{/each}}
+          </script>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- jquery -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!-- handlebars -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.min.js"></script>
+
+  <!-- custom script -->
+  <script type="text/javascript" src="scripts/app.js"></script>
+</body>
+</html>

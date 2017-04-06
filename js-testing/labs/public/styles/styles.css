@@ -1,0 +1,14 @@
+h1 {
+  margin-top: 40px;
+}
+.pull-right a {
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  margin: 3px 5px 0 0;
+  opacity: 0.2;
+}
+.pull-right a:hover {
+  color: #000;
+  opacity: 0.5;
+}
