@@ -37,6 +37,9 @@
     4. Add more tests as needed 
 
 - **BDD** 
+    * BDD focuses on the behavioural aspect of the system rather than the implementation aspect of the system that TDD focuses on.
+    * BDD gives a clearer understanding as to what the system should do from the perspective of the developer and the customer. TDD only gives the developer an understanding of what the system should do.
+    * BDD allows both the developer and the customer to work together to on requirements analysis that is contained within the source code of the system.
 
 - Considerations for BDD vs TDD 
   * TDD is very popular, but consider where the company is. If you're a startup, you're more likely to need to shift/pivot very frequently and you'll be writing more throw away code. TDD takes time. When your product starts becoming more solid or you're developing a version 2 product, consider going with TDD in my opinion 
