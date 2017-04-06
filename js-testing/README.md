@@ -18,6 +18,10 @@
   * Deploy with confidence. Companies like uShip can have developers contribute to production code on day 1 with confidence 
   * For large systems, it's nearly impossible for any single developer/team to know how all the pieces fit together. [Blind men and an elephant](https://en.wikipedia.org/wiki/Blind_men_and_an_elephant). We need testing to ensure one team doesn't break something else from another team 
   * Automate testing with CI 
+- Why does everyone not write tests and do TDD? 
+  * Clients often don't want to pay for it if being billed hourly. "Oh, you wouldn't just do the job right the first time?"
+  * Promotional websites that don't last too long
+  * Startup who is unsure about product and testing waters 
 
 - **Unit Testing**
 
