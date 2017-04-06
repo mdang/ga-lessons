@@ -25,6 +25,8 @@
 
 - **TDD**
   * Engineering focused, specific to bits of functionality
+  * Test-coverage refers to the percentage of your code that is tested automatically, so a higher number is better
+  * Steps:
     1. Write tests that fail 
     2. Write code that makes the test pass
     3. Refactor code 
