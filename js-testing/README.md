@@ -12,7 +12,8 @@
 ## Outline
 
 - History of testing 
-  * Manual testing of websites, downsides 
+  * Manual testing of websites, downsides. Experience with Tribal DDB and our QA process
+  * Need way of catching developers when they deploy code and not find out from consumers something is broken 
 - Discuss why testing is important 
   * Deploy with confidence. Companies like uShip can have developers contribute to production code on day 1 with confidence 
   * For large systems, it's nearly impossible for any single developer/team to know how all the pieces fit together. [Blind men and an elephant](https://en.wikipedia.org/wiki/Blind_men_and_an_elephant). We need testing to ensure one team doesn't break something else from another team 
