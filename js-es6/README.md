@@ -27,8 +27,6 @@ https://webpack.github.io/
 
 ### String Updates
 
-Template strings provide syntactic sugar for constructing strings. This is similar to string interpolation features in Perl, Python and more.
-
 #### Multi-line Strings
 
 ```js
@@ -62,20 +60,20 @@ var name = "Sam", age = 71;
 ```js
 // ES6
 var name = "bob", age = 71;
-`Hellow my name is ${name} and I'm ${age} years old!`
+`Hello my name is ${name} and I'm ${age} years old!`
 ```
 
 #### New String Methods
 
 ```js
-//ES5
+// ES5
 var string = 'food';
 var substring = 'foo';
 
 console.log(string.indexOf(substring) > -1);
 ```
 ```js
-//ES6
+// ES6
 const string = 'food';
 const substring = 'foo';
 
@@ -83,7 +81,7 @@ console.log(string.includes(substring));
 ```
 
 ```js
-//ES5
+// ES5
 function repeat(string, count) {
     var strings = [];
     while(strings.length < count) {
@@ -94,7 +92,7 @@ function repeat(string, count) {
 ```
 
 ```js
-//ES6
+// ES6
 // String.repeat(numberOfRepetitions)
 'meow'.repeat(3); // 'meowmeowmeow'
 ```
@@ -259,7 +257,7 @@ function Oven () {
 }
 ```
 
-> Best practice is to use arrow functions whenever you need to preserve the lecical value of `this`.
+> Best practice is to use arrow functions whenever you need to preserve the value of `this`.
 
 ### Object Enhancements
 
@@ -286,11 +284,11 @@ let firstName = 'Mike';
 let lastName = 'Jones';
 
 let person = { 
-	firstName, 
-	lastName,
-	sayHello() {
-		console.log('I am saying hello');
-	}
+  firstName, 
+  lastName,
+  sayHello() {
+    console.log('I am saying hello');
+  }
 };
 
 person.sayHello();
@@ -301,14 +299,14 @@ person.sayHello();
 ```js
 // ES5
 function addTwoNumbers(x, y) {
-    x = x || 0;
-    y = y || 0;
-    return x + y;
+  x = x || 0;
+  y = y || 0;
+  return x + y;
 }
 
 // ES6
 function addTwoNumbers(x=0, y=0) {
-    return x + y;
+  return x + y;
 }
 
 addTwoNumbers(2, 4); // 6
@@ -375,6 +373,7 @@ class Rectangle extends Polygon {
     super(height, width);
     this.name = 'Rectangle';
   }
+  
   // Here, sayName() is a subclassed method which
   // overrides their superclass method of the same name.
   sayName() {
@@ -394,7 +393,7 @@ let second = [4, 5, 6];
 console.log(...first);
 
 function add(a, b, c) {
-	return a + b + c;
+  return a + b + c;
 }
 
 console.log(add(...second));
@@ -448,16 +447,16 @@ console.log(bar); // undefined
 // ES6
 // Only interested in the `color` property of this array
 var { color } = {
-	color: 'blue',
-	up: 'sky'
+  color: 'blue',
+  up: 'sky'
 }
 
 console.log(color);
 
 // Interested in two properties
 var { color, up } = {
-	color: 'blue',
-	up: 'sky'
+  color: 'blue',
+  up: 'sky'
 }
 
 console.log(color);
