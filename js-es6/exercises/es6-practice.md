@@ -18,6 +18,15 @@ var li = '<li>' +
 '</li>';
 ```
 
+```js
+var lilBoy     = "Hogarth";
+var vinDiesel  = "Iron Giant";
+var friendship = "best friends";
+
+console.log("At first the " + vinDiesel + " worried " + lilBoy + ", but he " +
+            "quickly realized they were " + friendship.toUpperCase() + "!");
+```
+
 #### Arrow Functions 
 
 Convert the following to arrow functions
