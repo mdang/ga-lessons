@@ -27,42 +27,6 @@ console.log("At first the " + vinDiesel + " worried " + lilBoy + ", but he " +
             "quickly realized they were " + friendship.toUpperCase() + "!");
 ```
 
-### Arrow Functions 
-
-Convert the following to arrow functions
-
-```js
-function multiply(num1, num2) {
-  return num1 * num2;
-}
-
-function toCelsius(fahrenheit) {
-  return (5/9) * (fahrenheit-32);
-}
-
-// This function returns a string padded with leading zeros
-function padZeros(num, totalLen) {
-  var numStr = num.toString();             
-  var numZeros = totalLen - numStr.length; 
-  for (var i = 1; i <= numZeros; i++) {
-    numStr = "0" + numStr;
-  }
-  return numStr;
-}
-
-function power(base, exponent) {
-  var result = 1;
-  for (var i = 0; i < exponent; i++) {
-    result *= base;
-  }
-  return result;
-}
-
-function greet(who) {
-  console.log("Hello " + who);
-}
-```
-
 ### Block Scope 
 
 ```js
@@ -137,5 +101,60 @@ callbacks[2]()
 
 // Source: http://marijnhaverbeke.nl/talks/es6_falsyvalues2015/exercises/#Closing_over_scope
 ```
+
+### Arrow Functions 
+
+Convert the following to arrow functions
+
+```js
+function multiply(num1, num2) {
+  return num1 * num2;
+}
+
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+}
+
+// This function returns a string padded with leading zeros
+function padZeros(num, totalLen) {
+  var numStr = num.toString();             
+  var numZeros = totalLen - numStr.length; 
+  for (var i = 1; i <= numZeros; i++) {
+    numStr = "0" + numStr;
+  }
+  return numStr;
+}
+
+function power(base, exponent) {
+  var result = 1;
+  for (var i = 0; i < exponent; i++) {
+    result *= base;
+  }
+  return result;
+}
+
+function greet(who) {
+  console.log("Hello " + who);
+}
+```
+
+#### Challenge
+
+```js
+var lydia = {
+  esp: function() {
+    this.friends = '';
+    var spookyGirl = this;
+    setImmediate(function() {
+      spookyGirl.friends = "ghosts";
+      console.log(spookyGirl.friends)
+    });
+  }
+};
+
+lydia.esp();
+```
+
+
 
 
