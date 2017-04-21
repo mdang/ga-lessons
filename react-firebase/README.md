@@ -7,6 +7,6 @@
 - Read data from Firebase’s realtime database 
 - Add new data to Firebase’s realtime database 
 - Properly connect and disconnect from the database 
-- Optimize a React application for production with `nom run build`
+- Optimize a React application for production with `npm run build`
 - Deploy an application to Firebase 
 
