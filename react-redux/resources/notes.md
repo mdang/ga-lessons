@@ -40,6 +40,9 @@ redux-logger
 firebase
 ```
 
+* `redux` and `react-redux` packages are used to connect React components with the Redux store.
+* `redux-thunk` and `redux-logger` are redux middleware packages
+
 ## Resources
 
 * https://www.codementor.io/vijayst/using-firebase-with-redux-for-building-a-react-app-du1086puw
