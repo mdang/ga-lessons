@@ -30,6 +30,16 @@ It is possible to use Firebase directly within React components but this will ma
 
 In a nutshell, we use `redux-thunk` to dispatch functions which interact with Firebase. We use `react-redux` to connect React components to the Redux store.
 
+## Dependencies
+
+```
+redux
+react-redux
+redux-thunk
+redux-logger
+firebase
+```
+
 ## Resources
 
 * https://www.codementor.io/vijayst/using-firebase-with-redux-for-building-a-react-app-du1086puw
