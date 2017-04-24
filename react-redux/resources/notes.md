@@ -9,7 +9,7 @@ Redux organizes data in the front-end using three principles.
 
 Whenever a component wants to change the data stored within the store: 
 
-1. It prepares an action object and dispatches the action object to the store. 
+1. It prepares an action object. Actions are objects which have an action `type`. The action object is dispatched to the store.
 2. The store passes on the action to several reducers. 
 3. A reducer is a JavaScript function which takes the previous state of the store and the action object and then creates a new state for the store.
 
