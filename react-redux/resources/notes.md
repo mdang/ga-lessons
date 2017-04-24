@@ -24,7 +24,7 @@ Redux Thunk allows a react component to dispatch a function instead of an action
 
 It is possible to use Firebase directly within React components but this will make the React components hard-to-maintain. Moving the Firebase code to the Redux layer greatly simplifies the code structure as Redux passes data to the React components via props. This, in turn, allows writing functional or stateless components that just renders the props.
 
-## redux-react
+## react-redux
 
 `react-redux` has Providers and Connectors to connect a React component to a Redux store. The Provider component is responsible for providing the store to downstream components. The connect function wraps a React component and provides the state of the store via props.
 
