@@ -16,7 +16,7 @@ Whenever a component wants to change the data stored within the store:
 2. The store passes on the action to several reducers. 
 3. A reducer is a JavaScript function which takes the previous state of the store and the action object and then creates a new state for the store.
 
-## When should we use Redux? 
+## When should we use it? 
 
 Pete Hunt, one of the early contributors to React, says:
 
