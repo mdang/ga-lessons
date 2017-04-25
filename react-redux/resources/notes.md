@@ -14,6 +14,20 @@ Whenever a component wants to change the data stored within the store:
 2. The store passes on the action to several reducers. 
 3. A reducer is a JavaScript function which takes the previous state of the store and the action object and then creates a new state for the store.
 
+## When should we use Redux? 
+
+Pete Hunt, one of the early contributors to React, says:
+
+> You'll know when you need Flux. If you aren't sure if you need it, you don't need it.
+
+Similarly, Dan Abramov, one of the creators of Redux, says:
+
+> I would like to amend this: don't use Redux until you have problems with vanilla React.
+
+In general, use Redux when you have reasonable amounts of data changing over time, you need a single source of truth, and you find that approaches like keeping everything in a top-level React component's state are no longer sufficient.
+
+However, it's also important to understand that using Redux comes with tradeoffs. It's not designed to be the shortest or fastest way to write code. It's intended to help answer the question "When did a certain slice of state change, and where did the data come from?", with predictable behavior.
+
 ## redux-thunk
 
 To enable asynchronous communication within the Redux layer, Redux has a middleware component called `redux-thunk`.
@@ -45,4 +59,6 @@ firebase
 
 ## Resources
 
+* http://redux.js.org/
 * https://www.codementor.io/vijayst/using-firebase-with-redux-for-building-a-react-app-du1086puw
+* https://github.com/buckyroberts/React-Redux-Boilerplate
