@@ -28,6 +28,10 @@ In general, use Redux when you have reasonable amounts of data changing over tim
 
 However, it's also important to understand that using Redux comes with tradeoffs. It's not designed to be the shortest or fastest way to write code. It's intended to help answer the question "When did a certain slice of state change, and where did the data come from?", with predictable behavior.
 
+## Structure 
+
+https://camo.githubusercontent.com/13227c2a980b327c8efda916f1c47271238a017a/687474703a2f2f692e696d6775722e636f6d2f4455694c39796e2e706e67
+
 ## redux-thunk
 
 To enable asynchronous communication within the Redux layer, Redux has a middleware component called `redux-thunk`.
