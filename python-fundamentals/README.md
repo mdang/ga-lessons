@@ -104,6 +104,10 @@ setup.replace('duck', 'marmoset')
 # 'a marmoset goes into a bar...'
 ```
 
+## None
+
+`None` - The equivalent of the `null` keyword in other languages
+
 ## Operators 
 
 * `+` Addition 
