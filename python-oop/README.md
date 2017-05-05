@@ -59,3 +59,17 @@ def print_if_true(thing, check):
     print(thing)
 ```
 
+### First Class Functions
+
+Functions in Python are just like functions in JavaScript. They can be assigned to variables, passed into other functions, and returned from functions themselves. 
+
+```python
+def say_something():
+  print('This is something incredibly witty')
+  
+def execute_function(func):
+  func()
+  
+execute_function(say_something)
+```
+
