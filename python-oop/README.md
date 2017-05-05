@@ -103,3 +103,30 @@ print(closure_example())
 # 5
 ```
 
+## Classes
+
+```python
+class Person():
+  pass
+  
+someone = Person()
+```
+
+### Constructors
+
+```python
+class Person():
+  def __init__(self):
+    pass
+```
+
+```python
+class Person():
+  def __init__(self, name):
+    self.name = name
+    
+hunter = Person('Elmer Fudd')
+```
+
+__init__() is the special Python name for a method that initializes an individual object from its class definition. The self argument specifies that it refers to the individual object itself.
+
