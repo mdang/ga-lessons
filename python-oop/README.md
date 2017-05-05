@@ -192,6 +192,21 @@ print(superman.superpower)
 
 > With Python 3.x we no longer need to pass arguments into `super()` or pass `object` into the super class 
 
+### Getters and Setters
 
+```python
+class Circle():
+  def __init__(self, radius):
+    self.radius = radius
+  @property
+  def diameter(self):
+    return 2 * self.radius
+    
+c = Circle(5)
+c.radius
+# 5
+c.diameter
+# 10
+```
 
 
