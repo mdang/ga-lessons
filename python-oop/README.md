@@ -99,5 +99,7 @@ closure_example = outer(1, 4)
 
 print(closure_example)
 print(closure_example())
+# <function inner at 0x7fb8006aa050>
+# 5
 ```
 
