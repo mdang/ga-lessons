@@ -190,6 +190,8 @@ superman = Hero('Superman', 'Flying')
 print(superman.superpower)
 ```
 
-> With Python 3.x we no longer need to pass arguments into `super()`
+> With Python 3.x we no longer need to pass arguments into `super()` or pass `object` into the super class 
+
+
 
 
