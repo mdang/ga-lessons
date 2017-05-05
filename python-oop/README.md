@@ -176,12 +176,20 @@ class Yugo(Car):
 We can call the parent class with `super()`
 
 ```python
-class Person():
+class Person(object):
   def __init__(self, name):
     self.name = name
     
-class EmailPerson(Person):
-  def __init__(self, name, email):
-    super().__init__(name)
-    self.email = email
+class Hero(Person):
+  def __init__(self, name, superpower):
+    super(Hero, self).__init__(name)
+    self.superpower = superpower
+    
+superman = Hero('Superman', 'Flying')
+
+print(superman.superpower)
 ```
+
+> With Python 3.x we no longer need to pass arguments into `super()`
+
+
