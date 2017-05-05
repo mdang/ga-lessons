@@ -73,3 +73,15 @@ def execute_function(func):
 execute_function(say_something)
 ```
 
+### Inner Functions
+
+```python
+def outer(a, b):
+  def inner(c, d):
+    return c + d 
+  return inner(a, b)
+
+print(outer(1, 4))
+# 5
+```
+
