@@ -130,3 +130,58 @@ hunter = Person('Elmer Fudd')
 
 __init__() is the special Python name for a method that initializes an individual object from its class definition. The self argument specifies that it refers to the individual object itself.
 
+### Inheritance
+
+```python
+class Car():
+  pass
+
+class Yugo(Car):
+  pass
+  
+give_me_a_car = Car()
+give_me_a_yugo = Yugo()
+```
+
+```python
+class Car():
+  def exclaim(self):
+    print("I'm a Car!")
+
+class Yugo(Car):
+  pass
+  
+give_me_a_car = Car()
+give_me_a_yugo = Yugo()
+give_me_a_car.exclaim()
+# I'm a Car!
+give_me_a_yugo.exclaim()
+# I'm a Car!
+```
+
+### Overriding Methods
+
+```python
+class Car():
+  def exclaim(self):
+    print("I'm a Car!")
+
+class Yugo(Car):
+  def exclaim(self):
+    print("I'm a Yugo! Much like a Car, but more Yugo-ish.")
+```
+
+### Super
+
+We can call the parent class with `super()`
+
+```python
+class Person():
+  def __init__(self, name):
+    self.name = name
+    
+class EmailPerson(Person):
+  def __init__(self, name, email):
+    super().__init__(name)
+    self.email = email
+```
