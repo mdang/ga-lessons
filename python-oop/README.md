@@ -27,6 +27,21 @@ hunter = Person('Elmer Fudd')
 
 __init__() is the special Python name for a method that initializes an individual object from its class definition. The self argument specifies that it refers to the individual object itself.
 
+## Principles of Object Oriented Design
+
+* Polymorphism - Common interface among different objects
+* Inheritance
+* Encapsulation - private, protected, public - hiding implementation details
+* Abstraction - Only showing and implementing what is neccessary
+
+> “An abstraction denotes the essential characteristics of an object that distinguish it from all other kinds of object and thus provide crisply defined conceptual boundaries, relative to the perspective of the viewer.” — G. Booch, Object-Oriented Design With Applications
+
+### Code to an Interface 
+
+Coding to an interface is essentially agreeing to a contract. Certain methods will always be available, the implementation could possibly change but the methods you implement on the surface will remain consistent. 
+
+For example, it would be better to design a method called `login(accessToken)` then `loginWithJWT(accessToken)` because the format of the token could change later. This shouldn't matter for the end user of the library. 
+
 ### Inheritance
 
 > Inheriting from nothing creates an old-style class, which has different behaviour to new-style classes. As a general rule, there's no reason to favour old-style classes, so you should always inherit from `object`.
@@ -148,24 +163,7 @@ A Package in Python is just a directory with an `__init__.py` file in it. The fi
 
 
 
-## Object Design 
-
-### Principles of Object Oriented Design
-
-* Polymorphism - Common interface among different objects
-* Inheritance
-* Encapsulation - private, protected, public - hiding implementation details
-* Abstraction - Only showing and implementing what is neccessary
-
-> “An abstraction denotes the essential characteristics of an object that distinguish it from all other kinds of object and thus provide crisply defined conceptual boundaries, relative to the perspective of the viewer.” — G. Booch, Object-Oriented Design With Applications
-
-### Code to an Interface 
-
-Coding to an interface is essentially agreeing to a contract. Certain methods will always be available, the implementation could possibly change but the methods you implement on the surface will remain consistent. 
-
-For example, it would be better to design a method called `login(accessToken)` then `loginWithJWT(accessToken)` because the format of the token could change later. This shouldn't matter for the end user of the library. 
-
-### Composition 
+## Composition 
 
 ```python
 class Bill(object):
