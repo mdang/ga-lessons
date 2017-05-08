@@ -160,6 +160,10 @@ A.kids()
 # A has 3 little objects.
 ```
 
+### Private Methods
+
+In Python, any method name prefaced by two underscores is automatically private and not accessible from instances of the object. 
+
 ## Packages and Modules
 
 A module is a file containing Python definitions and statements. Modules allow us to write code in a reusable manner, any code within modules are loaded once and cached into `.pyc` files as bytecode. 
