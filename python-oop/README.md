@@ -155,13 +155,63 @@ A.kids()
 # A has 3 little objects.
 ```
 
-### Packages and Modules
+## Packages and Modules
 
 A module is a file containing Python definitions and statements. Modules allow us to write code in a reusable manner, any code within modules are loaded once and cached into `.pyc` files as bytecode. 
 
 A Package in Python is just a directory with an `__init__.py` file in it. The file can be empty. Packages help us organize our code another level above just using modules. 
 
+```
+.
+├── index.py
+└── lib
+    ├── __init__.py
+    └── animals
+        ├── __init__.py
+        ├── animal.py
+        ├── dog.py
+```
 
+```python
+# lib/animals/animal.py
+class Animal(object):
+    def __init__(self, name, mammal):
+        print('Animal init')
+        self.name = name
+        self.mammal = mammal
+
+    def isMammal(self):
+        return self.mammal
+```
+
+```python
+# lib/animals/dog.py
+from lib.animals.animal import Animal
+
+class Dog(Animal):
+    def __init__(self, name):
+        print('Dog init')
+        super(Dog, self).__init__(name, True)
+
+    def speak(self):
+        print('Bark bark! My name is ' + self.name)
+
+    def __str__(self):
+        return 'Dog with a name of %s. Mammal: %s' % (self.name, self.isMammal())
+```
+
+```python
+# index.py
+from lib.animals.dog import Dog
+
+scruffy = Dog('Scruffy')
+scruffy.speak()
+
+bobo = Dog('Bobo')
+bobo.speak()
+
+print(bobo)
+```
 
 ## Composition 
 
@@ -202,7 +252,6 @@ If you want only one of something, a module might be best. No matter how many
 times a Python module is referenced in a program, only one copy is loaded. 
 
 > Java and C++ programmers: if you’re familiar with the book Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, you can use a Python module as a singleton.
-
 
 
 ## Resources
