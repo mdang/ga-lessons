@@ -244,15 +244,15 @@ A.kids()
 ### Composition 
 
 ```python
-class Bill():
+class Bill(object):
   def __init__(self, description):
     self.description = description
 
-class Tail():
+class Tail(object):
   def __init__(self, length):
     self.length = length
 
-class Duck():
+class Duck(object):
   def __init__(self, bill, tail):
     self.bill = bill
     self.tail = tail
