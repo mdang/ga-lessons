@@ -195,7 +195,19 @@ print(superman.superpower)
 ### Getters and Setters
 
 ```python
-class Circle():
+class Person(object):
+  @property
+  def name(self):
+    print('inside the getter')
+    return self.__name
+  @name.setter
+  def name(self, input_name):
+    print('inside the setter')
+    self.__name = input_name
+```
+
+```python
+class Circle(object):
   def __init__(self, radius):
     self.radius = radius
   @property
