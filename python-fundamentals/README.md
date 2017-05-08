@@ -407,3 +407,7 @@ print(number_list)
 ```
 
 The simplest form of list comprehension is: `[ expression for item in iterable ]`
+
+## Resources
+
+* Introducing Python - Modern Computing in Simple Packages
