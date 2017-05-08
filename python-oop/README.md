@@ -40,7 +40,7 @@ __init__() is the special Python name for a method that initializes an individua
 
 Coding to an interface is essentially agreeing to a contract. Certain methods will always be available, the implementation could possibly change but the methods you implement on the surface will remain consistent. 
 
-For example, it would be better to design a method called `login(accessToken)` then `loginWithJWT(accessToken)` because the format of the token could change later. This shouldn't matter for the end user of the library. 
+For example, it would be better to design a method called `login(accessToken)` than `loginWithJWT(accessToken)` because the format of the token could change later. This shouldn't matter for the end user of the library. 
 
 ### Inheritance
 
