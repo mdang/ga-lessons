@@ -29,10 +29,10 @@ __init__() is the special Python name for a method that initializes an individua
 
 ## Principles of Object Oriented Design
 
-* Polymorphism - Common interface among different objects
-* Inheritance
-* Encapsulation - private, protected, public - hiding implementation details
-* Abstraction - Only showing and implementing what is neccessary
+* **Polymorphism** - Common interface among different objects
+* **Inheritance**
+* **Encapsulation** - private, protected, public - hiding implementation details
+* **Abstraction** - Only showing and implementing what is neccessary
 
 > “An abstraction denotes the essential characteristics of an object that distinguish it from all other kinds of object and thus provide crisply defined conceptual boundaries, relative to the perspective of the viewer.” — G. Booch, Object-Oriented Design With Applications
 
