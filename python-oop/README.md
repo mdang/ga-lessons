@@ -269,10 +269,9 @@ duck.about()
 ### Singletons
 
 If you want only one of something, a module might be best. No matter how many
-times a Python module is referenced in a program, only one copy is loaded. (Java
-and C++ programmers: if you’re familiar with the book Design Patterns: Elements
-of Reusable Object-Oriented Software by Erich Gamma, you can use a Python module
-as a singleton.)
+times a Python module is referenced in a program, only one copy is loaded. 
+
+> Java and C++ programmers: if you’re familiar with the book Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, you can use a Python module as a singleton.
 
 ## Resources
 
