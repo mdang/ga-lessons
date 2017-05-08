@@ -191,6 +191,10 @@ bobo.speak()
 print(bobo)
 ```
 
+## Exercise 
+
+Create a new animal object that inherits from the base `Animal` class. This time make it so that `isMammal` equates to false. 
+
 ## Composition 
 
 Composition involves *using* other classes and modules, rather than relying on implicit inheritance. 
@@ -221,9 +225,9 @@ duck.about()
 
 ## Exercise 
 
-Composition Exercise 
+Composition in Practice
 
-Create pets a person object. Use the Dog/Cat objects from class and then have a person object take an array of pets. Iterate through pets and have them speak. 
+Create a `User` class that accepts a `name` parameter. Use the Dog/Cat objects from class and have the person object hold an array of pets. Users should be able to call a method named `addPet()` to add a single pet, and `getPets()` to retrieve and iterate through all the pets added. Have each animal invoke the `speak()` method as you iterate. 
 
 
 ## Resources
