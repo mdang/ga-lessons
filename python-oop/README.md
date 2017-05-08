@@ -258,6 +258,8 @@ A Package in Python is just a directory with an `__init__.py` file in it. The fi
 * Encapsulation - private, protected, public - hiding implementation details
 * Abstraction - Only showing and implementing what is neccessary
 
+> “An abstraction denotes the essential characteristics of an object that distinguish it from all other kinds of object and thus provide crisply defined conceptual boundaries, relative to the perspective of the viewer.” — G. Booch, Object-Oriented Design With Applications
+
 ### Code to an Interface 
 
 Coding to an interface is essentially agreeing to a contract. Certain methods will always be available, the implementation could possibly change but the methods you implement on the surface will remain consistent. 
