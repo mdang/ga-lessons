@@ -114,6 +114,7 @@ class Person(object):
   def name(self):
     print('inside the getter')
     return self.__name
+    
   @name.setter
   def name(self, input_name):
     print('inside the setter')
@@ -124,6 +125,7 @@ class Person(object):
 class Circle(object):
   def __init__(self, radius):
     self.radius = radius
+    
   @property
   def diameter(self):
     return 2 * self.radius
