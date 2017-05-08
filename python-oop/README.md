@@ -165,6 +165,8 @@ A Package in Python is just a directory with an `__init__.py` file in it. The fi
 
 ## Composition 
 
+Composition involves *using* other classes and modules, rather than relying on implicit inheritance. 
+
 ```python
 class Bill(object):
   def __init__(self, description):
@@ -193,8 +195,6 @@ duck.about()
 Composition Exercise 
 
 Create pets a person object. Use the Dog/Cat objects from class and then have a person object take an array of pets. Iterate through pets and have them speak. 
-
-
 
 ### Singletons
 
