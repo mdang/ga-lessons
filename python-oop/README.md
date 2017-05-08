@@ -132,8 +132,10 @@ __init__() is the special Python name for a method that initializes an individua
 
 ### Inheritance
 
+> Inheriting from nothing creates an old-style class, which has different behaviour to new-style classes. As a general rule, there's no reason to favour old-style classes, so you should always inherit from `object`.
+
 ```python
-class Car():
+class Car(object):
   pass
 
 class Yugo(Car):
@@ -144,7 +146,7 @@ give_me_a_yugo = Yugo()
 ```
 
 ```python
-class Car():
+class Car(object):
   def exclaim(self):
     print("I'm a Car!")
 
@@ -162,7 +164,7 @@ give_me_a_yugo.exclaim()
 ### Overriding Methods
 
 ```python
-class Car():
+class Car(object):
   def exclaim(self):
     print("I'm a Car!")
 
@@ -224,7 +226,7 @@ c.diameter
 ### Class Methods
 
 ```python
-class A():
+class A(object):
   count = 0
   def __init__(self):
     A.count += 1
