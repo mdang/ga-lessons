@@ -253,10 +253,10 @@ A Package in Python is just a directory with an `__init__.py` file in it. The fi
 
 ### Principles of Object Oriented Design
 
-* Abstraction
-* Encapsulation 
-* Inheritance 
-* Polymorphism 
+* Polymorphism - Common interface
+* Inheritance
+* Encapsulation - private, protected, public - hiding implementation details
+* Abstraction - Only showing and implementing what is neccessary
 
 ### Code to an Interface 
 
