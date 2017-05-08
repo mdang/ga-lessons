@@ -106,37 +106,6 @@ print(superman.superpower)
 
 > With Python 3.x we no longer need to pass arguments into `super()` or pass `object` into the super class 
 
-### Getters and Setters
-
-```python
-class Person(object):
-  @property
-  def name(self):
-    print('inside the getter')
-    return self.__name
-    
-  @name.setter
-  def name(self, input_name):
-    print('inside the setter')
-    self.__name = input_name
-```
-
-```python
-class Circle(object):
-  def __init__(self, radius):
-    self.radius = radius
-    
-  @property
-  def diameter(self):
-    return 2 * self.radius
-    
-c = Circle(5)
-c.radius
-# 5
-c.diameter
-# 10
-```
-
 ### Class Methods
 
 ```python
@@ -256,14 +225,8 @@ Composition Exercise
 
 Create pets a person object. Use the Dog/Cat objects from class and then have a person object take an array of pets. Iterate through pets and have them speak. 
 
-### Singletons
-
-If you want only one of something, a module might be best. No matter how many
-times a Python module is referenced in a program, only one copy is loaded. 
-
-> Java and C++ programmers: if you’re familiar with the book Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, you can use a Python module as a singleton.
-
 
 ## Resources
 
+* [Python 2.7 Documentation](https://docs.python.org/2/)
 * Introducing Python - Modern Computing in Simple Packages
