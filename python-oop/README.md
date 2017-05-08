@@ -260,6 +260,10 @@ A Package in Python is just a directory with an `__init__.py` file in it. The fi
 
 ### Code to an Interface 
 
+Coding to an interface is essentially agreeing to a contract. Certain methods will always be available, the implementation could possibly change but the methods you implement on the surface will remain consistent. 
+
+For example, it would be better to design a method called `login(accessToken)` then `loginWithJWT(accessToken)` because the format of the token could change later. This shouldn't matter for the end user of the library. 
+
 ### Composition 
 
 ```python
