@@ -1,7 +1,5 @@
 # Python OOP
 
-### Learning Objectives
-
 ## Functions
 
 A function can take any number and type of input parameters and return any
