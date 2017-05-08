@@ -249,7 +249,14 @@ A Package in Python is just a directory with an `__init__.py` file in it. The fi
 
 
 
-## Design Patterns
+## Object Design 
+
+### Principles of Object Oriented Design
+
+1. Abstraction
+2. Encapsulation 
+3. Inheritance 
+4. Polymorphism 
 
 ### Composition 
 
