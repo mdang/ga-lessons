@@ -188,6 +188,14 @@ duck.about()
 # This duck has a wide orange bill and a long tail
 ```
 
+## Exercise 
+
+Composition Exercise 
+
+Create pets a person object. Use the Dog/Cat objects from class and then have a person object take an array of pets. Iterate through pets and have them speak. 
+
+
+
 ### Singletons
 
 If you want only one of something, a module might be best. No matter how many
