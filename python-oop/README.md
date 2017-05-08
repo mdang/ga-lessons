@@ -274,3 +274,6 @@ and C++ programmers: if you’re familiar with the book Design Patterns: Element
 of Reusable Object-Oriented Software by Erich Gamma, you can use a Python module
 as a singleton.)
 
+## Resources
+
+* Introducing Python - Modern Computing in Simple Packages
