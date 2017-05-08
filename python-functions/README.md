@@ -19,7 +19,7 @@ def menu(wine, entree, dessert):
 menu('chardonnay', 'chicken', 'cake')
 ```
 
-### Keyword Arguments
+## Keyword Arguments
 
 ```python
 def menu(wine, entree, dessert):
@@ -55,7 +55,7 @@ def print_if_true(thing, check):
     print(thing)
 ```
 
-### First Class Functions
+## First Class Functions
 
 Functions in Python are just like functions in JavaScript. They can be assigned to variables, passed into other functions, and returned from functions themselves. 
 
