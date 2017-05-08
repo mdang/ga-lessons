@@ -241,6 +241,16 @@ A.kids()
 # A has 3 little objects.
 ```
 
+### Packages and Modules
+
+A module is a file containing Python definitions and statements. Modules allow us to write code in a reusable manner, any code within modules are loaded once and cached into `.pyc` files as bytecode. 
+
+A Package in Python is just a directory with an `__init__.py` file in it. The file can be empty. Packages help us organize our code another level above just using modules. 
+
+
+
+## Design Patterns
+
 ### Composition 
 
 ```python
@@ -266,20 +276,14 @@ duck.about()
 # This duck has a wide orange bill and a long tail
 ```
 
-### Packages and Modules
-
-A module is a file containing Python definitions and statements. Modules allow us to write code in a reusable manner, any code within modules are loaded once and cached into `.pyc` files as bytecode. 
-
-A Package in Python is just a directory with an `__init__.py` file in it. The file can be empty. Packages help us organize our code another level above just using modules. 
-
-
-
 ### Singletons
 
 If you want only one of something, a module might be best. No matter how many
 times a Python module is referenced in a program, only one copy is loaded. 
 
 > Java and C++ programmers: if you’re familiar with the book Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, you can use a Python module as a singleton.
+
+
 
 ## Resources
 
