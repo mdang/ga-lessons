@@ -1,4 +1,4 @@
-## Freelance Development 
+# Freelancing
 
 ### Learning Objectives
 
@@ -11,20 +11,20 @@
 
 ## Legal & Paperwork 
 
-#### Structuring your business
+### Structuring your business
 
 * Sole Proprietorship
   - If using something other than your legal name, need to file DBA 
 * LLC, INC
   - Protect yourself, piercing the corporate veil
 
-#### What you should have ready to go:
+### What you should have ready to go:
 
 * Client Contract 
   - [Contract example](https://www.docracy.com/0kpa5hfcobb/freelance-developer-contract)
   - [What needs to be in a client contract?](http://www.sba.gov/blogs/setting-client-contract-must-know-information-freelancers-0)
 
-#### What you can expect to receive:
+### What you can expect to receive:
 
 * (NDA) Non-disclosure agreements
   - [Sample NDA](http://www.nolo.com/legal-encyclopedia/sample-confidentiality-agreement-nda-33343.html)
@@ -38,7 +38,7 @@
   - Request for Taxpayer Identification Number and Certification. This form can be used to request the correct name and Taxpayer Identification Number, or TIN, of the worker
   - Businesses use the name, address and Social Security or tax identification number from form W-9 to complete form 1099-MISC
 
-#### Statement of Work (SOW)
+### Statement of Work (SOW)
 
 A SOW is a project-specific agreement outlining the mutually agreed scope of work and the timeframe for its completion. It sets expectations, deliverables, and the price. It may also include information on resources needed for the project, including roles and responsibilities on both sides. The secret to a good SOW is to avoid being vague – if it’s too broad and non-specific, you may end up with a dispute.
 
@@ -50,7 +50,7 @@ A statement of work often times consists of:
 * What browsers need to be supported
 * The technology stack used
 
-#### Scope Creep
+### Scope Creep
 
 **We Do** Look through example SOW's, wireframes, business requirements and compare and contrast good/bad ones
 
@@ -74,7 +74,7 @@ A statement of work often times consists of:
 
 **You Do** Browse at some invoicing solutions, discuss in class some good starter ones for freelancing
 
-#### Pricing your Services 
+## Pricing your Services 
 
 You will hear many times in your career the question: **"How much does it cost for a website?"**. My answer: **"How much does it cost to build a house?"**.
 
@@ -104,7 +104,7 @@ Considerations:
   - BSD
   - GNU
 
-#### Typical payment arrangements
+### Typical payment arrangements
 
  - **Flat rate** One set cost for completing the project. 
    * Half up front, half on completion
@@ -112,7 +112,7 @@ Considerations:
  - **Hourly** Works well for smaller tasks like updating copy on a website, minor upgrades. Keep detailed audit trail of the number of hours you're spending. You'll need to prove it through some kind of billing software.
  - **Weekly/Bi-weekly** Better for long term engagements with an indefinite completion date
 
-#### Getting paid
+### Getting paid
 
 * Be suspicious if you've gone halfway through the project and not received any payment 
 * Do your research, there are malicious companies out there that will not pay and just keep getting more freelancers to replace old ones. It's difficult to take them to court, especially if you don't have the proper paperwork
@@ -126,7 +126,7 @@ Look at an existing project and walk through the steps that we need to think abo
 
 ## Clients
 
-#### Building up a Client List
+### Building up a Client List
 
 * From previous workplaces. Majority of work from project managers, etc from previous work who needed work done at new agencies. (e.g. Being the lead app developer for US Air Force, and them needing someone who knows how the system works)
 * Partner with other developers
@@ -140,14 +140,14 @@ Look at an existing project and walk through the steps that we need to think abo
  - **TEST TEST TEST** your own work
  - Underpromise, overdeliver 
 
-#### Working with Clients without Killing Anyone
+### Working with Clients without Killing Anyone
 
 Communicating with clients won't always be the most pleasant experience. 
 * [Clients from Hell](http://clientsfromhell.net/)
 * [My Client is the Devil](http://www.myclientisthedevil.com/)
 * [The Expert](https://www.youtube.com/watch?v=BKorP55Aqvg)
 
-#### Warning signs to look for 
+### Warning signs to look for 
 
  - Scope Creep
  - "This should be quick and easy to do"
