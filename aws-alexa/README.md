@@ -25,8 +25,6 @@ Every Alexa skill has an interaction model defining the words and phrases users 
 - [Smart Home Skill API](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/overviews/understanding-the-smart-home-skill-api) - The Smart Home Skill API enables you to create skills to control cloud-connected devices
 - [Flash Briefing Skill API](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/understanding-the-flash-briefing-skill-api) - A Flash Briefing Skill provides content for a customer’s Flash Briefing, and so when you create a Flash Briefing skill, you have a chance for your original content to reach customers on a daily basis.
 
-[Understanding the Different Types of Skills](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/understanding-the-different-types-of-skills)
-
 ## Custom Skills
 
 1. Define `intents` (Requests the skills can handle)
@@ -52,5 +50,6 @@ Every Alexa skill has an interaction model defining the words and phrases users 
 
 ## Resources 
 
+* [Understanding the Different Types of Skills](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/understanding-the-different-types-of-skills)
 * [Alexa Skills Kit SDK for Node.js](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs)
 * [HelloWorld](https://github.com/amzn/alexa-skills-kit-js/tree/master/samples/helloWorld)
