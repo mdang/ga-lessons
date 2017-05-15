@@ -1,6 +1,6 @@
 # Alexa
 
-## Prerequisites
+### Prerequisites
 
 - [AWS Account](https://aws.amazon.com/)
 - [Create a Developer Portal Account](https://developer.amazon.com/edw/home.html)
