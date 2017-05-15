@@ -27,15 +27,15 @@ Every Alexa skill has an interaction model defining the words and phrases users 
 
 ## Custom Skills
 
-1. Define `intents` (Requests the skills can handle)
+* Define `intents` (Requests the skills can handle)
   - **Look up tide information**
   - **Order a pizza**
   - **Request a taxi**
-2. The words users say to make (or invoke) those requests. This is the interaction model, and it provides the `voice user interface` by which users communicate with the skill.
+* The words users say to make (or invoke) those requests. This is the interaction model, and it provides the `voice user interface` by which users communicate with the skill.
   - **Get high tide for Seattle** (this phrase would be mapped to a TideRequest intent)
   - **Order a large pepperoni pizza** (this phrase would be mapped to an OrderPizza intent)
   - **Order a car** (this phrase would be mapped to an OrderCar intent)
-3. The name Alexa uses to identify your skill, called the `invocation name`. Users include this when making a request. For example, the skill for looking up tides could be called “tide pooler”.
+* The name Alexa uses to identify your skill, called the `invocation name`. Users include this when making a request. For example, the skill for looking up tides could be called “tide pooler”.
 
 > User: get high tide for Seattle from Tide Pooler
 
