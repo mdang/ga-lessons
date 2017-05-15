@@ -38,10 +38,10 @@ Every Alexa skill has an interaction model defining the words and phrases users 
 
 Example requests from users: 
 
-- Alexa, get high tide for Seattle from Tide Pooler
-- Alexa, ask Recipes how do I make an omelet?
-- Alexa, ask Daily Horoscopes about Taurus
-- Alexa, give ten points to Stephen using Score Keeper
+> Alexa, get high tide for Seattle from Tide Pooler
+> Alexa, ask Recipes how do I make an omelet?
+> Alexa, ask Daily Horoscopes about Taurus
+> Alexa, give ten points to Stephen using Score Keeper
 
 ### Hosting Custom Skills
 
