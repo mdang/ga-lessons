@@ -19,6 +19,11 @@ When a user speaks to an Alexa-enabled device, the speech is streamed to the Ale
 
 Every Alexa skill has an interaction model defining the words and phrases users can say to make the skill do what they want. The type of skill you build dictates the interaction model that Alexa uses to communicate with your users.
 
+## Skill Types 
+
+- [Smart Home Skill API](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/overviews/understanding-the-smart-home-skill-api) - Enables you to create skills to control cloud-connected devices
+- [Flash Briefing Skill API](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/understanding-the-flash-briefing-skill-api) - Provides content for a customer's Flash Briefing, so when you create a Flash Briefing skill, you have a chance for your original content to reach customers on a daily basis.
+
 ## Custom Skills
 
 * Define `intents`, which are the requests the skills can handle. You might want users to be able to: 
@@ -38,10 +43,7 @@ Every Alexa skill has an interaction model defining the words and phrases users 
 * [AWS Lambda](http://aws.amazon.com/lambda/)
 * [Custom Web Service](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/developing-an-alexa-skill-as-a-web-service)
 
-## Other Skill Types 
 
-- [Smart Home Skill API](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/overviews/understanding-the-smart-home-skill-api) - Enables you to create skills to control cloud-connected devices
-- [Flash Briefing Skill API](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/understanding-the-flash-briefing-skill-api) - Provides content for a customer's Flash Briefing, so when you create a Flash Briefing skill, you have a chance for your original content to reach customers on a daily basis.
 
 
 
