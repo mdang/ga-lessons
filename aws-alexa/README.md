@@ -19,6 +19,34 @@ When a user speaks to an Alexa-enabled device, the speech is streamed to the Ale
 
 Every Alexa skill has an interaction model defining the words and phrases users can say to make the skill do what they want. The type of skill you build dictates the interaction model that Alexa uses to communicate with your users.
 
+## Skill Types 
+
+- [Custom Skills](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/overviews/understanding-custom-skills)
+- [Smart Home Skill API](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/overviews/understanding-the-smart-home-skill-api) - The Smart Home Skill API enables you to create skills to control cloud-connected devices
+- [Flash Briefing Skill API](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/understanding-the-flash-briefing-skill-api) - A Flash Briefing Skill provides content for a customer’s Flash Briefing, and so when you create a Flash Briefing skill, you have a chance for your original content to reach customers on a daily basis.
+
+[Understanding the Different Types of Skills](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/understanding-the-different-types-of-skills)
+
+## Custom Skills
+
+1. Define `intents` (Requests the skills can handle)
+  - **Look up tide information**
+  - **Order a pizza**
+  - **Request a taxi**
+2. The words users say to make (or invoke) those requests. This is the interaction model, and it provides the `voice user interface` by which users communicate with the skill.
+  - **Get high tide for Seattle** (this phrase would be mapped to a TideRequest intent)
+  - **Order a large pepperoni pizza** (this phrase would be mapped to an OrderPizza intent)
+  - **Order a car** (this phrase would be mapped to an OrderCar intent)
+3. The name Alexa uses to identify your skill, called the `invocation name`. Users include this when making a request. For example, the skill for looking up tides could be called “tide pooler”.
+
+> User: get high tide for Seattle from Tide Pooler
+
+- [Understanding Custom Skills](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/overviews/understanding-custom-skills)
+
+### Hosting Custom Skills
+
+* [AWS Lambda](http://aws.amazon.com/lambda/)
+* [Custom Web Service](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/developing-an-alexa-skill-as-a-web-service)
 
 
 
