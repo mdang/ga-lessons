@@ -28,9 +28,11 @@ Every Alexa skill has an interaction model defining the words and phrases users 
 ## Custom Skills
 
 * Define `intents`, which are the requests the skills can handle.
-  - **Look up tide information**
-  - **Order a pizza**
-  - **Request a taxi**
+
+I want users to be able to: 
+  - Look up tide information
+  - Order a pizza
+  - Request a taxi
 * Define the actual words users can say to make (or invoke) those requests. This is the interaction model, and it provides the `voice user interface` by which users communicate with the skill.
   - **Get high tide for Seattle** (this phrase would be mapped to a TideRequest intent)
   - **Order a large pepperoni pizza** (this phrase would be mapped to an OrderPizza intent)
