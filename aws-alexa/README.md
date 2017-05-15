@@ -36,7 +36,12 @@ Every Alexa skill has an interaction model defining the words and phrases users 
   - **Order a car** (this phrase would be mapped to an OrderCar intent)
 * The name Alexa uses to identify your skill is called the `invocation name`. Users include this when making a request. For example, the skill for looking up tides could be called “tide pooler”.
 
-> User: Get high tide for Seattle from Tide Pooler
+Example requests from users: 
+
+- Alexa, get high tide for Seattle from Tide Pooler
+- Alexa, ask Recipes how do I make an omelet?
+- Alexa, ask Daily Horoscopes about Taurus
+- Alexa, give ten points to Stephen using Score Keeper
 
 ### Hosting Custom Skills
 
