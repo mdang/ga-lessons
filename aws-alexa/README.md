@@ -27,9 +27,7 @@ Every Alexa skill has an interaction model defining the words and phrases users 
 
 ## Custom Skills
 
-* Define `intents`, which are the requests the skills can handle.
-
-I want users to be able to: 
+* Define `intents`, which are the requests the skills can handle. You might want users to be able to: 
   - Look up tide information
   - Order a pizza
   - Request a taxi
