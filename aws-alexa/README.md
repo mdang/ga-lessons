@@ -211,9 +211,9 @@ var Alexa = require('alexa-sdk');
 var https = require('https');
 
 var truncateString = function(str, length) {
-    if (length > 0) {
-      return str.slice(0, length);
-    }
+  if (length > 0) {
+    return str.slice(0, length);
+  }
 }
 
 var handlers = {
