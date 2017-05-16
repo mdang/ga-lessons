@@ -124,7 +124,7 @@ In the skill details form:
 
 1. Head over to the [AWS Management Console](https://console.aws.amazon.com/lambda/home)
 2. Click "Create a Lambda Function"
-3. Choose "Blank Function" as your blueprint 
+3. Choose one of the Alexa starter kits as your blueprint, for example `alexa-skill-kit-sdk-factskill`
 4. Configure our trigger by clicking on the empty box and selecting "Alexa Skills Kit"
 5. Click "Next"
 6. For the **Name**, enter `wikiWikiRandom`
@@ -173,6 +173,45 @@ Before we start writing any code, let's look at the API endpoint for getting a r
 ```
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Install the Alexa Skills Kit SDK
+
+Create your project directory 
+
+```bash 
+$ mkdir wikiwiki && cd wikiwiki
+```
+
+```bash
+$ npm install --save alexa-sdk
+```
+
+Create our handler 
+
+```bash
+$ touch index.js 
+```
+
+```js
+// index.js
+var Alexa = require('alexa-sdk');
+
+exports.handler = function(event, context, callback){
+  var alexa = Alexa.handler(event, context);
+};
+```
 
 
 ## Resources 
