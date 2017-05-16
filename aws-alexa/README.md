@@ -129,6 +129,32 @@ In the skill details form:
 5. Click "Next"
 6. For the **Name**, enter `wikiWikiRandom`
 7. Make sure to select "Node.js" as our runtime
+
+Enter the following starter code inline: 
+
+```
+var Alexa = require('alexa-sdk');
+
+var handlers = {
+  'LaunchRequest': function() {
+      this.emit('WikiRandomIntent');
+  },
+  'WikiRandomIntent': function() {
+      this.emit(':tell', 'This will be some random and interesting article.');
+  },
+  'AMAZON.HelpIntent': function() {
+      this.emit(':ask', 'You can ask me to surprise you with a random wiki article.', 'Ask for a random wiki article.');
+  }
+};
+
+exports.handler = function(event, context, callback){
+  var alexa = Alexa.handler(event, context);
+  alexa.APP_ID = ''; // Optionally enter our Alexa app ID
+  alexa.registerHandlers(handlers);
+  alexa.execute();
+};
+```
+
 8. Select `lambda_execution_role` for **Existing role**
 9. Click "Next"
 10. Click "Create function"
