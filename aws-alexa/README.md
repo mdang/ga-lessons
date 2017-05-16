@@ -144,8 +144,11 @@ On the top right of the success page you'll see the **ARN** that we'll need in a
 4. Enter the ARN for our Lambda function in the empty textbox
 5. Hit "Next"
 
+We're now ready to write our lambda function! 
 
 ## Obtaining the Data
+
+Before we start writing any code, let's look at the API URL for getting a random Wikipedia article and the format of responses:
 
 > https://en.wikipedia.org/w/api.php?format=json&action=query&generator=random&grnnamespace=0&prop=extracts
 
