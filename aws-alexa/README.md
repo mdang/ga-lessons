@@ -146,7 +146,7 @@ On the top right of the success page you'll see the **ARN** that we'll need in a
 
 We're now ready to write our lambda function! 
 
-## Obtaining the Data
+## Getting the Data
 
 Before we start writing any code, let's look at the API endpoint for getting a random Wikipedia article and the response format:
 
