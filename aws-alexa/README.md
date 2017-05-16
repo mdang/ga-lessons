@@ -54,6 +54,7 @@ Let's develop our own custom skill named **WikiWiki** that will enlighten us wit
 - [Defining the Voice User Interface](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/defining-the-voice-interface)
 - [Voice Design Best Practices](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-voice-design-best-practices)
 - [Understanding How Users Interact with Skills](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/understanding-how-users-interact-with-skills)
+- [Choose Invocation Name](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/choosing-the-invocation-name-for-an-alexa-skill)
 
 Create the intent schema. This is a JSON structure which declares the set of requests (“intents”) our service can accept and handle.
 
@@ -94,8 +95,23 @@ If we were using Node, we could then access `slot` variables like so:
 intent.slots.Subject.value
 ```
 
+We now need to choose an invocation name. The invocation name is how Alexa knows which skill to send the request to. In our case, we'll choose the invocation name of `Wiki Wiki`
 
+## Set Up the Skill
 
+- [Registering and Managing Custom Skills in the Developer Portal](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/registering-and-managing-alexa-skills-in-the-developer-portal)
+
+1. Head over to the [Alexa section of the Developer Portal](https://developer.amazon.com/edw/home.html)
+2. Click "Get Started" on the Alexa Skills Kit section
+3. Click "Add a New Skill"
+
+In the skill details form: 
+
+* For **Skill Type**, leave the default value of `Custom Interaction Model`
+* For **Name**, put in `Wiki Wiki`
+* For **Invocation Name**, put in `Wiki Wiki`
+
+4. Click the "Save" button
 
 
 
@@ -133,8 +149,6 @@ intent.slots.Subject.value
 - [Steps to Build a Custom Skill](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/overviews/steps-to-build-a-custom-skill)
 - [Understanding the Different Types of Skills](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/understanding-the-different-types-of-skills)
 - [Understanding Custom Skills](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/overviews/understanding-custom-skills)
-- [Registering and Managing Custom Skills in the Developer Portal](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/registering-and-managing-alexa-skills-in-the-developer-portal)
-- [Choose Invocation Name](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/choosing-the-invocation-name-for-an-alexa-skill)
 - [Custom Web Service](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/developing-an-alexa-skill-as-a-web-service)
 - [Creating an AWS Lambda Function for a Custom Skill](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/developing-an-alexa-skill-as-a-lambda-function)
 - [Fill in Lambda Function endpoints in the Developer Portal](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/registering-and-managing-alexa-skills-in-the-developer-portal)
