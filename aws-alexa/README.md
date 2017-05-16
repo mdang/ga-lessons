@@ -47,7 +47,56 @@ Example requests from users:
 
 # WikiWiki
 
-Let's develop our own custom skill called **WikiWiki** that will enlighten us with a random article from Wikipedia. 
+Let's develop our own custom skill named **WikiWiki** that will enlighten us with a random article from Wikipedia whenever we ask for it. 
+
+## Design Our Voice User Interface
+
+- [Defining the Voice User Interface](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/defining-the-voice-interface)
+- [Voice Design Best Practices](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-voice-design-best-practices)
+- [Understanding How Users Interact with Skills](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/understanding-how-users-interact-with-skills)
+
+Create the intent schema. This is a JSON structure which declares the set of requests (“intents”) our service can accept and handle.
+
+```json
+// IntentSchema.json
+{
+  "intents": [
+    {
+      "intent": "WikiRandomIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
+```
+
+> Intents can optionally support named parameters with `slots`. Alexa will pass these values to the Lambda function when invoked.
+
+Let's create a set of sample utterances that maps to our intent. These are the phrases users say when interacting with our skill.
+
+```
+WikiRandomIntent get a random wiki article
+WikiRandomIntent enlighten me
+WikiRandomIntent tell me something I need to know
+WikiRandomIntent surprise me
+```
+
+We don't need to define a slot for this app, but if we did we could create a sample utterance like so:
+
+```
+WikiRandomIntent find a wiki article about {Subject}
+```
+
+If we were using Node, we could then access `slot` variables like so: 
+
+```js
+intent.slots.Sign.value
+```
+
+
+
+
 
 
 ## Obtaining the Data
@@ -84,9 +133,6 @@ Let's develop our own custom skill called **WikiWiki** that will enlighten us wi
 - [Steps to Build a Custom Skill](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/overviews/steps-to-build-a-custom-skill)
 - [Understanding the Different Types of Skills](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/understanding-the-different-types-of-skills)
 - [Understanding Custom Skills](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/overviews/understanding-custom-skills)
-- [Defining the Voice User Interface](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/defining-the-voice-interface)
-- [Voice Design Best Practices](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-voice-design-best-practices)
-- [Understanding How Users Interact with Skills](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/understanding-how-users-interact-with-skills)
 - [Registering and Managing Custom Skills in the Developer Portal](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/registering-and-managing-alexa-skills-in-the-developer-portal)
 - [Choose Invocation Name](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/choosing-the-invocation-name-for-an-alexa-skill)
 - [Custom Web Service](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/developing-an-alexa-skill-as-a-web-service)
