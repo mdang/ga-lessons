@@ -60,7 +60,7 @@ Let's develop our own custom skill called **WikiWiki** that will enlighten us wi
 ## Resources 
 
 - [Alexa Skills Kit SDK for Node.js](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs)
-- [HelloWorld](https://github.com/amzn/alexa-skills-kit-js/tree/master/samples/helloWorld)
+- [HelloWorld with Alexa](https://github.com/amzn/alexa-skills-kit-js/tree/master/samples/helloWorld)
 - [Steps to Build a Custom Skill](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/overviews/steps-to-build-a-custom-skill)
 - [Understanding the Different Types of Skills](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/understanding-the-different-types-of-skills)
 - [Understanding Custom Skills](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/overviews/understanding-custom-skills)
