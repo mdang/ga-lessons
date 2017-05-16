@@ -48,6 +48,10 @@ Example requests from users:
 * [AWS Lambda](http://aws.amazon.com/lambda/)
 * [Custom Web Service](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/developing-an-alexa-skill-as-a-web-service)
 
+## WikiWiki
+
+Let's develop our own custom skill called **WikiWiki** that will enlighten us with a random article from Wikipedia. 
+
 
 
 
