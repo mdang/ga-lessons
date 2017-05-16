@@ -83,7 +83,7 @@ WikiRandomIntent tell me something I need to know
 WikiRandomIntent tell me something good
 ```
 
-We don't need to define a slot for this app, but if we did we could create a sample utterance like so:
+We don't need to define a slot for this app, but if we did we *could* create a sample utterance like so:
 
 ```
 WikiRandomIntent find a wiki article about {Subject}
