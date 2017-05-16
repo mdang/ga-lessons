@@ -45,7 +45,7 @@ Example requests from users:
 - Alexa, ask Daily Horoscopes about Taurus
 - Alexa, give ten points to Stephen using Score Keeper
 
-## WikiWiki
+# WikiWiki
 
 Let's develop our own custom skill called **WikiWiki** that will enlighten us with a random article from Wikipedia. 
 
