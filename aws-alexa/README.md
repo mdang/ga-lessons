@@ -58,7 +58,7 @@ Let's develop our own custom skill named **WikiWiki** that will enlighten us wit
 
 Create the intent schema. This is a JSON structure which declares the set of requests (“intents”) our service can accept and handle.
 
-```json
+```js
 // IntentSchema.json
 {
   "intents": [
