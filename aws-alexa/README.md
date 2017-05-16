@@ -155,7 +155,7 @@ exports.handler = function(event, context, callback){
 };
 ```
 
-8. Create or use an existing role with **lambda execution** privileges 
+8. Create or use an existing role with the **AWSLambdaBasicExecutionRole** policy 
 9. Click "Next"
 10. Click "Create function"
 
