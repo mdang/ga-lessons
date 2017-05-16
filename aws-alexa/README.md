@@ -176,7 +176,9 @@ We're now ready to write our lambda function!
 
 Before we start writing any code, let's look at the API endpoint for getting a random Wikipedia article and the response format:
 
-> https://en.wikipedia.org/w/api.php?format=json&action=query&generator=random&grnnamespace=0&prop=extracts
+> https://en.wikipedia.org/w/api.php?format=json&action=query&generator=random&grnnamespace=0&prop=extracts|pageimages
+
+Note that a thumbnail will not always appear. 
 
 ```json
 {
