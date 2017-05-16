@@ -47,7 +47,7 @@ Example requests from users:
 
 # WikiWiki
 
-Let's develop our own custom skill named **WikiWiki** that will enlighten us with a random article from Wikipedia whenever we ask for it. 
+Let's develop our own custom skill named **WikiWiki** that will enlighten us with a random article from Wikipedia whenever someone asks for it. 
 
 ## Design the Voice User Interface
 
