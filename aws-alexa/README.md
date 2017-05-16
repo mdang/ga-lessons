@@ -49,7 +49,7 @@ Example requests from users:
 
 Let's develop our own custom skill named **WikiWiki** that will enlighten us with a random article from Wikipedia whenever we ask for it. 
 
-## Design Our Voice User Interface
+## Design the Voice User Interface
 
 - [Defining the Voice User Interface](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/defining-the-voice-interface)
 - [Voice Design Best Practices](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-voice-design-best-practices)
@@ -91,7 +91,7 @@ WikiRandomIntent find a wiki article about {Subject}
 If we were using Node, we could then access `slot` variables like so: 
 
 ```js
-intent.slots.Sign.value
+intent.slots.Subject.value
 ```
 
 
