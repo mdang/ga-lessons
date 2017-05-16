@@ -140,8 +140,7 @@ On the top right of the success page you'll see the **ARN** that we'll need in a
 ## Configure the Skill
 
 1. Click on "Configuration" on the left hand menu 
-2. For Endpoint, choose AWS Lambda ARN. An ARN in AWS is a unique identifier for an AWS resource. 
-3. Click the checkbox for "North America" for closest geographic region 
+2. For Endpoint, choose AWS Lambda ARN. An ARN in AWS is a unique identifier for an AWS resource. Click the checkbox for "North America" for closest geographic region 
 4. Enter the ARN for our Lambda function in the empty textbox
 5. Hit "Next"
 
