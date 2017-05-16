@@ -200,9 +200,9 @@ Note that a thumbnail will not always appear.
 }
 ```
 
-## Write the Code 
+## The Code 
 
-Put the following into our handler. 
+Revise our handler to look like the following now. 
 
 ```js
 var Alexa = require('alexa-sdk');
