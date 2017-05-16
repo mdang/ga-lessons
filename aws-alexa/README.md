@@ -52,7 +52,7 @@ Let's develop our own custom skill called **WikiWiki** that will enlighten us wi
 
 ## Obtaining the Data
 
-> https://en.wikipedia.org/w/api.php?format=json&action=query&generator=random&grnnamespace=0&grnlimit=1&prop=extracts
+> https://en.wikipedia.org/w/api.php?format=json&action=query&generator=random&grnnamespace=0&prop=extracts
 
 ```json
 {
