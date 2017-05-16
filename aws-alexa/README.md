@@ -166,11 +166,11 @@ On the top right of the success page you'll see the **ARN** that we'll need in a
 ## Configure the Skill
 
 1. Click on "Configuration" on the left hand menu 
-2. For Endpoint, choose AWS Lambda ARN. Click the checkbox for "North America" for closest geographic region 
+2. For Endpoint, choose **AWS Lambda ARN**. Click the checkbox for "North America" for closest geographic region 
 4. Enter the ARN for our Lambda function in the empty textbox
 5. Hit "Next"
 
-We're now ready to write our lambda function! 
+We're now ready to write our Lambda function! 
 
 ## Getting the Data
 
