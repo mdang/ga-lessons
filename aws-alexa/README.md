@@ -122,6 +122,8 @@ In the skill details form:
 
 ## Set Up Our Lambda Function 
 
+> **Important** As of today, make sure you have the N. Virginia region selected in the top right corner. Some people are reporting issues when connecting Alexa with Lambda functions in other regions
+
 1. Head over to the [AWS Management Console](https://console.aws.amazon.com/lambda/home)
 2. Click "Create a Lambda Function"
 3. Choose one of the Alexa starter kits as your blueprint, for example `alexa-skill-kit-sdk-factskill`
