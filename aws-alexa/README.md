@@ -1,4 +1,4 @@
-# Alexa
+# Alexa with AWS Lambda Functions
 
 ### Prerequisites
 
