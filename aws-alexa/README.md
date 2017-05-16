@@ -78,8 +78,9 @@ Let's create a set of sample utterances that maps to our intent. These are the p
 ```
 WikiRandomIntent get a random wiki article
 WikiRandomIntent enlighten me
-WikiRandomIntent tell me something I need to know
 WikiRandomIntent surprise me
+WikiRandomIntent tell me something I need to know
+WikiRandomIntent tell me something good
 ```
 
 We don't need to define a slot for this app, but if we did we could create a sample utterance like so:
