@@ -97,7 +97,7 @@ intent.slots.Subject.value
 
 We now need to choose an invocation name. The invocation name is how Alexa knows which skill to send the request to. In our case, we'll choose the invocation name of `Wiki Wiki`
 
-## Set Up the Skill
+## Register the Skill
 
 - [Registering and Managing Custom Skills in the Developer Portal](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/registering-and-managing-alexa-skills-in-the-developer-portal)
 
@@ -113,6 +113,37 @@ In the skill details form:
 
 4. Click the "Save" button
 
+## Set Up the Interaction Model
+
+1. Click on "Interaction Model" on the left hand menu 
+2. Enter the intent schema we defined earlier 
+3. Enter the sample utterances we defined earlier 
+4. Hit the "Save" button 
+
+## Set Up Our Lambda Function 
+
+1. Head over to the [AWS Management Console](https://console.aws.amazon.com/lambda/home)
+2. Click "Create a Lambda Function"
+3. Choose "Blank Function" as your blueprint 
+4. Configure our trigger by clicking on the empty box and selecting "Alexa Skills Kit"
+5. Click "Next"
+6. For the **Name**, enter `wikiWikiRandom`
+7. Make sure to select "Node.js" as our runtime
+8. Select `lambda_execution_role` for **Existing role**
+9. Click "Next"
+10. Click "Create function"
+
+On the top right of the success page you'll see the **ARN** that we'll need in a little bit. An ARN is a unique identifier for any resource on AWS. It'll look something like the following: 
+
+> arn:aws:lambda:us-east-1:385360169357:function:wikiWikiRandom
+
+## Configure the Skill
+
+1. Click on "Configuration" on the left hand menu 
+2. For Endpoint, choose AWS Lambda ARN. An ARN in AWS is a unique identifier for an AWS resource. 
+3. Click the checkbox for "North America" for closest geographic region 
+4. Enter the ARN for our Lambda function in the empty textbox
+5. Hit "Next"
 
 
 ## Obtaining the Data
