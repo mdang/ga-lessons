@@ -19,6 +19,8 @@ When a user speaks to an Alexa-enabled device, the speech is streamed to the Ale
 
 Every Alexa skill has an interaction model defining the words and phrases users can say to make the skill do what they want. The type of skill you build dictates the interaction model that Alexa uses to communicate with your users.
 
+![Alexa Architecture](https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/ask-customskills/ASKArchitecture._TTH_.png)
+
 ## Skill Types 
 
 - [Smart Home Skill API](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/overviews/understanding-the-smart-home-skill-api) - Enables you to create skills to control cloud-connected devices
