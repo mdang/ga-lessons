@@ -132,7 +132,7 @@ In the skill details form:
 
 Enter the following starter code inline: 
 
-```
+```js
 var Alexa = require('alexa-sdk');
 
 var handlers = {
@@ -155,7 +155,7 @@ exports.handler = function(event, context, callback){
 };
 ```
 
-8. Select `lambda_execution_role` for **Existing role**
+8. Create or use an existing role with **lambda execution** privileges 
 9. Click "Next"
 10. Click "Create function"
 
