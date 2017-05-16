@@ -50,6 +50,29 @@ Example requests from users:
 Let's develop our own custom skill called **WikiWiki** that will enlighten us with a random article from Wikipedia. 
 
 
+## Obtaining the Data
+
+> https://en.wikipedia.org/w/api.php?format=json&action=query&generator=random&grnnamespace=0&grnlimit=1&prop=extracts
+
+```json
+{
+  "batchcomplete": "",
+  "continue": {
+    "grncontinue": "0.191143582002|0.191143844641|12875949|0",
+    "continue": "grncontinue||"
+  },
+  "query": {
+    "pages": {
+      "47133328": {
+        "pageid": 47133328,
+        "ns": 0,
+        "title": "Hypatima scopulosa",
+        "extract": "<p><i><b>Hypatima scopulosa</b></i> is a moth in the Gelechiidae family. It was described by Meyrick in 1913. It is found in southern India.</p>\n<p>The wingspan is about 12 mm. The forewings are brown irregularly mixed with fuscous and sprinkled with whitish and with a small darker brown basal patch, and two small spots transversely placed in the disc beyond this. There is a suffused dark grey triangular blotch occupying the median third of the costa and reaching two-thirds across the wing, its apical portion with several irregular black marks. There is also a short black mark resting on the termen in the middle. The hindwings are grey, paler and thinly scaled anteriorly, darker towards the apex and termen.</p>\n<h2><span id=\"References\">References</span></h2>"
+      }
+    }
+  }
+}
+```
 
 
 
