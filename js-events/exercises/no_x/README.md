@@ -1,6 +1,6 @@
 ## No X's
 
-**Pair Programming - 20 min**
+**20 min**
 
 You have a new client that despises the letter "**x**" with a passion. Make sure this text input prevents users from typing in the letter "**x**" as they type.
 
