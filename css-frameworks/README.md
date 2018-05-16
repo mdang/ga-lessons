@@ -26,7 +26,7 @@ Start with a mobile optimized website with the most important content/features, 
 
 #### Why is it important to go mobile first? 
 
-<img src="http://resources.news.com.au/files/2013/03/15/1226597/926749-st-peters-2013.jpg">
+<img src="./assets/926749-st-peters-2013.jpg">
 
 In early 2014, mobile internet usage surpassed PC internet usage for the first time. Most of this is traffic from apps, but easily shows how important designing for mobile is. 
 
@@ -96,7 +96,7 @@ The meta viewport tag gives the browser instructions on how to control the page'
 
 **initial-scale=1** When changing the orientation of the device, mobile browsers will keep the page width constant and zoom into the content. This attribute instructs the browser to use a 1:1 relationship between CSS pixels and device pixels regardless of orientation.
 
-https://gist.github.com/mdang/3ecbf57445fbb2ad9020
+![Differences with viewport](./assets/68747470733a2f2f646576656c6f706572732e676f6f676c652e636f6d2f7765626d6173746572732f6d6f62696c652d73697465732f696d67732f6d6f62696c652d73656f2f76696577706f72742e706e67.png)
 
 #### Size content to the viewport
 
